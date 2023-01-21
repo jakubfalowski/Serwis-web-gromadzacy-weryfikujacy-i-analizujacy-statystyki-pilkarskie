@@ -13,20 +13,21 @@ export function SearchPlayers(){
     const router = useRouter();
 
     useEffect(()=>{
+      if(names.length < 1){
         playerTabFunction().then((value) => {
-            playerTab.push(value)
-          }).then(addNamesTab).then(names.sort(sortByOverallFifa))
-    
-          function addNamesTab(){
-            if(playerTab.length > 0){
-              playerTab[0].sort(sortByOverallFifa);
-              for(let i = 0; i<426; i++){
-                  names.push(playerTab[0][i][0])
-              }
-            } 
-          }
+          playerTab.push(value)
+        }).then(addNamesTab).then(names.sort(sortByOverallFifa))
+  
+        function addNamesTab(){
+          if(playerTab.length > 0){
+            playerTab[0].sort(sortByOverallFifa);
+            for(let i = 0; i<426; i++){
+                names.push(playerTab[0][i][0])
+            }
+          } 
+        }
+      }    
     },[names])
-    
       
     return (
       <>
