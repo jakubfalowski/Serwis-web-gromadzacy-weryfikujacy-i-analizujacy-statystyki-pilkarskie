@@ -79,21 +79,21 @@ export function ClubChart(){
       })
 
       return (
-        <div>
-        { on === true ?
         <>
+        { on === true ?
+        <div className='containerChart'>
           <Charts data={overallTab} dataKey1="ratingFifa" dataKey2="ratingFm" description="Siła zespołów"/>
           <Charts data={techniqueTab} dataKey1="techniqueFifa" dataKey2="techniqueFm" description="Zespoły najlepsze technicznie"/>
           <Charts data={attackTab} dataKey1="shotsFifa" dataKey2="attackFm" description="Zespoły najlepsze w ofensywie"/>
           <Charts data={defensiveTab} dataKey1="defensiveFifa" dataKey2="defensiveFm" description="Zespoły najlepsze w defensywie"/>
           <Charts data={paceTab} dataKey1="paceFifa" dataKey2="paceFm" description="Najszybsze zespoły"/>
           <Charts data={physicalityTab} dataKey1="physicalityFifa" dataKey2="physicalityFm" description="Zespoły najlepsze fizycznie"/>
-        </>
+        </div>
         : <LoadingOverlay visible={true} overlayBlur={2} />}
         <Anchor href="/players/game-chart">
             <Button variant="gradient" gradient={{ from: '#ad8881', to: '#4d331f', deg: 60 }}>Statystyki porównując gry</Button>
         </Anchor>
-        </div>
+        </>
       );
 
 }

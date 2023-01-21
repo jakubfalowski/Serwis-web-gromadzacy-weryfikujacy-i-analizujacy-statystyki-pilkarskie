@@ -33,9 +33,8 @@ export function IAppShell(props) {
         </Navbar>
       }
       footer={
-        <Footer height={80} p="md">
-          @2023 Projekt Aplikacje Internetowe 2 <br/>
-          JF, JJ, SC, SL
+        <Footer height={80} className='footer' p="md">
+          @2023 Praca inżynierska
         </Footer>
       }
     >

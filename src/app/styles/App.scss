@@ -1,5 +1,8 @@
 @import './colors.scss';
 
+body{
+    margin: 0;
+}
 .container{
     max-width: 1500px;
     box-shadow: 10px 5px 5px $mainColor;
@@ -121,7 +124,7 @@
     .mantine-Paper-root{
         max-height: 500px;
         .description-page{
-            overflow: scroll;
+            overflow-y: scroll;
             height: 150px;
         }
 
@@ -141,3 +144,19 @@
         height: 270px
     }
 }
+
+:root { --width: 100vw; } 
+
+
+.footer{
+    width: var(--width);
+  }
+
+.containerChart{
+    background-color: "#ffffff";
+    max-width: calc(var(--width) *70/100);
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  

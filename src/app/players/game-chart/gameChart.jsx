@@ -3,6 +3,7 @@ import { playerTabFunction } from '../fetchData';
 import { BarChart, Bar, CartesianGrid, XAxis, YAxis,Tooltip, Legend } from "recharts";
 import { LoadingOverlay, Anchor, Button} from '@mantine/core';
 
+
 let playerTab = [];
 
 export default function GameChart(){
@@ -34,10 +35,7 @@ export default function GameChart(){
   return (
     <div>
     { on === true ?
-      <div style={{
-        backgroundColor: "#ffffff",
-        width: "1600px"
-      }}>
+      <div className='containerChart'>
         <h2 className='center'>Średnia ocena danej statystyki</h2>
       <BarChart
       width={1500}
