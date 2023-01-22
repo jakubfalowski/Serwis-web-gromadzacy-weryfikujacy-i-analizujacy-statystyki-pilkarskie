@@ -13,6 +13,7 @@
     "@tabler/icons": "^1.119.0",
     "axios": "^1.2.2",
     "cheerio": "^1.0.0-rc.12",
+    "cypress": "^12.3.0",
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.2",
     "next": "13.1.2",
