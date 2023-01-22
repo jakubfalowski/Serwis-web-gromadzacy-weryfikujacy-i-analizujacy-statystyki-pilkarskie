@@ -28,9 +28,6 @@ export default function GameChart(){
     }).then(()=>{
       setOn(true)
     })
-    
-
-  console.log(playerTab)
   
   return (
     <div>

@@ -21,7 +21,6 @@ export function TableCompare() {
   }
 
   playerTabFunction().then((value) => {
-    console.log(value)
     playerTab.push(value)
   }).then(initalizeData)
 
@@ -46,9 +45,7 @@ export function TableCompare() {
           <td>
             <button onClick={() => {
                 if(playerTab[0]){
-                  console.log("a")
                   setData(playerTab[0].sort(sortByOverallFifa))
-                  console.log(playersData)
                   setOverallActive(true)
                   setPaceActive(false)
                   setPhysicalityActive(false)
@@ -62,9 +59,7 @@ export function TableCompare() {
           <td>
             <button onClick={() => {
                 if(playerTab[0]){
-                  console.log("a")
                   setData(playerTab[0].sort(sortByOverallFm))
-                  console.log(playersData)
                   setOverallActive(true)
                   setPaceActive(false)
                   setPhysicalityActive(false)
