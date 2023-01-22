@@ -13,7 +13,7 @@ export function SearchPlayers(){
     const router = useRouter();
 
     useEffect(()=>{
-      if(names.length < 1){
+      
         playerTabFunction().then((value) => {
           playerTab.push(value)
         }).then(addNamesTab).then(names.sort(sortByOverallFifa))
@@ -21,7 +21,9 @@ export function SearchPlayers(){
         function addNamesTab(){
           if(playerTab.length > 0){
             playerTab[0].sort(sortByOverallFifa);
+          if(names.length < 1){
             for(let i = 0; i<426; i++){
+              console.log(names, i)
                 names.push(playerTab[0][i][0])
             }
           } 

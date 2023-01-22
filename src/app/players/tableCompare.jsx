@@ -30,11 +30,11 @@ export function TableCompare() {
     <div style={{marginBottom:"20px"}}>
         <span style={{paddingRight:"10px"}}>Wybierz ilość zawodników w kolumnie</span>
         <input
-        type="number"
-        min="5"
-        max="50"
-        value={userPlayers}
-        onChange={(e) => setUserPlayers(e.target.valueAsNumber)}
+          type="number"
+          min="1"
+          max="426"
+          value={userPlayers}
+          onChange={(e) => e.target.valueAsNumber < 427 && e.target.valueAsNumber > 0 ? setUserPlayers(e.target.valueAsNumber): setUserPlayers(10)}
         />
     </div>
     
