@@ -14,7 +14,7 @@ export function PageIndex(){
     const date = new Date();
     let today = [];
 
-    for(let i = 0; i < 14; i++){
+    for(let i = 0; i < 7; i++){
         today[i] = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()+i);
     } 
     let ifFetch = true;
@@ -40,7 +40,7 @@ export function PageIndex(){
         <h2 className="leagueName">{leagueName}</h2>
         <Grid grow>
             { dataset && dataset.map((data, i) => {
-                for(let daysMatch=14; daysMatch>=0; daysMatch--){
+                for(let daysMatch=7; daysMatch>=0; daysMatch--){
                     if(convertToDate(data.START_TIME).endsWith(today[daysMatch])){
                         return(
                             <Grid.Col md={4} sm={6} xs={12}>
