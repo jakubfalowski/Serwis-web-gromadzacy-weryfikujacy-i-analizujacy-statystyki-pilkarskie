@@ -28,7 +28,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/pages/api/fifa.js", "src/pages/api/fm.js", "src/pages/dictPlayers.js", "src/pages/api/forebet.js", "src/pages/index.jsx"  ],
+, "src/pages/api/fifa.js", "src/pages/api/fm.js", "src/app/components/dictPlayers.js", "src/pages/api/forebet.js", "src/pages/index.jsx"  ],
   "exclude": [
     "node_modules"
   ]

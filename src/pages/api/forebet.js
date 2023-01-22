@@ -1,4 +1,4 @@
-import {Forebet} from '../forebet'
+import {Forebet} from './appforebet'
 import NextCors from 'nextjs-cors';
 
 export default async function ForebetAPI(req, res) {

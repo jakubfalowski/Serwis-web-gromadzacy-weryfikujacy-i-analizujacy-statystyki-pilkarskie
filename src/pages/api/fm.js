@@ -1,5 +1,5 @@
-import Fm from "../fm";
-import { Fm21 } from "../fm21";
+import Fm from "./appfm";
+import { Fm21 } from "../../app/components/fm21";
 
 import NextCors from 'nextjs-cors';
 

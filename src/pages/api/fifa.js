@@ -1,6 +1,6 @@
-import Fifa from "../fifa";
-import dictPlayers from "../dictPlayers";
-import { Fifa21 } from "../fifa21";
+import Fifa from "./appfifa";
+import dictPlayers from "../../app/components/dictPlayers";
+import { Fifa21 } from "../../app/components/fifa21";
 
 import NextCors from 'nextjs-cors';
 
