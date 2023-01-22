@@ -34,7 +34,7 @@ export function IAppShell(props) {
       }
       footer={
         <Footer height={80} className='footer' p="md">
-          @2023 Praca inżynierska
+          Serwis web gromadzący, weryfikujący i analizujacy statystyki piłkarskie
         </Footer>
       }
     >
