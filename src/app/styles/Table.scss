@@ -100,3 +100,9 @@ Table.mantine-Table-root{
         text-align: center;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .tbl, .tableCompare{
+        margin: 0 auto;
+    }
+  }

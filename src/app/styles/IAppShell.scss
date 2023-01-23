@@ -43,7 +43,9 @@ nav.mantine-Navbar-root {
 footer.mantine-Footer-root{
     background-color: $mainColor;
     color: white;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 

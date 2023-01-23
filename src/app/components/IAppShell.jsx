@@ -21,17 +21,30 @@ export function IAppShell(props) {
       }}
       navbarOffsetBreakpoint="sm"
       asideOffsetBreakpoint="sm"
+      header={
+        <Header height={100} p="md">
+            <MediaQuery largerThan="sm" styles={{ display: 'none' }}>
+              <Burger
+                opened={opened}
+                onClick={() => setOpened((o) => !o)}
+                size="sm"
+                color={theme.colors.gray[6]}
+                mr="xl"
+                sx={{display: "flex", justifyContent: "center", alignItems: "center", height: "100%"}}
+              />
+            </MediaQuery>
+        </Header>
+      }
       navbar={
         <Navbar p="md" hiddenBreakpoint="sm" hidden={!opened} width={{ sm: 200, lg: 300 }}>
-          <Navbar height={600} p="xs" width={{ base: 300 }}>
+          <Navbar height={600} top={100} p="xs" width={{ base: 300 }}>
             <Navbar.Section grow mt="md">
               <IUserLinks />
             </Navbar.Section>
-              
-            
-            </Navbar>
+          </Navbar>
         </Navbar>
       }
+      
       footer={
         <Footer height={80} className='footer' p="md">
           Serwis web gromadzący, weryfikujący i analizujacy statystyki piłkarskie
