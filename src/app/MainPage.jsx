@@ -20,7 +20,7 @@ export function MainPage() {
                 </Group>
 
                 <Text className="description-page" size="sm" color="dimmed">
-                    Ocenianie w grze Fifa odbywa się w zakresie 1-99, nastomiast Football Manager od 1-20. Nazwy atrybutów w obydwu źródłach są bardzo ponowne,
+                    Ocenianie w grze Fifa odbywa się w zakresie 1-99, nastomiast Football Manager od 1-20. Nazwy atrybutów w obydwu źródłach są bardzo podobne,
                     ponieważ dotyczą tego samego przykładowo strzały, obrona, fizyczność. Jedyną różnicą jest to, że w grze Fifa piłkarzami steruje gracz,
                     a w Football Managerze sztuczna inteligencja na podstawie taktyki wybranej przez trenera (użytkownika). Stąd dodatkowe atrybuty w kolumnie mentalność.
                     Dodatkowo technika, która jest składową podań i dryblingu w grze Fifa została podzielona na dwie części, natomiast dane z symulatora trenera

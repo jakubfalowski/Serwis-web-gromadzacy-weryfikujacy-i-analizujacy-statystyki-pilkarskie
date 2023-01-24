@@ -49,9 +49,9 @@ export function calculate1x2(homePercent, awayPercent, goals){
             if(degreeGoals === 5) result = '4-2'
         }
         else if(winHomePercent >= (drawPercent+25) && winHomePercent <(drawPercent+40)){
-            if(degreeGoals === 1) result = '3-0'
-            if(degreeGoals === 2) result = '4-1'
-            if(degreeGoals === 3 || degreeGoals === 4 || degreeGoals === 5) result = '5-2'
+            if(degreeGoals === 1 || degreeGoals === 2 || degreeGoals === 3) result = '3-0'
+            if(degreeGoals === 4) result = '4-1'
+            if(degreeGoals === 5) result = '5-2'
         }
         else{
             result = '4-0'
@@ -65,8 +65,8 @@ export function calculate1x2(homePercent, awayPercent, goals){
         }
         else if(winAwayPercent >= (drawPercent+10) && winAwayPercent <(drawPercent+25)){
             if(degreeGoals === 1 || degreeGoals === 2) result = '0-2'
-            if(degreeGoals === 3) result = '1-3'
-            if(degreeGoals === 4 || degreeGoals === 5) result = '2-4'
+            if(degreeGoals === 3 || degreeGoals === 4) result = '1-3'
+            if(degreeGoals === 5) result = '2-4'
         }
         else if(winAwayPercent >= (drawPercent+25) && winAwayPercent <(drawPercent+40)){
             if(degreeGoals === 1 || degreeGoals === 2 || degreeGoals === 3) result = '0-3'
