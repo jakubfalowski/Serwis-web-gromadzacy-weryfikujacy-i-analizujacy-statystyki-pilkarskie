@@ -1,3 +1,4 @@
+"use client"
 import {Anchor, Button} from "@mantine/core";
 
 export default function WatchDiagrams(){

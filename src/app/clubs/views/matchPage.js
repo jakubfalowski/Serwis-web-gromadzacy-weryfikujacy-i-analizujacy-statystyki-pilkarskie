@@ -12,6 +12,8 @@ export function PageIndex(){
     const [dataset, setDataset] = useState();
     const [leagueName, setLeagueName] = useState();
     const date = new Date();
+    
+
     let today = [];
 
     for(let i = 0; i < 7; i++){

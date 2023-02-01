@@ -1,3 +1,4 @@
+"use client"
 import { useState } from "react";
 import { playerTabFunction } from "./fetchData";
 import { sortByOverallDifference, sortByOverallFifa, sortByOverallFm, sortByPaceFifa, sortByPaceFm, sortByPaceDifference, sortByPhysicalityDifference, sortByPhysicalityFm, sortByPhysicalityFifa, sortByAttackFifa, sortByAttackFm, sortByAttackDifference, sortByDefensiveFifa, sortByDefensiveFm, sortByDefensiveDifference } from "./sort";
@@ -17,11 +18,25 @@ export function TableCompare() {
   const playerTab = new Array(0);
 
   function initalizeData(){
-    if(playerTab[0] && !playersData) setData(playerTab[0].sort(sortByOverallFifa))
+
+    function isEmpty(obj) {
+      for (const key in obj) {
+        if (obj.hasOwnProperty(key)) {
+          return false;
+        }
+      }
+      return true;
+    }
+    
+    const nonEmptyPlayersData = playerTab[0].filter(obj => !isEmpty(obj));
+
+    if(!playersData) setData(nonEmptyPlayersData.sort(sortByOverallFifa))
   }
 
-  playerTabFunction().then((value) => {
-    playerTab.push(value)
+  playerTabFunction().then((value, i) => {
+    if (Array.isArray(value) && value.length){
+      playerTab[playerTab.length] = value;
+    }
   }).then(initalizeData)
 
   return (
@@ -44,8 +59,8 @@ export function TableCompare() {
           <td rowSpan={2}>Imie i nazwisko</td>
           <td>
             <button onClick={() => {
-                if(playerTab[0]){
-                  setData(playerTab[0].sort(sortByOverallFifa))
+                if(playersData){
+                  setData(playersData.sort(sortByOverallFifa))
                   setOverallActive(true)
                   setPaceActive(false)
                   setPhysicalityActive(false)
@@ -58,8 +73,8 @@ export function TableCompare() {
           </td>
           <td>
             <button onClick={() => {
-                if(playerTab[0]){
-                  setData(playerTab[0].sort(sortByOverallFm))
+                if(playersData){
+                  setData(playersData.sort(sortByOverallFm))
                   setOverallActive(true)
                   setPaceActive(false)
                   setPhysicalityActive(false)
@@ -71,8 +86,8 @@ export function TableCompare() {
           </td>
           <td>
             <button onClick={() => {
-                if(playerTab[0]){
-                  setData(playerTab[0].sort(sortByOverallDifference))
+                if(playersData){
+                  setData(playersData.sort(sortByOverallDifference))
                   setOverallActive(true)
                   setPaceActive(false)
                   setPhysicalityActive(false)
@@ -84,8 +99,8 @@ export function TableCompare() {
           </td>
           <td>
             <button onClick={() => {
-                if(playerTab[0]){
-                  setData(playerTab[0].sort(sortByPaceFifa))
+                if(playersData){
+                  setData(playersData.sort(sortByPaceFifa))
                   setOverallActive(false)
                   setPaceActive(true)
                   setPhysicalityActive(false)
@@ -97,8 +112,8 @@ export function TableCompare() {
           </td>
           <td>
             <button onClick={() => {
-                if(playerTab[0]){
-                  setData(playerTab[0].sort(sortByPaceFm))
+                if(playersData){
+                  setData(playersData.sort(sortByPaceFm))
                   setOverallActive(false)
                   setPaceActive(true)
                   setPhysicalityActive(false)
@@ -110,8 +125,8 @@ export function TableCompare() {
           </td>
           <td>
             <button onClick={() => {
-                if(playerTab[0]){
-                  setData(playerTab[0].sort(sortByPaceDifference))
+                if(playersData){
+                  setData(playersData.sort(sortByPaceDifference))
                   setOverallActive(false)
                   setPaceActive(true)
                   setPhysicalityActive(false)
@@ -123,8 +138,8 @@ export function TableCompare() {
           </td>
           <td>
             <button onClick={() => {
-                if(playerTab[0]){
-                  setData(playerTab[0].sort(sortByPhysicalityFifa))
+                if(playersData){
+                  setData(playersData.sort(sortByPhysicalityFifa))
                   setOverallActive(false)
                   setPaceActive(false)
                   setPhysicalityActive(true)
@@ -136,8 +151,8 @@ export function TableCompare() {
           </td>
           <td>
             <button onClick={() => {
-                if(playerTab[0]){
-                  setData(playerTab[0].sort(sortByPhysicalityFm))
+                if(playersData){
+                  setData(playersData.sort(sortByPhysicalityFm))
                   setOverallActive(false)
                   setPaceActive(false)
                   setPhysicalityActive(true)
@@ -149,8 +164,8 @@ export function TableCompare() {
           </td>
           <td>
             <button onClick={() => {
-                if(playerTab[0]){
-                  setData(playerTab[0].sort(sortByPhysicalityDifference))
+                if(playersData){
+                  setData(playersData.sort(sortByPhysicalityDifference))
                   setOverallActive(false)
                   setPaceActive(false)
                   setPhysicalityActive(true)
@@ -162,8 +177,8 @@ export function TableCompare() {
           </td>
           <td>
             <button onClick={() => {
-                if(playerTab[0]){
-                  setData(playerTab[0].sort(sortByAttackFifa))
+                if(playersData){
+                  setData(playersData.sort(sortByAttackFifa))
                   setOverallActive(false)
                   setPaceActive(false)
                   setPhysicalityActive(false)
@@ -175,8 +190,8 @@ export function TableCompare() {
           </td>
           <td>
             <button onClick={() => {
-                if(playerTab[0]){
-                  setData(playerTab[0].sort(sortByAttackFm))
+                if(playersData){
+                  setData(playersData.sort(sortByAttackFm))
                   setOverallActive(false)
                   setPaceActive(false)
                   setPhysicalityActive(false)
@@ -188,8 +203,8 @@ export function TableCompare() {
           </td>
           <td>
             <button onClick={() => {
-                if(playerTab[0]){
-                  setData(playerTab[0].sort(sortByAttackDifference))
+                if(playersData){
+                  setData(playersData.sort(sortByAttackDifference))
                   setOverallActive(false)
                   setPaceActive(false)
                   setPhysicalityActive(false)
@@ -201,8 +216,8 @@ export function TableCompare() {
           </td>
           <td>
             <button onClick={() => {
-                if(playerTab[0]){
-                  setData(playerTab[0].sort(sortByDefensiveFifa))
+                if(playersData){
+                  setData(playersData.sort(sortByDefensiveFifa))
                   setOverallActive(false)
                   setPaceActive(false)
                   setPhysicalityActive(false)
@@ -214,8 +229,8 @@ export function TableCompare() {
           </td>
           <td>
             <button onClick={() => {
-                if(playerTab[0]){
-                  setData(playerTab[0].sort(sortByDefensiveFm))
+                if(playersData){
+                  setData(playersData.sort(sortByDefensiveFm))
                   setOverallActive(false)
                   setPaceActive(false)
                   setPhysicalityActive(false)
@@ -227,8 +242,8 @@ export function TableCompare() {
           </td>
           <td>
             <button onClick={() => {
-                if(playerTab[0]){
-                  setData(playerTab[0].sort(sortByDefensiveDifference))
+                if(playersData){
+                  setData(playersData.sort(sortByDefensiveDifference))
                   setOverallActive(false)
                   setPaceActive(false)
                   setPhysicalityActive(false)

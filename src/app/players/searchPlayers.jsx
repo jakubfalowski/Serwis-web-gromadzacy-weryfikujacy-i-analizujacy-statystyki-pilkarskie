@@ -1,3 +1,4 @@
+"use client"
 import { useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { Autocomplete, Button, Group } from '@mantine/core';
@@ -13,7 +14,6 @@ export function SearchPlayers(){
     const router = useRouter();
 
     useEffect(()=>{
-      
         playerTabFunction().then((value) => {
           playerTab.push(value)
         }).then(addNamesTab).then(names.sort(sortByOverallFifa))
@@ -23,14 +23,13 @@ export function SearchPlayers(){
             playerTab[0].sort(sortByOverallFifa);
           if(names.length < 1){
             for(let i = 0; i<426; i++){
-              console.log(names, i)
-                names.push(playerTab[0][i][0])
+              if(typeof playerTab[0][i][0] === "string") names.push(playerTab[0][i][0])
             }
           } 
         }
       }    
     },[names])
-      
+
     return (
       <>
       <h2>Moduł zawodników</h2>
