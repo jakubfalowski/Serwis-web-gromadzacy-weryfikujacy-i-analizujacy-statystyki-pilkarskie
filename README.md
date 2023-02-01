@@ -2,14 +2,28 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, clone repo
+```bash
+git clone https://github.com/jakubfalowski/analizerpilkarski
+```
 
+After change directory to folder statistic-app
+```bash
+cd statistic-app
+```
+To install node-modules
+```bash
+npm install
+```
+
+To run the development server:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+```
+
+To run cypress tests (type when server is starting)
+```bash
+npx cypress run
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
