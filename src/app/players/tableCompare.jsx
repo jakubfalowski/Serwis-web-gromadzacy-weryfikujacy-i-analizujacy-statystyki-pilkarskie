@@ -14,6 +14,7 @@ export function TableCompare() {
   const [physicalityActive, setPhysicalityActive] = useState(false);
   const [attackActive, setAttackActive] = useState(false);
   const [defensiveActive, setDefensiveActive] = useState(false);
+  const [option, setOption] = useState(0);
 
   const playerTab = new Array(0);
 
@@ -38,6 +39,10 @@ export function TableCompare() {
       playerTab[playerTab.length] = value;
     }
   }).then(initalizeData)
+
+  function returnTable(){
+    
+  }
 
   return (
     <div className="tableCompare">
@@ -66,6 +71,7 @@ export function TableCompare() {
                   setPhysicalityActive(false)
                   setAttackActive(false)
                   setDefensiveActive(false)
+                  setOption(1)
                 }
                 
               }}>FIFA
@@ -80,12 +86,13 @@ export function TableCompare() {
                   setPhysicalityActive(false)
                   setAttackActive(false)
                   setDefensiveActive(false)
+                  setOption(2)
                 }
               }}>FM
             </button>
           </td>
           <td>
-            <button onClick={() => {
+            <button onClick={() => {        
                 if(playersData){
                   setData(playersData.sort(sortByOverallDifference))
                   setOverallActive(true)
@@ -93,6 +100,7 @@ export function TableCompare() {
                   setPhysicalityActive(false)
                   setAttackActive(false)
                   setDefensiveActive(false)
+                  setOption(3)
                 }
               }}>Różnica
             </button>
@@ -106,6 +114,7 @@ export function TableCompare() {
                   setPhysicalityActive(false)
                   setAttackActive(false)
                   setDefensiveActive(false)
+                  setOption(1)
                 }
               }}>FIFA
             </button>
@@ -119,6 +128,7 @@ export function TableCompare() {
                   setPhysicalityActive(false)
                   setAttackActive(false)
                   setDefensiveActive(false)
+                  setOption(2)
                 }
               }}>FM
             </button>
@@ -132,6 +142,7 @@ export function TableCompare() {
                   setPhysicalityActive(false)
                   setAttackActive(false)
                   setDefensiveActive(false)
+                  setOption(3)
                 }
               }}>Różnica
             </button>
@@ -145,6 +156,7 @@ export function TableCompare() {
                   setPhysicalityActive(true)
                   setAttackActive(false)
                   setDefensiveActive(false)
+                  setOption(1)
                 }
               }}>FIFA
             </button>
@@ -158,6 +170,7 @@ export function TableCompare() {
                   setPhysicalityActive(true)
                   setAttackActive(false)
                   setDefensiveActive(false)
+                  setOption(2)
                 }
               }}>FM
             </button>
@@ -171,6 +184,7 @@ export function TableCompare() {
                   setPhysicalityActive(true)
                   setAttackActive(false)
                   setDefensiveActive(false)
+                  setOption(3)
                 }
               }}>Różnica
             </button>
@@ -184,6 +198,7 @@ export function TableCompare() {
                   setPhysicalityActive(false)
                   setAttackActive(true)
                   setDefensiveActive(false)
+                  setOption(1)
                 }
               }}>FIFA
             </button>
@@ -197,6 +212,7 @@ export function TableCompare() {
                   setPhysicalityActive(false)
                   setAttackActive(true)
                   setDefensiveActive(false)
+                  setOption(2)
                 }
               }}>FM
             </button>
@@ -210,6 +226,7 @@ export function TableCompare() {
                   setPhysicalityActive(false)
                   setAttackActive(true)
                   setDefensiveActive(false)
+                  setOption(3)
                 }
               }}>Różnica
             </button>
@@ -223,6 +240,7 @@ export function TableCompare() {
                   setPhysicalityActive(false)
                   setAttackActive(false)
                   setDefensiveActive(true)
+                  setOption(1)
                 }
               }}>FIFA
             </button>
@@ -236,6 +254,7 @@ export function TableCompare() {
                   setPhysicalityActive(false)
                   setAttackActive(false)
                   setDefensiveActive(true)
+                  setOption(2)
                 }
               }}>FM
             </button>
@@ -249,6 +268,7 @@ export function TableCompare() {
                   setPhysicalityActive(false)
                   setAttackActive(false)
                   setDefensiveActive(true)
+                  setOption(3)
                 }
               }}>Różnica
             </button>
@@ -286,7 +306,6 @@ export function TableCompare() {
               <td className={defensiveActive ? 'active' : ''}>{Math.abs(parseInt(player[9]) - parseInt(player[10]))}</td>
             </tr>
           )
-        
     })}</tbody></table>
     </div>
   );
