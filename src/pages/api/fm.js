@@ -4,7 +4,6 @@ import NextCors from 'nextjs-cors';
 
 export default async function FmAPI(req,res) {
   await NextCors(req, res, {
-    // Options
     methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
     origin: '*',
     optionsSuccessStatus: 200
@@ -26,6 +25,6 @@ export default async function FmAPI(req,res) {
                 return {"name": typeStat[0], "rating": typeStat[1], "attack": typeStat[2], "defensive":typeStat[3], "technique": typeStat[4], "mentality": typeStat[5], "physicality": typeStat[6], "pace":typeStat[7], "club": typeStat[8], "nation": typeStat[9]}
             }));
           res.json(jsonStats);
-      } else res.json("Error scrapping")
+      }
   }
 }

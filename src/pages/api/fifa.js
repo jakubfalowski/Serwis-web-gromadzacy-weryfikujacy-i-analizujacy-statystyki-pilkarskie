@@ -26,8 +26,6 @@ export default async function FifaAPI(req,res) {
             }));
           res.json(jsonStats);
       }
-      else res.json("Error scrapping")
-    
   }
 }
 
