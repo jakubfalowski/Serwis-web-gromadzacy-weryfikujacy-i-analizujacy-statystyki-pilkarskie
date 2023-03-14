@@ -1,9 +1,9 @@
-import { useEffect, useState } from "react";
-import { convertToDate } from "../calculation/convertToDate"
-import { options } from '../fetchOption';
 import { Grid } from '@mantine/core';
-import { dictClubs } from "../dictClubs";
+import { useEffect, useState } from "react";
 import "../../styles/App.scss";
+import { convertToDate } from "../calculation/convertToDate";
+import { dictClubs } from "../dictClubs";
+import { options } from '../fetchOption';
 
 export let teamH;
 export let teamA;
@@ -15,10 +15,19 @@ export function PageIndex(){
     
 
     let today = [];
+    const futureDaysMatches = 14;
+    const dayInMonth = [31, 28 ,31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
-    for(let i = 0; i < 7; i++){
-        today[i] = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()+i);
+    let lastI;
+    for(let i = 0; i < futureDaysMatches; i++){
+        if(date.getDate()+i <= dayInMonth[date.getMonth()]){
+            today[i] = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+(date.getDate()+i);
+            lastI = i;
+        } else{
+            today[i] = date.getFullYear()+'-'+(date.getMonth()+2)+'-'+(i-lastI);
+        }
     } 
+    console.log(today)
     let ifFetch = true;
 
     async function fetchData(query) {
@@ -42,7 +51,7 @@ export function PageIndex(){
         <h2 className="leagueName">{leagueName}</h2>
         <Grid grow>
             { dataset && dataset.map((data, i) => {
-                for(let daysMatch=7; daysMatch>=0; daysMatch--){
+                for(let daysMatch=futureDaysMatches; daysMatch>=0; daysMatch--){
                     if(convertToDate(data.START_TIME).endsWith(today[daysMatch])){
                         return(
                             <Grid.Col md={4} sm={6} xs={12}>
