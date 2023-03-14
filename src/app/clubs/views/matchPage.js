@@ -27,7 +27,6 @@ export function PageIndex(){
             today[i] = date.getFullYear()+'-'+(date.getMonth()+2)+'-'+(i-lastI);
         }
     } 
-    console.log(today)
     let ifFetch = true;
 
     async function fetchData(query) {
