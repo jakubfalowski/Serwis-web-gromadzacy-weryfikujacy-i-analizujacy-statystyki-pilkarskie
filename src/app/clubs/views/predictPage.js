@@ -5,12 +5,12 @@ import { Grid, Table } from '@mantine/core';
 
 import FetchResults from "../fetchResults";
 
-import { getPoints, getHomePoints, getAwayPoints } from "../calculation/getPoints";
-import { getGoals, getAwayGoals, getHomeGoals } from "../calculation/getGoals";
 import { convertToDate } from "../calculation/convertToDate";
-import { sortByTime } from "../calculation/sortByTime";
+import { getAwayGoals, getGoals, getHomeGoals } from "../calculation/getGoals";
+import { getAwayPoints, getHomePoints, getPoints } from "../calculation/getPoints";
 import { getTeamStrength } from "../calculation/getTeamStrength";
 import { getWinner } from "../calculation/getWinner";
+import { sortByTime } from "../calculation/sortByTime";
 
 import "../../styles/App.scss";
 import "../../styles/Table.scss";
@@ -18,9 +18,9 @@ import { getAverageGoals } from "../calculation/getAverageGoals";
 import { getResult } from "../calculation/getResult";
 import FetchBet from "../fetchBet";
 
-import { oddsHead, probabilityHead, profitableProbabilityHead, appForebetHead } from "./tableHead";
 import { dictClubs } from "../dictClubs";
 import FetchForebet from "../fetchForebet";
+import { appForebetHead, oddsHead, probabilityHead, profitableProbabilityHead } from "./tableHead";
 
 
 let matchesCopy = [];
@@ -153,17 +153,17 @@ export function PredictPage(props){
                     <tbody>{oddsRows}</tbody>  
             </Table>
             <Table className="tbl three-columns marginbottom" horizontalSpacing="xl" verticalSpacing="xs" highlightOnHover>
-                <caption>Przełożenie powyższych kursów na prawdopodobieństwo według bukmachera</caption>
+                <caption>Przełożenie powyższych kursów na szacowanie według bukmachera</caption>
                     <thead>{probabilityHead}</thead>
                     <tbody>{probabilityRows}</tbody>  
             </Table>
             <Table className="tbl three-columns marginbottom" horizontalSpacing="xl" verticalSpacing="xs" highlightOnHover>
-                <caption>Procent prawdopodobieństwa, jaki powinien być w rzeczywistości, aby klientowi opłacało się korzystać z usług bukmacherskich</caption>
+                <caption>Procent szacowania, jaki powinien być w rzeczywistości, aby klientowi opłacało się korzystać z usług bukmacherskich</caption>
                     <thead>{profitableProbabilityHead}</thead>
                     <tbody>{profitableProbabilityRows}</tbody> 
             </Table>
             <Table className="tbl four-columns marginbottom" horizontalSpacing="xl" verticalSpacing="xs" highlightOnHover>
-                <caption>Najbardziej prawdopodobny wynik meczu, według portalu forebet.com</caption>
+                <caption>Sugerowany wynik meczu przez portal forebet.com</caption>
                     <thead>{appForebetHead}</thead>
                     <tbody>
                     {
@@ -183,7 +183,7 @@ export function PredictPage(props){
                     </tbody>  
             </Table>
             <Table className="tbl four-columns" horizontalSpacing="xl" verticalSpacing="xs" highlightOnHover>
-                <caption>Najbardziej prawdopodobny wynik meczu, według mojej aplikacji</caption>
+                <caption>Szacowany wynik meczu, według systemu liczącego ostatnie mecze</caption>
                 <thead>{appForebetHead}</thead>
                 <tbody>{appRows}</tbody>  
             </Table>

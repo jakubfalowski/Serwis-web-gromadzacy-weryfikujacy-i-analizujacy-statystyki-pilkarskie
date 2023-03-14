@@ -12,7 +12,7 @@ export const oddsHead = (
 export const probabilityHead = (
   <>
     <tr className='statBox head'>
-      <td colSpan={3}>Prawdopodobieństwo na wynik</td>
+      <td colSpan={3}>Szanse na wynik według szacowania</td>
     </tr>
     <tr className='statBox head'>
         <td>1</td><td>X</td><td>2</td>
@@ -23,7 +23,7 @@ export const probabilityHead = (
 export const profitableProbabilityHead = (
   <>
     <tr className='statBox head'>
-      <td colSpan={3}>Opłacalne prawdopodobieństwo</td>
+      <td colSpan={3}>Opłacalne szanse na wynik</td>
     </tr>
     <tr className='statBox head'>
       <td>1</td><td>X</td><td>2</td>
