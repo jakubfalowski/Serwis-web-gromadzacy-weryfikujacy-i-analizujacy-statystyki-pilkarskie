@@ -192,9 +192,9 @@ export function PredictPage(props){
                 <Grid.Col span={12} className="last-results-box">
                     <h1>Gospodarze {homeName}</h1>
                     <p>W ostatnich 15 meczach zdobyli { homeTeamMatches && getPoints(homeTeamMatches.slice(0, 15), home, away)} punktów, średnia { homeTeamMatches && (getPoints(homeTeamMatches.slice(0, 15), home, away)/15).toFixed(2)} pkt na mecz, bilans bramkowy {homeTeamMatches && getGoals(homeTeamMatches.slice(0, 15),home,away).home+":"+getGoals(homeTeamMatches.slice(0, 15),home,away).away}</p>
-                    <p>W ostatnich 5 meczach u siebie zdobyli {homeTeamMatches && getHomePoints(homeTeamMatches, home)} punktów, średnia {homeTeamMatches && (getHomePoints(homeTeamMatches, home)/5).toFixed(2)} pkt na mecz bilans, bramkowy {homeTeamMatches && getHomeGoals(homeTeamMatches, home).home+":"+getHomeGoals(homeTeamMatches, home).away }</p>
+                    <p>W ostatnich 5 meczach u siebie zdobyli {homeTeamMatches && getHomePoints(homeTeamMatches, home)} punktów, średnia {homeTeamMatches && (getHomePoints(homeTeamMatches, home)/5).toFixed(2)} pkt na mecz, bilans bramkowy {homeTeamMatches && getHomeGoals(homeTeamMatches, home).home+":"+getHomeGoals(homeTeamMatches, home).away }</p>
                     <p>Siła tej drużyny na podstawie formy i gry u siebie: {homeTeamMatches && getTeamStrength(homeTeamMatches.slice(0, 15), home, true)}</p>
-                    <p>Przewidywane bramki u siebie: {homeTeamMatches &&  probabilityScoreGoalsByHomeTeam+":"+probabilityLostGoalsByHomeTeam }</p>
+                    <p>Szacowane bramki u siebie: {homeTeamMatches &&  probabilityScoreGoalsByHomeTeam+":"+probabilityLostGoalsByHomeTeam }</p>
                 </Grid.Col>
 
             {
@@ -217,10 +217,10 @@ export function PredictPage(props){
             <Grid className="last-results right-last-results">
                 <Grid.Col span={12} className="last-results-box">
                     <h1>Goście {awayName}</h1>
-                    <p>W ostatnich 15 meczach zdobyli { awayTeamMatches && getPoints(awayTeamMatches.slice(0, 15), home, away)} punktów, średnia { awayTeamMatches && (getPoints(awayTeamMatches.slice(0, 15), home, away)/15).toFixed(2)} pkt na mecz, bilans bramkowy {awayTeamMatches && getGoals(awayTeamMatches.slice(0, 15),home,away).home+":"+getGoals(awayTeamMatches.slice(0, 15),home,away).away}</p>
-                    <p>W ostatnich 5 meczach na wyjeździe zdobyli {awayTeamMatches && getAwayPoints(awayTeamMatches, away)} punktów, średnia { awayTeamMatches && (getAwayPoints(awayTeamMatches, away)/5).toFixed(2)} pkt na mecz bilans bramkowy {awayTeamMatches && getAwayGoals(awayTeamMatches, away).away+":"+getAwayGoals(awayTeamMatches, away).home}</p>
+                    <p>W ostatnich 15 meczach zdobyli { awayTeamMatches && getPoints(awayTeamMatches.slice(0, 15), home, away)} punktów, średnia { awayTeamMatches && (getPoints(awayTeamMatches.slice(0, 15), home, away)/15).toFixed(2)} pkt na mecz, bilans bramkowy: {awayTeamMatches && getGoals(awayTeamMatches.slice(0, 15),home,away).home+":"+getGoals(awayTeamMatches.slice(0, 15),home,away).away}</p>
+                    <p>W ostatnich 5 meczach na wyjeździe zdobyli {awayTeamMatches && getAwayPoints(awayTeamMatches, away)} punktów, średnia { awayTeamMatches && (getAwayPoints(awayTeamMatches, away)/5).toFixed(2)} pkt na mecz, bilans bramkowy {awayTeamMatches && getAwayGoals(awayTeamMatches, away).away+":"+getAwayGoals(awayTeamMatches, away).home}</p>
                     <p>Siła tej drużyny na podstawie formy i gry na wyjeździe: {awayTeamMatches && getTeamStrength(awayTeamMatches.slice(0, 15), away, false)}</p>
-                    <p>Przewidywane bramki na wyjeździe: {awayTeamMatches &&  probabilityScoreGoalsByAwayTeam+":"+probabilityLostGoalsByAwayTeam }</p>
+                    <p>Szacowane bramki na wyjeździe: {awayTeamMatches &&  probabilityScoreGoalsByAwayTeam+":"+probabilityLostGoalsByAwayTeam }</p>
                 </Grid.Col>
             {
                 awayTeamMatches && awayTeamMatches.slice(0, 15).map(match =>{

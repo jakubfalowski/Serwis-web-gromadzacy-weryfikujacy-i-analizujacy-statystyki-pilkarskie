@@ -87,7 +87,7 @@ export function MainPage() {
         <Grid.Col md={6} sm={12}>
             <Card shadow="sm" p="lg" radius="md" withBorder>
                 <Group position="apart" mt="md" mb="xs">
-                <Text weight={500}>Najbliższe spotkania i predykcje</Text>
+                <Text weight={500}>Najbliższe spotkania</Text>
                     <Badge color="blue" variant="light">
                         Bukmacher, Forebet, własne
                     </Badge>

@@ -1,4 +1,4 @@
-describe('Testing player pages', () => {
+describe('Testowanie strony zawodników', () => {
 
   beforeEach(() => {
     cy.visit('http://localhost:3000/players');
