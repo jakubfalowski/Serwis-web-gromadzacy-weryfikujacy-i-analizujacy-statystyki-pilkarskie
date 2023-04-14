@@ -1,0 +1,108 @@
+@import './colors.scss';
+
+.tbl{
+    width: 80vw;
+    td, table{
+        border: white 2px solid;
+        color: black;
+        font-size: 16px;
+        text-align: center;
+    }
+    tr td:first-of-type{
+        width:200px;
+    }
+    .better{
+        background-color: $betterTable;
+    }
+    .worse{
+        background-color: $worseTable;
+    }
+    .same{
+        background-color: $sameTable;
+    }
+    .statBox td:first-of-type, thead{
+        background-color: $secondColor;
+    }
+}
+
+.two-columns tr td{
+    width: 50%;
+}
+.three-columns tr td{
+    width: 33%;
+}
+
+.four-columns tr td{
+    width: 25%;
+}
+
+.marginbottom{
+    margin-bottom: 50px;
+}
+
+Table.mantine-Table-root{
+    background-color: white;
+    text-align: center;
+    & thead tr th{
+        background-color: white;
+        text-align: center;
+    }
+    caption{
+        margin: 0;
+        background-color: white;
+    }
+}
+
+.tableCompare{
+    width: 80vw;
+    max-height: 700px;
+    overflow: scroll;
+    h1{
+        background-color: $mainColor;
+        color: white;
+    }
+    table{
+        background-color: #FFFFFF;
+        margin: 0 auto;
+    }
+    thead{
+        background-color: $mainColor;
+        color: white;
+    }
+    thead tr:first-of-type td:not([rowspan="2"]):hover{
+        background-color: rgba(0,0,0,0.1)
+    }
+    td{
+        text-align: center;
+    }
+    td:first-of-type:not([colspan="3"]){
+        min-width: 150px;
+        padding: 10px;
+    }
+    .active, tbody td:first-of-type{
+        background-color: $secondColor;
+        font-weight: 600;
+    }
+    button{
+        width: 100px;
+        background-color: inherit;
+        color: inherit;
+        border: 0;
+    }
+    a{
+        color: inherit;
+        text-decoration: none;
+    }
+    a:hover{
+        color: #A61D6F;
+    }
+    .center{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .tbl, .tableCompare{
+        margin: 0 auto;
+    }
+  }
