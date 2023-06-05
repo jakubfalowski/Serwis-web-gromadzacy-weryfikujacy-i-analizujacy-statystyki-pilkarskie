@@ -7,7 +7,7 @@ First, clone repo
 git clone https://github.com/jakubfalowski/analizerpilkarski
 ```
 
-After change directory to folder statistic-app
+After move to the folder "analizerpilkarski" where the repository was downloaded
 ```bash
 cd analizerpilkarski
 ```
