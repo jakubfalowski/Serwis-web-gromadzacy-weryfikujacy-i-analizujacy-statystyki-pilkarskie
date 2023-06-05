@@ -45,7 +45,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy
 
-The project is hosted on the server analizerpilkarski.netlify.app
+The project is hosted on the server [analizer-praca.netlify.app](https://analizer-praca.netlify.app/)
 
 ## Github repository
 
