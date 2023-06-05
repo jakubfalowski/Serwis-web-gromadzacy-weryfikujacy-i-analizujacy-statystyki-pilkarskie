@@ -9,7 +9,7 @@ git clone https://github.com/jakubfalowski/analizerpilkarski
 
 After change directory to folder statistic-app
 ```bash
-cd statistic-app
+cd analizerpilkarski
 ```
 To install node-modules
 ```bash
