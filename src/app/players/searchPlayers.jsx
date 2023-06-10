@@ -4,7 +4,6 @@ import { useRouter } from 'next/navigation';
 import { Autocomplete, Button, Group } from '@mantine/core';
 import { playerTabFunction } from "./fetchData";
 import { sortByOverallFifa } from './sort';
-import "../styles/App.scss";
 
 export function SearchPlayers(){
 

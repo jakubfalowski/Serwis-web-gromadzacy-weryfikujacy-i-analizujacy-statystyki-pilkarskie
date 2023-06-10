@@ -1,112 +1,119 @@
-"use client"
-import { Card, Text, Badge, Button, Grid, Group, Anchor} from '@mantine/core';
+"use client";
 import Image from "next/image";
-import image1 from "./images/ratingsGames.jpg";
-import image2 from "./images/bestTeams.jpg";
-import image3 from "./images/comparePlayers.jpg";
-import image4 from "./images/upcomingMatches.jpg";
+import { Card } from "./components/Card";
+import { IconBottomBg, IconTopBg } from "./images/bg";
+import IconChart from "./images/icon-chart.png";
+import IconMaths from "./images/icon-maths.png";
+import IconPad from "./images/icon-pad.png";
+import IconPlayer from "./images/icon-player.png";
+import Logo from "./images/logo.png";
 
 export function MainPage() {
   return (
-    <Grid>
-        <Grid.Col md={6} sm={12}>
-            <Card shadow="sm" p="lg" radius="md" withBorder>
-
-                <Group position="apart" mt="md" mb="xs">
-                    <Text weight={500}>Porównanie oceniania w grach</Text>
-                    <Badge color="pink" variant="light">
-                        FM, FIFA
-                    </Badge>
-                </Group>
-
-                <Text className="description-page" size="sm" color="dimmed">
-                    Ocenianie w grze Fifa odbywa się w zakresie 1-99, nastomiast Football Manager od 1-20. Nazwy atrybutów w obydwu źródłach są bardzo podobne,
-                    ponieważ dotyczą tego samego przykładowo strzały, obrona, fizyczność. Jedyną różnicą jest to, że w grze Fifa piłkarzami steruje gracz,
-                    a w Football Managerze sztuczna inteligencja na podstawie taktyki wybranej przez trenera (użytkownika). Stąd dodatkowe atrybuty w kolumnie mentalność.
-                    Dodatkowo technika, która jest składową podań i dryblingu w grze Fifa została podzielona na dwie części, natomiast dane z symulatora trenera
-                    piłkarskiego zostały ujęte w jednej kolumnie. Które ocenianie było bardziej łaskawe dla piłkarzy z ligi angielskiej? Dokładne przedstawienie
-                    na podanym wykresie.
-                </Text>
-
-                <Anchor href='/players/game-chart'>
-                    <Button variant="light" color="dark" fullWidth mt="md" radius="md">
-                        Przejdź do podstrony
-                    </Button>
-                </Anchor>
-            </Card>
-        </Grid.Col>
-
-        <Grid.Col md={6} sm={12}>
-            <Card shadow="sm" p="lg" radius="md" withBorder>
-                <Group position="apart" mt="md" mb="xs">
-                <Text weight={500}>Najlepsze drużyny według atrybutu</Text>
-                <Badge color="pink" variant="light">
-                    FM, FIFA
-                </Badge>
-                </Group>
-
-                <Text className="description-page" size="sm" color="dimmed">
-                    Ocenianie w grze ma wymiar nie tylko indywidualny. Można za pomocą statystyk danych zawodników zaobserwować, która drużyna skupia się na którym atrybucie gry.
-                    Spośród wszystkich zawodników, którzy przynależą do danej drużyny z Premier League, wybrano 11 najlepszych pod względem overalla.
-                    Najlepsze jedenastki zostały porównane pod kątem każdego z atrybutów pojawiających się w grach Football Manager i Fifa. A więc kto ma najlepszy atak, kto obrone, kto
-                    transferuje do swojego klubu głównie szybkich zawodników, a kto dobrych technicznie?
-                </Text>
-
-                <Anchor href='/players/club-chart'>
-                    <Button variant="light" color="dark" fullWidth mt="md" radius="md">
-                        Przejdź do podstrony
-                    </Button>
-                </Anchor>
-            </Card>
-        </Grid.Col>
-    
-        <Grid.Col md={6} sm={12}>
-            <Card shadow="sm" p="lg" radius="md" withBorder>
-                <Group position="apart" mt="md" mb="xs">
-                <Text weight={500}>Porównanie zawodników</Text>
-                <Badge color="pink" variant="light">
-                    FM, FIFA, SofaScore
-                </Badge>
-                </Group>
-
-                <Text className="description-page" size="sm" color="dimmed">
-                    W piłce nożnej można kibicować nie tylko drużynom piłkarskim, ale również poszczególnym piłkarzom. W momencie gdy Robert Lewandowski zdobywa kolejne bramki oraz trofea,
-                    duża część fanów piłkarskich pochodzących z Polski ogląda poczynania tego zawodnika, niezależnie od przynależności klubowej. Istnieją również rywalizacje pomiędzy
-                    zawodnikami. Sterling czy Salah? De Bruyne czy Bruno Fernandez? Van Dijk czy Jan Bednarek? Na poniższej podstronie można dowiedzieć się, jak oceniają ich
-                    specjaliści, zajmujący się ocenianiem w Fifie, Football Managerze i statystyki z sezonu 20/21 w Premier League.
-                </Text>
-
-                <Anchor href='/players'>
-                    <Button variant="light" color="dark" fullWidth mt="md" radius="md">
-                        Przejdź do podstrony
-                    </Button>
-                </Anchor>
-            </Card>
-        </Grid.Col>
-
-        <Grid.Col md={6} sm={12}>
-            <Card shadow="sm" p="lg" radius="md" withBorder>
-                <Group position="apart" mt="md" mb="xs">
-                <Text weight={500}>Najbliższe spotkania</Text>
-                    <Badge color="blue" variant="light">
-                        Bukmacher, Forebet, własne
-                    </Badge>
-                </Group>
-
-                <Text className="description-page" size="sm" color="dimmed">
-                Czy jesteś gotów na kolejną emocjonującą kolejkę polskiej ekstraklasy? Zobacz, kto według różnych źródeł będzie zwycięzcą najbliższych meczów 
-                i przygotuj się na niezapomniane emocje! Kliknij tutaj, aby zobaczyć najnowsze prognozy wyniku meczu i dowiedzieć się, kto będzie w najlepszej
-                formie. Nie przegap swoich ulubionych drużyn w akcji i przygotuj się na niezapomniane emocje!
-                </Text>
-
-                <Anchor href='/clubs'>
-                    <Button variant="light" color="dark" fullWidth mt="md" radius="md">
-                        Przejdź do podstrony
-                    </Button>
-                </Anchor>
-            </Card>
-        </Grid.Col>
-  </Grid>
+    <div className="py-8 font-sans">
+      <IconTopBg />
+      <div className="w-full h-[600px] -my-0.5 bg-green-500 flex flex-col items-center text-white">
+        <Image
+          src={Logo}
+          alt="logo"
+          width={100}
+          height={100}
+          className="mt-8"
+        />
+        <h4 className="text-3xl my-4">Funkcjonalności</h4>
+        <p className="max-w-sm my-4 text-center">Sprawdź co oferuje strona</p>
+        <a
+          href="https://github.com/jakubfalowski/analizerpilkarski"
+          className="bg-white text-green-500 rounded-md px-8 py-4 font-bold"
+        >
+          Github aplikacji
+        </a>
+        <div className="max-w-3xl mt-8">
+          <ol className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-24">
+            <li className="flex">
+              <div className="flex flex-col items-center justify-between flex-1">
+                <Image src={IconChart} alt="logo" width={60} height={60} />
+                <h1 className="text-center text-sm mt-4">
+                  Najlepsze drużyny według atrybutu
+                </h1>
+                <a
+                  href="/players"
+                  className="bg-white text-green-500 rounded-md px-8 py-2 font-bold mt-2"
+                >
+                  Przejdź
+                </a>
+              </div>
+            </li>
+            <li className="flex">
+              <div className="flex flex-col items-center justify-between flex-1">
+                <Image src={IconMaths} alt="logo" width={60} height={60} />
+                <h1 className="text-center text-sm mt-4">
+                  Najbliższe spotkania
+                </h1>
+                <a
+                  href="/clubs"
+                  className="bg-white text-green-500 rounded-md px-8 py-2 font-bold mt-2"
+                >
+                  Przejdź
+                </a>
+              </div>
+            </li>
+            <li className="flex">
+              <div className="flex flex-col items-center justify-between flex-1">
+                <Image src={IconPad} alt="logo" width={60} height={60} />
+                <h1 className="text-center text-sm mt-4">
+                  Porównanie oceniania w grach
+                </h1>
+                <a
+                  href="/players/game-chart"
+                  className="bg-white text-green-500 rounded-md px-8 py-2 font-bold mt-2"
+                >
+                  Przejdź
+                </a>
+              </div>
+            </li>
+            <li className="flex">
+              <div className="flex flex-col items-center justify-between flex-1">
+                <Image src={IconPlayer} alt="logo" width={60} height={60} />
+                <h1 className="text-center text-sm mt-4">
+                  Porównanie zawodników
+                </h1>
+                <a
+                  href="/players/club-chart"
+                  className="bg-white text-green-500 rounded-md px-8 py-2 font-bold mt-2"
+                >
+                  Przejdź
+                </a>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <IconBottomBg />
+      <div className="container mx-auto">
+        <h1 className="text-4xl font-bold mt-32">Najnowsze informacje</h1>
+        <Card
+          title="Nowe funkcjonalności"
+          content="W aplikacji zostało dodane połączenie z bazą danych. Dzięki temu możliwe jest przechowywanie i pobieranie danych 
+            z zewnętrznego źródła, co ułatwia zarządzanie informacjami i dostęp do nich. Wprowadzono nowy wygląd aplikacji, aby poprawić jej
+            estetykę i interakcję z użytkownikami. Może to obejmować zmiany wizualne, takie jak kolory, układy czy czcionki, które nadają aplikacji
+            świeży i nowoczesny wygląd. Dokonano uaktualnienia danych w aplikacji. To oznacza, że istniejące informacje zostały zaktualizowane lub
+          ulepszone, co może wpłynąć na dokładność, kompletność lub dostępność danych dla użytkowników."
+          date="10 czerwca 2023 roku"
+          imgUrl="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        />
+        <Card
+          title="Start działania aplikacji"
+          content="Nasza aplikacja analizująca statystyki piłkarskie jest nieocenionym
+            narzędziem dla trenerów, zawodników i pasjonatów piłki nożnej. Dzięki
+            jej wyjątkowym funkcjom i możliwościom, jesteśmy w stanie dostarczyć
+            najbardziej kompletny i zaawansowany zestaw danych związanych z piłką
+            nożną."
+          date="14 października 2022 roku"
+          imgUrl="https://images.pexels.com/photos/2923/young-game-match-kids.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        />
+      </div>
+    </div>
   );
 }
 

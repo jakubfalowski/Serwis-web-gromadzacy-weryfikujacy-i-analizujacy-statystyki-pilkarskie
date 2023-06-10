@@ -1,6 +1,5 @@
 import { Grid } from '@mantine/core';
 import { useEffect, useState } from "react";
-import "../../styles/App.scss";
 import { convertToDate } from "../calculation/convertToDate";
 import { dictClubs } from "../dictClubs";
 import { options } from '../fetchOption';

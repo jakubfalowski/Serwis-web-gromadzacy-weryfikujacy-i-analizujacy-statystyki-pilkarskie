@@ -2,8 +2,6 @@
 import { useEffect, useState } from 'react';
 import { playerTabFunction } from '../fetchData';
 import { Table, LoadingOverlay, Group } from '@mantine/core';
-import "../../styles/Table.scss";
-import "../../styles/App.scss"
 import FetchSofaScore from './fetchSofascore';
 import { sortByAttackFifa, sortByDefensiveFifa, sortByOverallFifa, sortByOverallFm, sortByPaceFifa, sortByPhysicalityFifa, sortByPaceFm, sortByPhysicalityFm, sortByAttackFm, sortByDefensiveFm, sortByDribblingFifa, sortByPassFifa, sortByTechniqueFm, sortByMentalityFm } from './sort';
 import { DictClubs } from './dictClubs';

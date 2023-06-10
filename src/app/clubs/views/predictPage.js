@@ -12,8 +12,6 @@ import { getTeamStrength } from "../calculation/getTeamStrength";
 import { getWinner } from "../calculation/getWinner";
 import { sortByTime } from "../calculation/sortByTime";
 
-import "../../styles/App.scss";
-import "../../styles/Table.scss";
 import { getAverageGoals } from "../calculation/getAverageGoals";
 import { getResult } from "../calculation/getResult";
 import FetchBet from "../fetchBet";
