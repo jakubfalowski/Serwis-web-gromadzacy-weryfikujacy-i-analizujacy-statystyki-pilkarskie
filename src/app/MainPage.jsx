@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { Card } from "./components/Card";
+import { getBlogPosts } from "./fetch/getData";
 import { IconBottomBg, IconTopBg } from "./images/bg";
 import IconChart from "./images/icon-chart.png";
 import IconMaths from "./images/icon-maths.png";
@@ -9,6 +10,7 @@ import IconPlayer from "./images/icon-player.png";
 import Logo from "./images/logo.png";
 
 export function MainPage() {
+  const { data } = getBlogPosts();
   return (
     <div className="py-8 font-sans">
       <IconTopBg />
@@ -92,26 +94,15 @@ export function MainPage() {
       <IconBottomBg />
       <div className="container mx-auto">
         <h1 className="text-4xl font-bold mt-32">Najnowsze informacje</h1>
-        <Card
-          title="Nowe funkcjonalności"
-          content="W aplikacji zostało dodane połączenie z bazą danych. Dzięki temu możliwe jest przechowywanie i pobieranie danych 
-            z zewnętrznego źródła, co ułatwia zarządzanie informacjami i dostęp do nich. Wprowadzono nowy wygląd aplikacji, aby poprawić jej
-            estetykę i interakcję z użytkownikami. Może to obejmować zmiany wizualne, takie jak kolory, układy czy czcionki, które nadają aplikacji
-            świeży i nowoczesny wygląd. Dokonano uaktualnienia danych w aplikacji. To oznacza, że istniejące informacje zostały zaktualizowane lub
-          ulepszone, co może wpłynąć na dokładność, kompletność lub dostępność danych dla użytkowników."
-          date="10 czerwca 2023 roku"
-          imgUrl="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        />
-        <Card
-          title="Start działania aplikacji"
-          content="Nasza aplikacja analizująca statystyki piłkarskie jest nieocenionym
-            narzędziem dla trenerów, zawodników i pasjonatów piłki nożnej. Dzięki
-            jej wyjątkowym funkcjom i możliwościom, jesteśmy w stanie dostarczyć
-            najbardziej kompletny i zaawansowany zestaw danych związanych z piłką
-            nożną."
-          date="14 października 2022 roku"
-          imgUrl="https://images.pexels.com/photos/2923/young-game-match-kids.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        />
+        {data &&
+          data.map((item) => (
+            <Card
+              title={item.title}
+              content={item.description}
+              date={item.date}
+              imgUrl={item.imgUrl}
+            />
+          ))}
       </div>
     </div>
   );
