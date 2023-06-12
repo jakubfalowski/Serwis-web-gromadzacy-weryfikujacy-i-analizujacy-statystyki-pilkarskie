@@ -1,0 +1,3002 @@
+[
+  {
+    "Name": "Kevin De Bruyne",
+    "Overall": "94",
+    "Pace": 72.5,
+    "Physical": 69,
+    "Shooting": 75.71428571428571,
+    "Passing": 80.71428571428571,
+    "Defense": 57.857142857142854,
+    "Dribbling": 71.66666666666667
+  },
+  {
+    "Name": "Erling Haaland",
+    "Overall": "93",
+    "Pace": 90,
+    "Physical": 85,
+    "Shooting": 74.28571428571429,
+    "Passing": 57.857142857142854,
+    "Defense": 57.857142857142854,
+    "Dribbling": 78.33333333333333
+  },
+  {
+    "Name": "Harry Kane",
+    "Overall": "92",
+    "Pace": 65,
+    "Physical": 74,
+    "Shooting": 83.57142857142858,
+    "Passing": 66.42857142857143,
+    "Defense": 68.57142857142857,
+    "Dribbling": 63.33333333333333
+  },
+  {
+    "Name": "Mohamed Salah",
+    "Overall": "90",
+    "Pace": 87.5,
+    "Physical": 72,
+    "Shooting": 71.42857142857143,
+    "Passing": 67.85714285714286,
+    "Defense": 55.71428571428571,
+    "Dribbling": 83.33333333333334
+  },
+  {
+    "Name": "Virgil van Dijk",
+    "Overall": "89",
+    "Pace": 75,
+    "Physical": 80,
+    "Shooting": 64.28571428571429,
+    "Passing": 60.71428571428571,
+    "Defense": 82.14285714285714,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Alisson",
+    "Overall": "88",
+    "Pace": 70,
+    "Physical": 61,
+    "Shooting": 75,
+    "Passing": 72.85714285714286,
+    "Defense": 73.57142857142857,
+    "Dribbling": 78.33333333333333
+  },
+  {
+    "Name": "Bernardo Silva",
+    "Overall": "88",
+    "Pace": 72.5,
+    "Physical": 66,
+    "Shooting": 72.14285714285714,
+    "Passing": 75.71428571428571,
+    "Defense": 63.57142857142857,
+    "Dribbling": 85
+  },
+  {
+    "Name": "Ederson",
+    "Overall": "88",
+    "Pace": 67.5,
+    "Physical": 62,
+    "Shooting": 77.85714285714286,
+    "Passing": 64.28571428571429,
+    "Defense": 75.71428571428571,
+    "Dribbling": 76.66666666666667
+  },
+  {
+    "Name": "Rodri",
+    "Overall": "88",
+    "Pace": 67.5,
+    "Physical": 78,
+    "Shooting": 71.42857142857143,
+    "Passing": 56.42857142857143,
+    "Defense": 79.28571428571429,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Rúben Dias",
+    "Overall": "87",
+    "Pace": 65,
+    "Physical": 80,
+    "Shooting": 58.57142857142857,
+    "Passing": 54.28571428571429,
+    "Defense": 82.14285714285714,
+    "Dribbling": 63.33333333333333
+  },
+  {
+    "Name": "Heung-Min Son",
+    "Overall": "85",
+    "Pace": 80,
+    "Physical": 64,
+    "Shooting": 66.42857142857143,
+    "Passing": 62.857142857142854,
+    "Defense": 46.42857142857143,
+    "Dribbling": 75
+  },
+  {
+    "Name": "Thiago Silva",
+    "Overall": "84",
+    "Pace": 50,
+    "Physical": 71,
+    "Shooting": 72.14285714285714,
+    "Passing": 52.857142857142854,
+    "Defense": 85.71428571428571,
+    "Dribbling": 51.66666666666667
+  },
+  {
+    "Name": "Bruno Fernandes",
+    "Overall": "84",
+    "Pace": 67.5,
+    "Physical": 69,
+    "Shooting": 70.71428571428571,
+    "Passing": 73.57142857142857,
+    "Defense": 49.28571428571429,
+    "Dribbling": 65
+  },
+  {
+    "Name": "Aymeric Laporte",
+    "Overall": "84",
+    "Pace": 70,
+    "Physical": 72,
+    "Shooting": 67.14285714285714,
+    "Passing": 65,
+    "Defense": 78.57142857142857,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Bukayo Saka",
+    "Overall": "84",
+    "Pace": 77.5,
+    "Physical": 70,
+    "Shooting": 67.85714285714286,
+    "Passing": 64.28571428571429,
+    "Defense": 58.57142857142857,
+    "Dribbling": 78.33333333333333
+  },
+  {
+    "Name": "Thiago",
+    "Overall": "84",
+    "Pace": 62.5,
+    "Physical": 60,
+    "Shooting": 66.42857142857143,
+    "Passing": 73.57142857142857,
+    "Defense": 67.85714285714286,
+    "Dribbling": 80
+  },
+  {
+    "Name": "N'Golo Kanté",
+    "Overall": "84",
+    "Pace": 70,
+    "Physical": 69,
+    "Shooting": 66.42857142857143,
+    "Passing": 57.142857142857146,
+    "Defense": 77.14285714285714,
+    "Dribbling": 63.33333333333333
+  },
+  {
+    "Name": "Raheem Sterling",
+    "Overall": "83",
+    "Pace": 85,
+    "Physical": 72,
+    "Shooting": 60.71428571428571,
+    "Passing": 55,
+    "Defense": 57.142857142857146,
+    "Dribbling": 85
+  },
+  {
+    "Name": "Martin Ødegaard",
+    "Overall": "83",
+    "Pace": 65,
+    "Physical": 63,
+    "Shooting": 67.85714285714286,
+    "Passing": 75,
+    "Defense": 61.42857142857143,
+    "Dribbling": 75
+  },
+  {
+    "Name": "Gabriel Jesus",
+    "Overall": "83",
+    "Pace": 75,
+    "Physical": 69,
+    "Shooting": 67.85714285714286,
+    "Passing": 59.28571428571429,
+    "Defense": 60.71428571428571,
+    "Dribbling": 78.33333333333333
+  },
+  {
+    "Name": "İlkay Gündogan",
+    "Overall": "83",
+    "Pace": 67.5,
+    "Physical": 66,
+    "Shooting": 70,
+    "Passing": 67.14285714285714,
+    "Defense": 62.142857142857146,
+    "Dribbling": 73.33333333333333
+  },
+  {
+    "Name": "Casemiro",
+    "Overall": "82",
+    "Pace": 57.5,
+    "Physical": 78,
+    "Shooting": 72.14285714285714,
+    "Passing": 60.71428571428571,
+    "Defense": 76.42857142857143,
+    "Dribbling": 58.33333333333333
+  },
+  {
+    "Name": "Kyle Walker",
+    "Overall": "82",
+    "Pace": 92.5,
+    "Physical": 73,
+    "Shooting": 55,
+    "Passing": 58.57142857142857,
+    "Defense": 68.57142857142857,
+    "Dribbling": 76.66666666666667
+  },
+  {
+    "Name": "Jack Grealish",
+    "Overall": "82",
+    "Pace": 75,
+    "Physical": 64,
+    "Shooting": 63.57142857142857,
+    "Passing": 65,
+    "Defense": 53.57142857142857,
+    "Dribbling": 78.33333333333333
+  },
+  {
+    "Name": "Reece James",
+    "Overall": "82",
+    "Pace": 72.5,
+    "Physical": 77,
+    "Shooting": 63.57142857142857,
+    "Passing": 68.57142857142857,
+    "Defense": 70,
+    "Dribbling": 63.33333333333333
+  },
+  {
+    "Name": "Luis Díaz",
+    "Overall": "82",
+    "Pace": 82.5,
+    "Physical": 62,
+    "Shooting": 59.28571428571429,
+    "Passing": 64.28571428571429,
+    "Defense": 54.28571428571429,
+    "Dribbling": 85
+  },
+  {
+    "Name": "Kai Havertz",
+    "Overall": "82",
+    "Pace": 75,
+    "Physical": 71,
+    "Shooting": 68.57142857142857,
+    "Passing": 66.42857142857143,
+    "Defense": 57.857142857142854,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Mason Mount",
+    "Overall": "82",
+    "Pace": 75,
+    "Physical": 65,
+    "Shooting": 70.71428571428571,
+    "Passing": 62.857142857142854,
+    "Defense": 58.57142857142857,
+    "Dribbling": 65
+  },
+  {
+    "Name": "Phil Foden",
+    "Overall": "82",
+    "Pace": 77.5,
+    "Physical": 60,
+    "Shooting": 64.28571428571429,
+    "Passing": 69.28571428571429,
+    "Defense": 54.28571428571429,
+    "Dribbling": 81.66666666666666
+  },
+  {
+    "Name": "Declan Rice",
+    "Overall": "81",
+    "Pace": 65,
+    "Physical": 73,
+    "Shooting": 66.42857142857143,
+    "Passing": 58.57142857142857,
+    "Defense": 75,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Raphaël Varane",
+    "Overall": "81",
+    "Pace": 80,
+    "Physical": 74,
+    "Shooting": 57.857142857142854,
+    "Passing": 50.71428571428571,
+    "Defense": 78.57142857142857,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Mateo Kovačić",
+    "Overall": "81",
+    "Pace": 72.5,
+    "Physical": 67,
+    "Shooting": 64.28571428571429,
+    "Passing": 66.42857142857143,
+    "Defense": 64.28571428571429,
+    "Dribbling": 76.66666666666667
+  },
+  {
+    "Name": "John Stones",
+    "Overall": "81",
+    "Pace": 72.5,
+    "Physical": 75,
+    "Shooting": 62.142857142857146,
+    "Passing": 52.857142857142854,
+    "Defense": 73.57142857142857,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Thomas Partey",
+    "Overall": "81",
+    "Pace": 65,
+    "Physical": 69,
+    "Shooting": 68.57142857142857,
+    "Passing": 60.71428571428571,
+    "Defense": 72.14285714285714,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Bruno Guimarães",
+    "Overall": "80",
+    "Pace": 62.5,
+    "Physical": 65,
+    "Shooting": 70,
+    "Passing": 70,
+    "Defense": 70,
+    "Dribbling": 68.33333333333333
+  },
+  {
+    "Name": "Dejan Kulusevski",
+    "Overall": "80",
+    "Pace": 67.5,
+    "Physical": 75,
+    "Shooting": 60.71428571428571,
+    "Passing": 62.142857142857146,
+    "Defense": 47.857142857142854,
+    "Dribbling": 73.33333333333333
+  },
+  {
+    "Name": "Oleksandr Zinchenko",
+    "Overall": "80",
+    "Pace": 67.5,
+    "Physical": 62,
+    "Shooting": 63.57142857142857,
+    "Passing": 66.42857142857143,
+    "Defense": 66.42857142857143,
+    "Dribbling": 70
+  },
+  {
+    "Name": "Riyad Mahrez",
+    "Overall": "80",
+    "Pace": 72.5,
+    "Physical": 60,
+    "Shooting": 63.57142857142857,
+    "Passing": 73.57142857142857,
+    "Defense": 46.42857142857143,
+    "Dribbling": 81.66666666666666
+  },
+  {
+    "Name": "João Félix",
+    "Overall": "80",
+    "Pace": 62.5,
+    "Physical": 57,
+    "Shooting": 67.14285714285714,
+    "Passing": 63.57142857142857,
+    "Defense": 52.142857142857146,
+    "Dribbling": 75
+  },
+  {
+    "Name": "Édouard Mendy",
+    "Overall": "80",
+    "Pace": 70,
+    "Physical": 65,
+    "Shooting": 66.42857142857143,
+    "Passing": 61.42857142857143,
+    "Defense": 60.71428571428571,
+    "Dribbling": 68.33333333333333
+  },
+  {
+    "Name": "Keylor Navas",
+    "Overall": "79",
+    "Pace": 77.5,
+    "Physical": 56,
+    "Shooting": 67.85714285714286,
+    "Passing": 63.57142857142857,
+    "Defense": 75.71428571428571,
+    "Dribbling": 73.33333333333333
+  },
+  {
+    "Name": "Enzo Fernández",
+    "Overall": "79",
+    "Pace": 60,
+    "Physical": 72,
+    "Shooting": 66.42857142857143,
+    "Passing": 65,
+    "Defense": 60.71428571428571,
+    "Dribbling": 65
+  },
+  {
+    "Name": "Marcus Rashford",
+    "Overall": "79",
+    "Pace": 87.5,
+    "Physical": 72,
+    "Shooting": 58.57142857142857,
+    "Passing": 53.57142857142857,
+    "Defense": 40,
+    "Dribbling": 81.66666666666666
+  },
+  {
+    "Name": "Ben Chilwell",
+    "Overall": "79",
+    "Pace": 77.5,
+    "Physical": 72,
+    "Shooting": 58.57142857142857,
+    "Passing": 66.42857142857143,
+    "Defense": 69.28571428571429,
+    "Dribbling": 73.33333333333333
+  },
+  {
+    "Name": "Fabinho",
+    "Overall": "79",
+    "Pace": 70,
+    "Physical": 76,
+    "Shooting": 67.85714285714286,
+    "Passing": 60,
+    "Defense": 73.57142857142857,
+    "Dribbling": 68.33333333333333
+  },
+  {
+    "Name": "Kieran Trippier",
+    "Overall": "79",
+    "Pace": 67.5,
+    "Physical": 68,
+    "Shooting": 60,
+    "Passing": 73.57142857142857,
+    "Defense": 69.28571428571429,
+    "Dribbling": 63.33333333333333
+  },
+  {
+    "Name": "James Maddison",
+    "Overall": "79",
+    "Pace": 65,
+    "Physical": 61,
+    "Shooting": 69.28571428571429,
+    "Passing": 69.28571428571429,
+    "Defense": 52.857142857142854,
+    "Dribbling": 76.66666666666667
+  },
+  {
+    "Name": "Trent Alexander-Arnold",
+    "Overall": "79",
+    "Pace": 70,
+    "Physical": 68,
+    "Shooting": 60.71428571428571,
+    "Passing": 76.42857142857143,
+    "Defense": 60,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Jorginho",
+    "Overall": "79",
+    "Pace": 57.5,
+    "Physical": 61,
+    "Shooting": 72.85714285714286,
+    "Passing": 66.42857142857143,
+    "Defense": 67.14285714285714,
+    "Dribbling": 61.66666666666667
+  },
+  {
+    "Name": "Diogo Jota",
+    "Overall": "79",
+    "Pace": 77.5,
+    "Physical": 62,
+    "Shooting": 63.57142857142857,
+    "Passing": 55.71428571428571,
+    "Defense": 57.857142857142854,
+    "Dribbling": 78.33333333333333
+  },
+  {
+    "Name": "Andrew Robertson",
+    "Overall": "79",
+    "Pace": 80,
+    "Physical": 69,
+    "Shooting": 52.857142857142854,
+    "Passing": 67.14285714285714,
+    "Defense": 67.85714285714286,
+    "Dribbling": 70
+  },
+  {
+    "Name": "Kalidou Koulibaly",
+    "Overall": "79",
+    "Pace": 70,
+    "Physical": 77,
+    "Shooting": 53.57142857142857,
+    "Passing": 46.42857142857143,
+    "Defense": 72.85714285714286,
+    "Dribbling": 56.66666666666667
+  },
+  {
+    "Name": "Rodrigo Bentancur",
+    "Overall": "78",
+    "Pace": 62.5,
+    "Physical": 71,
+    "Shooting": 62.142857142857146,
+    "Passing": 66.42857142857143,
+    "Defense": 71.42857142857143,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Gabriel Martinelli",
+    "Overall": "78",
+    "Pace": 82.5,
+    "Physical": 63,
+    "Shooting": 55,
+    "Passing": 59.28571428571429,
+    "Defense": 47.142857142857146,
+    "Dribbling": 80
+  },
+  {
+    "Name": "Luke Shaw",
+    "Overall": "78",
+    "Pace": 75,
+    "Physical": 71,
+    "Shooting": 55.71428571428571,
+    "Passing": 70.71428571428571,
+    "Defense": 67.85714285714286,
+    "Dribbling": 73.33333333333333
+  },
+  {
+    "Name": "Christian Eriksen",
+    "Overall": "78",
+    "Pace": 55,
+    "Physical": 57,
+    "Shooting": 72.14285714285714,
+    "Passing": 75,
+    "Defense": 50,
+    "Dribbling": 58.33333333333333
+  },
+  {
+    "Name": "James Ward-Prowse",
+    "Overall": "78",
+    "Pace": 55,
+    "Physical": 72,
+    "Shooting": 65.71428571428571,
+    "Passing": 79.28571428571429,
+    "Defense": 58.57142857142857,
+    "Dribbling": 55
+  },
+  {
+    "Name": "João Palhinha",
+    "Overall": "78",
+    "Pace": 57.5,
+    "Physical": 75,
+    "Shooting": 67.14285714285714,
+    "Passing": 52.857142857142854,
+    "Defense": 79.28571428571429,
+    "Dribbling": 55
+  },
+  {
+    "Name": "Joël Matip",
+    "Overall": "78",
+    "Pace": 70,
+    "Physical": 70,
+    "Shooting": 52.857142857142854,
+    "Passing": 51.42857142857143,
+    "Defense": 77.14285714285714,
+    "Dribbling": 71.66666666666667
+  },
+  {
+    "Name": "Pablo Sarabia",
+    "Overall": "77",
+    "Pace": 72.5,
+    "Physical": 56,
+    "Shooting": 63.57142857142857,
+    "Passing": 72.85714285714286,
+    "Defense": 48.57142857142857,
+    "Dribbling": 76.66666666666667
+  },
+  {
+    "Name": "Darwin Núñez",
+    "Overall": "77",
+    "Pace": 85,
+    "Physical": 71,
+    "Shooting": 62.142857142857146,
+    "Passing": 50,
+    "Defense": 52.857142857142854,
+    "Dribbling": 71.66666666666667
+  },
+  {
+    "Name": "Kurt Zouma",
+    "Overall": "77",
+    "Pace": 80,
+    "Physical": 85,
+    "Shooting": 52.857142857142854,
+    "Passing": 44.28571428571429,
+    "Defense": 70,
+    "Dribbling": 61.66666666666667
+  },
+  {
+    "Name": "Naby Keïta",
+    "Overall": "77",
+    "Pace": 70,
+    "Physical": 64,
+    "Shooting": 65,
+    "Passing": 62.142857142857146,
+    "Defense": 65,
+    "Dribbling": 76.66666666666667
+  },
+  {
+    "Name": "Manuel Akanji",
+    "Overall": "77",
+    "Pace": 72.5,
+    "Physical": 72,
+    "Shooting": 58.57142857142857,
+    "Passing": 52.857142857142854,
+    "Defense": 71.42857142857143,
+    "Dribbling": 63.33333333333333
+  },
+  {
+    "Name": "Emiliano Martínez",
+    "Overall": "77",
+    "Pace": 70,
+    "Physical": 51,
+    "Shooting": 67.14285714285714,
+    "Passing": 60,
+    "Defense": 62.857142857142854,
+    "Dribbling": 68.33333333333333
+  },
+  {
+    "Name": "Gabriel",
+    "Overall": "77",
+    "Pace": 70,
+    "Physical": 76,
+    "Shooting": 52.857142857142854,
+    "Passing": 47.142857142857146,
+    "Defense": 74.28571428571429,
+    "Dribbling": 60
+  },
+  {
+    "Name": "Benjamin White",
+    "Overall": "77",
+    "Pace": 70,
+    "Physical": 68,
+    "Shooting": 56.42857142857143,
+    "Passing": 52.142857142857146,
+    "Defense": 76.42857142857143,
+    "Dribbling": 65
+  },
+  {
+    "Name": "William Saliba",
+    "Overall": "77",
+    "Pace": 70,
+    "Physical": 76,
+    "Shooting": 60,
+    "Passing": 52.857142857142854,
+    "Defense": 72.14285714285714,
+    "Dribbling": 65
+  },
+  {
+    "Name": "Yves Bissouma",
+    "Overall": "77",
+    "Pace": 75,
+    "Physical": 70,
+    "Shooting": 65.71428571428571,
+    "Passing": 62.857142857142854,
+    "Defense": 71.42857142857143,
+    "Dribbling": 73.33333333333333
+  },
+  {
+    "Name": "Cristian Romero",
+    "Overall": "77",
+    "Pace": 65,
+    "Physical": 72,
+    "Shooting": 57.142857142857146,
+    "Passing": 48.57142857142857,
+    "Defense": 77.85714285714286,
+    "Dribbling": 60
+  },
+  {
+    "Name": "Roberto Firmino",
+    "Overall": "77",
+    "Pace": 62.5,
+    "Physical": 74,
+    "Shooting": 64.28571428571429,
+    "Passing": 65,
+    "Defense": 63.57142857142857,
+    "Dribbling": 70
+  },
+  {
+    "Name": "Nathan Aké",
+    "Overall": "77",
+    "Pace": 77.5,
+    "Physical": 69,
+    "Shooting": 56.42857142857143,
+    "Passing": 52.857142857142854,
+    "Defense": 73.57142857142857,
+    "Dribbling": 71.66666666666667
+  },
+  {
+    "Name": "Cody Gakpo",
+    "Overall": "77",
+    "Pace": 72.5,
+    "Physical": 62,
+    "Shooting": 58.57142857142857,
+    "Passing": 63.57142857142857,
+    "Defense": 47.857142857142854,
+    "Dribbling": 76.66666666666667
+  },
+  {
+    "Name": "Ibrahima Konaté",
+    "Overall": "77",
+    "Pace": 75,
+    "Physical": 77,
+    "Shooting": 53.57142857142857,
+    "Passing": 45.71428571428571,
+    "Defense": 72.14285714285714,
+    "Dribbling": 65
+  },
+  {
+    "Name": "Rúben Neves",
+    "Overall": "77",
+    "Pace": 57.5,
+    "Physical": 63,
+    "Shooting": 72.14285714285714,
+    "Passing": 72.14285714285714,
+    "Defense": 65.71428571428571,
+    "Dribbling": 63.33333333333333
+  },
+  {
+    "Name": "Sven Botman",
+    "Overall": "77",
+    "Pace": 60,
+    "Physical": 72,
+    "Shooting": 55.71428571428571,
+    "Passing": 52.857142857142854,
+    "Defense": 77.14285714285714,
+    "Dribbling": 51.66666666666667
+  },
+  {
+    "Name": "Leandro Trossard",
+    "Overall": "76",
+    "Pace": 77.5,
+    "Physical": 51,
+    "Shooting": 63.57142857142857,
+    "Passing": 63.57142857142857,
+    "Defense": 45,
+    "Dribbling": 73.33333333333333
+  },
+  {
+    "Name": "Jordan Henderson",
+    "Overall": "76",
+    "Pace": 67.5,
+    "Physical": 71,
+    "Shooting": 61.42857142857143,
+    "Passing": 65.71428571428571,
+    "Defense": 70,
+    "Dribbling": 61.66666666666667
+  },
+  {
+    "Name": "Kalvin Phillips",
+    "Overall": "76",
+    "Pace": 67.5,
+    "Physical": 74,
+    "Shooting": 61.42857142857143,
+    "Passing": 65,
+    "Defense": 69.28571428571429,
+    "Dribbling": 61.66666666666667
+  },
+  {
+    "Name": "Kieran Tierney",
+    "Overall": "76",
+    "Pace": 72.5,
+    "Physical": 66,
+    "Shooting": 57.857142857142854,
+    "Passing": 62.142857142857146,
+    "Defense": 65.71428571428571,
+    "Dribbling": 73.33333333333333
+  },
+  {
+    "Name": "Wilfried Zaha",
+    "Overall": "76",
+    "Pace": 75,
+    "Physical": 69,
+    "Shooting": 64.28571428571429,
+    "Passing": 55,
+    "Defense": 47.142857142857146,
+    "Dribbling": 78.33333333333333
+  },
+  {
+    "Name": "Aaron Ramsdale",
+    "Overall": "76",
+    "Pace": 70,
+    "Physical": 51,
+    "Shooting": 69.28571428571429,
+    "Passing": 62.857142857142854,
+    "Defense": 73.57142857142857,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Ivan Perišić",
+    "Overall": "76",
+    "Pace": 65,
+    "Physical": 71,
+    "Shooting": 65.71428571428571,
+    "Passing": 65,
+    "Defense": 64.28571428571429,
+    "Dribbling": 68.33333333333333
+  },
+  {
+    "Name": "Arnaut Danjuma",
+    "Overall": "76",
+    "Pace": 82.5,
+    "Physical": 60,
+    "Shooting": 57.142857142857146,
+    "Passing": 65.71428571428571,
+    "Defense": 50.71428571428571,
+    "Dribbling": 80
+  },
+  {
+    "Name": "Wesley Fofana",
+    "Overall": "76",
+    "Pace": 77.5,
+    "Physical": 72,
+    "Shooting": 53.57142857142857,
+    "Passing": 55,
+    "Defense": 71.42857142857143,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Alexander Isak",
+    "Overall": "76",
+    "Pace": 82.5,
+    "Physical": 71,
+    "Shooting": 60.71428571428571,
+    "Passing": 53.57142857142857,
+    "Defense": 49.28571428571429,
+    "Dribbling": 78.33333333333333
+  },
+  {
+    "Name": "Youri Tielemans",
+    "Overall": "75",
+    "Pace": 55,
+    "Physical": 59,
+    "Shooting": 70,
+    "Passing": 69.28571428571429,
+    "Defense": 61.42857142857143,
+    "Dribbling": 61.66666666666667
+  },
+  {
+    "Name": "Diego Carlos",
+    "Overall": "75",
+    "Pace": 67.5,
+    "Physical": 80,
+    "Shooting": 57.142857142857146,
+    "Passing": 45.71428571428571,
+    "Defense": 74.28571428571429,
+    "Dribbling": 53.33333333333333
+  },
+  {
+    "Name": "Jadon Sancho",
+    "Overall": "75",
+    "Pace": 75,
+    "Physical": 55,
+    "Shooting": 58.57142857142857,
+    "Passing": 67.14285714285714,
+    "Defense": 45,
+    "Dribbling": 83.33333333333334
+  },
+  {
+    "Name": "Dominic Calvert-Lewin",
+    "Overall": "75",
+    "Pace": 80,
+    "Physical": 74,
+    "Shooting": 60,
+    "Passing": 51.42857142857143,
+    "Defense": 55,
+    "Dribbling": 68.33333333333333
+  },
+  {
+    "Name": "Hakim Ziyech",
+    "Overall": "75",
+    "Pace": 67.5,
+    "Physical": 61,
+    "Shooting": 58.57142857142857,
+    "Passing": 70.71428571428571,
+    "Defense": 45.71428571428571,
+    "Dribbling": 75
+  },
+  {
+    "Name": "Pedro Porro",
+    "Overall": "75",
+    "Pace": 77.5,
+    "Physical": 65,
+    "Shooting": 57.857142857142854,
+    "Passing": 68.57142857142857,
+    "Defense": 53.57142857142857,
+    "Dribbling": 78.33333333333333
+  },
+  {
+    "Name": "Matheus Nunes",
+    "Overall": "75",
+    "Pace": 70,
+    "Physical": 72,
+    "Shooting": 64.28571428571429,
+    "Passing": 63.57142857142857,
+    "Defense": 62.142857142857146,
+    "Dribbling": 70
+  },
+  {
+    "Name": "Allan Saint-Maximin",
+    "Overall": "75",
+    "Pace": 82.5,
+    "Physical": 59,
+    "Shooting": 51.42857142857143,
+    "Passing": 58.57142857142857,
+    "Defense": 35.714285714285715,
+    "Dribbling": 85
+  },
+  {
+    "Name": "Christian Pulisic",
+    "Overall": "75",
+    "Pace": 77.5,
+    "Physical": 47,
+    "Shooting": 57.857142857142854,
+    "Passing": 59.28571428571429,
+    "Defense": 48.57142857142857,
+    "Dribbling": 81.66666666666666
+  },
+  {
+    "Name": "Lisandro Martínez",
+    "Overall": "75",
+    "Pace": 70,
+    "Physical": 70,
+    "Shooting": 57.857142857142854,
+    "Passing": 57.857142857142854,
+    "Defense": 72.85714285714286,
+    "Dribbling": 63.33333333333333
+  },
+  {
+    "Name": "Julián Álvarez",
+    "Overall": "75",
+    "Pace": 70,
+    "Physical": 64,
+    "Shooting": 65,
+    "Passing": 62.142857142857146,
+    "Defense": 50,
+    "Dribbling": 70
+  },
+  {
+    "Name": "Joelinton",
+    "Overall": "75",
+    "Pace": 62.5,
+    "Physical": 76,
+    "Shooting": 62.142857142857146,
+    "Passing": 53.57142857142857,
+    "Defense": 66.42857142857143,
+    "Dribbling": 61.66666666666667
+  },
+  {
+    "Name": "Callum Wilson",
+    "Overall": "75",
+    "Pace": 80,
+    "Physical": 67,
+    "Shooting": 66.42857142857143,
+    "Passing": 44.28571428571429,
+    "Defense": 51.42857142857143,
+    "Dribbling": 71.66666666666667
+  },
+  {
+    "Name": "Jordan Pickford",
+    "Overall": "75",
+    "Pace": 72.5,
+    "Physical": 60,
+    "Shooting": 70,
+    "Passing": 65.71428571428571,
+    "Defense": 65.71428571428571,
+    "Dribbling": 63.33333333333333
+  },
+  {
+    "Name": "Álex Moreno",
+    "Overall": "75",
+    "Pace": 82.5,
+    "Physical": 65,
+    "Shooting": 52.142857142857146,
+    "Passing": 57.142857142857146,
+    "Defense": 53.57142857142857,
+    "Dribbling": 76.66666666666667
+  },
+  {
+    "Name": "Miguel Almirón",
+    "Overall": "75",
+    "Pace": 82.5,
+    "Physical": 58,
+    "Shooting": 58.57142857142857,
+    "Passing": 55,
+    "Defense": 55,
+    "Dribbling": 76.66666666666667
+  },
+  {
+    "Name": "Granit Xhaka",
+    "Overall": "75",
+    "Pace": 55,
+    "Physical": 71,
+    "Shooting": 62.142857142857146,
+    "Passing": 70,
+    "Defense": 60,
+    "Dribbling": 53.33333333333333
+  },
+  {
+    "Name": "Philippe Coutinho",
+    "Overall": "75",
+    "Pace": 62.5,
+    "Physical": 52,
+    "Shooting": 60,
+    "Passing": 72.14285714285714,
+    "Defense": 44.28571428571429,
+    "Dribbling": 78.33333333333333
+  },
+  {
+    "Name": "Joe Gomez",
+    "Overall": "75",
+    "Pace": 80,
+    "Physical": 73,
+    "Shooting": 47.142857142857146,
+    "Passing": 49.28571428571429,
+    "Defense": 70.71428571428571,
+    "Dribbling": 70
+  },
+  {
+    "Name": "Kostas Tsimikas",
+    "Overall": "75",
+    "Pace": 75,
+    "Physical": 65,
+    "Shooting": 60,
+    "Passing": 69.28571428571429,
+    "Defense": 65,
+    "Dribbling": 73.33333333333333
+  },
+  {
+    "Name": "Marc Cucurella",
+    "Overall": "75",
+    "Pace": 72.5,
+    "Physical": 62,
+    "Shooting": 57.857142857142854,
+    "Passing": 60,
+    "Defense": 62.857142857142854,
+    "Dribbling": 70
+  },
+  {
+    "Name": "João Moutinho",
+    "Overall": "75",
+    "Pace": 47.5,
+    "Physical": 60,
+    "Shooting": 68.57142857142857,
+    "Passing": 72.85714285714286,
+    "Defense": 65,
+    "Dribbling": 61.66666666666667
+  },
+  {
+    "Name": "Alexis Mac Allister",
+    "Overall": "75",
+    "Pace": 65,
+    "Physical": 60,
+    "Shooting": 72.14285714285714,
+    "Passing": 69.28571428571429,
+    "Defense": 62.142857142857146,
+    "Dribbling": 61.66666666666667
+  },
+  {
+    "Name": "Lucas Paquetá",
+    "Overall": "75",
+    "Pace": 65,
+    "Physical": 65,
+    "Shooting": 62.857142857142854,
+    "Passing": 67.14285714285714,
+    "Defense": 57.142857142857146,
+    "Dribbling": 73.33333333333333
+  },
+  {
+    "Name": "Takehiro Tomiyasu",
+    "Overall": "75",
+    "Pace": 65,
+    "Physical": 71,
+    "Shooting": 57.142857142857146,
+    "Passing": 52.857142857142854,
+    "Defense": 68.57142857142857,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Jarrod Bowen",
+    "Overall": "74",
+    "Pace": 75,
+    "Physical": 56,
+    "Shooting": 65,
+    "Passing": 60,
+    "Defense": 49.28571428571429,
+    "Dribbling": 73.33333333333333
+  },
+  {
+    "Name": "Eric Dier",
+    "Overall": "74",
+    "Pace": 62.5,
+    "Physical": 67,
+    "Shooting": 59.28571428571429,
+    "Passing": 58.57142857142857,
+    "Defense": 72.14285714285714,
+    "Dribbling": 53.33333333333333
+  },
+  {
+    "Name": "Jonny Evans",
+    "Overall": "74",
+    "Pace": 55,
+    "Physical": 69,
+    "Shooting": 52.857142857142854,
+    "Passing": 47.857142857142854,
+    "Defense": 76.42857142857143,
+    "Dribbling": 55
+  },
+  {
+    "Name": "Marcel Sabitzer",
+    "Overall": "74",
+    "Pace": 65,
+    "Physical": 65,
+    "Shooting": 70,
+    "Passing": 64.28571428571429,
+    "Defense": 65,
+    "Dribbling": 60
+  },
+  {
+    "Name": "Richarlison",
+    "Overall": "74",
+    "Pace": 75,
+    "Physical": 68,
+    "Shooting": 57.857142857142854,
+    "Passing": 52.857142857142854,
+    "Defense": 54.28571428571429,
+    "Dribbling": 73.33333333333333
+  },
+  {
+    "Name": "Antony",
+    "Overall": "74",
+    "Pace": 75,
+    "Physical": 60,
+    "Shooting": 60.71428571428571,
+    "Passing": 63.57142857142857,
+    "Defense": 47.142857142857146,
+    "Dribbling": 78.33333333333333
+  },
+  {
+    "Name": "Pierre-Emile Højbjerg",
+    "Overall": "74",
+    "Pace": 62.5,
+    "Physical": 81,
+    "Shooting": 62.142857142857146,
+    "Passing": 64.28571428571429,
+    "Defense": 64.28571428571429,
+    "Dribbling": 55
+  },
+  {
+    "Name": "Ruben Loftus-Cheek",
+    "Overall": "74",
+    "Pace": 72.5,
+    "Physical": 70,
+    "Shooting": 66.42857142857143,
+    "Passing": 53.57142857142857,
+    "Defense": 60.71428571428571,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Emile Smith Rowe",
+    "Overall": "74",
+    "Pace": 75,
+    "Physical": 59,
+    "Shooting": 60,
+    "Passing": 60.71428571428571,
+    "Defense": 47.142857142857146,
+    "Dribbling": 76.66666666666667
+  },
+  {
+    "Name": "Aleksandar Mitrović",
+    "Overall": "74",
+    "Pace": 60,
+    "Physical": 80,
+    "Shooting": 60,
+    "Passing": 50,
+    "Defense": 59.28571428571429,
+    "Dribbling": 58.33333333333333
+  },
+  {
+    "Name": "Moisés Caicedo",
+    "Overall": "74",
+    "Pace": 75,
+    "Physical": 65,
+    "Shooting": 62.142857142857146,
+    "Passing": 53.57142857142857,
+    "Defense": 67.85714285714286,
+    "Dribbling": 76.66666666666667
+  },
+  {
+    "Name": "Neto",
+    "Overall": "74",
+    "Pace": 72.5,
+    "Physical": 65,
+    "Shooting": 64.28571428571429,
+    "Passing": 59.28571428571429,
+    "Defense": 62.142857142857146,
+    "Dribbling": 76.66666666666667
+  },
+  {
+    "Name": "Lewis Dunk",
+    "Overall": "74",
+    "Pace": 62.5,
+    "Physical": 68,
+    "Shooting": 56.42857142857143,
+    "Passing": 52.142857142857146,
+    "Defense": 73.57142857142857,
+    "Dribbling": 51.66666666666667
+  },
+  {
+    "Name": "Anthony Martial",
+    "Overall": "74",
+    "Pace": 77.5,
+    "Physical": 68,
+    "Shooting": 63.57142857142857,
+    "Passing": 49.28571428571429,
+    "Defense": 46.42857142857143,
+    "Dribbling": 78.33333333333333
+  },
+  {
+    "Name": "Alex Oxlade-Chamberlain",
+    "Overall": "73",
+    "Pace": 70,
+    "Physical": 63,
+    "Shooting": 62.857142857142854,
+    "Passing": 65,
+    "Defense": 57.142857142857146,
+    "Dribbling": 73.33333333333333
+  },
+  {
+    "Name": "Adama Traoré",
+    "Overall": "73",
+    "Pace": 100,
+    "Physical": 68,
+    "Shooting": 47.142857142857146,
+    "Passing": 49.28571428571429,
+    "Defense": 40.71428571428571,
+    "Dribbling": 88.33333333333334
+  },
+  {
+    "Name": "Denis Zakaria",
+    "Overall": "73",
+    "Pace": 72.5,
+    "Physical": 77,
+    "Shooting": 58.57142857142857,
+    "Passing": 53.57142857142857,
+    "Defense": 66.42857142857143,
+    "Dribbling": 68.33333333333333
+  },
+  {
+    "Name": "Tomáš Souček",
+    "Overall": "73",
+    "Pace": 62.5,
+    "Physical": 85,
+    "Shooting": 72.85714285714286,
+    "Passing": 41.42857142857143,
+    "Defense": 76.42857142857143,
+    "Dribbling": 56.66666666666667
+  },
+  {
+    "Name": "Harry Maguire",
+    "Overall": "73",
+    "Pace": 55,
+    "Physical": 81,
+    "Shooting": 59.28571428571429,
+    "Passing": 50,
+    "Defense": 72.14285714285714,
+    "Dribbling": 46.66666666666667
+  },
+  {
+    "Name": "Marc Guéhi",
+    "Overall": "73",
+    "Pace": 72.5,
+    "Physical": 72,
+    "Shooting": 55.71428571428571,
+    "Passing": 47.857142857142854,
+    "Defense": 67.85714285714286,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Nick Pope",
+    "Overall": "73",
+    "Pace": 60,
+    "Physical": 51,
+    "Shooting": 63.57142857142857,
+    "Passing": 65.71428571428571,
+    "Defense": 61.42857142857143,
+    "Dribbling": 58.33333333333333
+  },
+  {
+    "Name": "Kyle Walker-Peters",
+    "Overall": "73",
+    "Pace": 70,
+    "Physical": 66,
+    "Shooting": 56.42857142857143,
+    "Passing": 57.142857142857146,
+    "Defense": 61.42857142857143,
+    "Dribbling": 71.66666666666667
+  },
+  {
+    "Name": "Kaoru Mitoma",
+    "Overall": "73",
+    "Pace": 82.5,
+    "Physical": 58,
+    "Shooting": 57.142857142857146,
+    "Passing": 57.857142857142854,
+    "Defense": 49.28571428571429,
+    "Dribbling": 81.66666666666666
+  },
+  {
+    "Name": "Boubacar Kamara",
+    "Overall": "73",
+    "Pace": 72.5,
+    "Physical": 72,
+    "Shooting": 57.142857142857146,
+    "Passing": 53.57142857142857,
+    "Defense": 72.14285714285714,
+    "Dribbling": 68.33333333333333
+  },
+  {
+    "Name": "David De Gea",
+    "Overall": "73",
+    "Pace": 75,
+    "Physical": 67,
+    "Shooting": 50.71428571428571,
+    "Passing": 57.142857142857146,
+    "Defense": 57.857142857142854,
+    "Dribbling": 63.33333333333333
+  },
+  {
+    "Name": "César Azpilicueta",
+    "Overall": "73",
+    "Pace": 52.5,
+    "Physical": 61,
+    "Shooting": 57.857142857142854,
+    "Passing": 57.142857142857146,
+    "Defense": 71.42857142857143,
+    "Dribbling": 56.66666666666667
+  },
+  {
+    "Name": "Diogo Dalot",
+    "Overall": "73",
+    "Pace": 72.5,
+    "Physical": 69,
+    "Shooting": 55,
+    "Passing": 53.57142857142857,
+    "Defense": 62.857142857142854,
+    "Dribbling": 70
+  },
+  {
+    "Name": "Fábio Vieira",
+    "Overall": "73",
+    "Pace": 70,
+    "Physical": 56,
+    "Shooting": 63.57142857142857,
+    "Passing": 69.28571428571429,
+    "Defense": 50.71428571428571,
+    "Dribbling": 71.66666666666667
+  },
+  {
+    "Name": "Idrissa Gueye",
+    "Overall": "72",
+    "Pace": 67.5,
+    "Physical": 64,
+    "Shooting": 58.57142857142857,
+    "Passing": 56.42857142857143,
+    "Defense": 70.71428571428571,
+    "Dribbling": 63.33333333333333
+  },
+  {
+    "Name": "Fred",
+    "Overall": "72",
+    "Pace": 77.5,
+    "Physical": 67,
+    "Shooting": 52.857142857142854,
+    "Passing": 57.857142857142854,
+    "Defense": 60.71428571428571,
+    "Dribbling": 75
+  },
+  {
+    "Name": "Douglas Luiz",
+    "Overall": "72",
+    "Pace": 67.5,
+    "Physical": 67,
+    "Shooting": 62.857142857142854,
+    "Passing": 63.57142857142857,
+    "Defense": 64.28571428571429,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Joachim Andersen",
+    "Overall": "72",
+    "Pace": 62.5,
+    "Physical": 71,
+    "Shooting": 57.142857142857146,
+    "Passing": 59.28571428571429,
+    "Defense": 70.71428571428571,
+    "Dribbling": 55
+  },
+  {
+    "Name": "Ben Davies",
+    "Overall": "72",
+    "Pace": 62.5,
+    "Physical": 69,
+    "Shooting": 58.57142857142857,
+    "Passing": 62.142857142857146,
+    "Defense": 70,
+    "Dribbling": 61.66666666666667
+  },
+  {
+    "Name": "Harvey Barnes",
+    "Overall": "72",
+    "Pace": 77.5,
+    "Physical": 62,
+    "Shooting": 54.28571428571429,
+    "Passing": 57.857142857142854,
+    "Defense": 42.857142857142854,
+    "Dribbling": 76.66666666666667
+  },
+  {
+    "Name": "Trevoh Chalobah",
+    "Overall": "72",
+    "Pace": 75,
+    "Physical": 72,
+    "Shooting": 56.42857142857143,
+    "Passing": 55.71428571428571,
+    "Defense": 67.85714285714286,
+    "Dribbling": 61.66666666666667
+  },
+  {
+    "Name": "Conor Gallagher",
+    "Overall": "72",
+    "Pace": 70,
+    "Physical": 66,
+    "Shooting": 60,
+    "Passing": 60.71428571428571,
+    "Defense": 58.57142857142857,
+    "Dribbling": 70
+  },
+  {
+    "Name": "Solly March",
+    "Overall": "72",
+    "Pace": 70,
+    "Physical": 59,
+    "Shooting": 61.42857142857143,
+    "Passing": 62.857142857142854,
+    "Defense": 58.57142857142857,
+    "Dribbling": 68.33333333333333
+  },
+  {
+    "Name": "Harvey Elliott",
+    "Overall": "72",
+    "Pace": 62.5,
+    "Physical": 58,
+    "Shooting": 62.142857142857146,
+    "Passing": 69.28571428571429,
+    "Defense": 54.28571428571429,
+    "Dribbling": 70
+  },
+  {
+    "Name": "Nélson Semedo",
+    "Overall": "72",
+    "Pace": 80,
+    "Physical": 65,
+    "Shooting": 52.857142857142854,
+    "Passing": 57.857142857142854,
+    "Defense": 56.42857142857143,
+    "Dribbling": 78.33333333333333
+  },
+  {
+    "Name": "Kepa Arrizabalaga",
+    "Overall": "72",
+    "Pace": 67.5,
+    "Physical": 55,
+    "Shooting": 62.857142857142854,
+    "Passing": 62.142857142857146,
+    "Defense": 65,
+    "Dribbling": 68.33333333333333
+  },
+  {
+    "Name": "Lucas Digne",
+    "Overall": "72",
+    "Pace": 72.5,
+    "Physical": 64,
+    "Shooting": 57.857142857142854,
+    "Passing": 69.28571428571429,
+    "Defense": 62.857142857142854,
+    "Dribbling": 71.66666666666667
+  },
+  {
+    "Name": "Clément Lenglet",
+    "Overall": "72",
+    "Pace": 65,
+    "Physical": 70,
+    "Shooting": 57.142857142857146,
+    "Passing": 57.857142857142854,
+    "Defense": 72.14285714285714,
+    "Dribbling": 60
+  },
+  {
+    "Name": "James Milner",
+    "Overall": "72",
+    "Pace": 52.5,
+    "Physical": 72,
+    "Shooting": 62.142857142857146,
+    "Passing": 62.857142857142854,
+    "Defense": 62.857142857142854,
+    "Dribbling": 51.66666666666667
+  },
+  {
+    "Name": "Timothy Castagne",
+    "Overall": "72",
+    "Pace": 75,
+    "Physical": 64,
+    "Shooting": 50.71428571428571,
+    "Passing": 54.28571428571429,
+    "Defense": 57.142857142857146,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Leon Bailey",
+    "Overall": "72",
+    "Pace": 85,
+    "Physical": 58,
+    "Shooting": 55,
+    "Passing": 59.28571428571429,
+    "Defense": 39.285714285714285,
+    "Dribbling": 80
+  },
+  {
+    "Name": "Lucas Moura",
+    "Overall": "72",
+    "Pace": 75,
+    "Physical": 62,
+    "Shooting": 55,
+    "Passing": 54.28571428571429,
+    "Defense": 52.142857142857146,
+    "Dribbling": 73.33333333333333
+  },
+  {
+    "Name": "Arthur",
+    "Overall": "72",
+    "Pace": 62.5,
+    "Physical": 58,
+    "Shooting": 60.71428571428571,
+    "Passing": 62.857142857142854,
+    "Defense": 59.28571428571429,
+    "Dribbling": 75
+  },
+  {
+    "Name": "Matheus Cunha",
+    "Overall": "72",
+    "Pace": 75,
+    "Physical": 63,
+    "Shooting": 57.142857142857146,
+    "Passing": 60,
+    "Defense": 36.42857142857143,
+    "Dribbling": 78.33333333333333
+  },
+  {
+    "Name": "Andreas Pereira",
+    "Overall": "72",
+    "Pace": 70,
+    "Physical": 58,
+    "Shooting": 58.57142857142857,
+    "Passing": 70.71428571428571,
+    "Defense": 51.42857142857143,
+    "Dribbling": 70
+  },
+  {
+    "Name": "Ivan Toney",
+    "Overall": "72",
+    "Pace": 72.5,
+    "Physical": 71,
+    "Shooting": 69.28571428571429,
+    "Passing": 47.142857142857146,
+    "Defense": 52.857142857142854,
+    "Dribbling": 63.33333333333333
+  },
+  {
+    "Name": "Pierre-Emerick Aubameyang",
+    "Overall": "72",
+    "Pace": 70,
+    "Physical": 64,
+    "Shooting": 65.71428571428571,
+    "Passing": 51.42857142857143,
+    "Defense": 49.28571428571429,
+    "Dribbling": 70
+  },
+  {
+    "Name": "Emiliano Buendía",
+    "Overall": "72",
+    "Pace": 70,
+    "Physical": 60,
+    "Shooting": 58.57142857142857,
+    "Passing": 66.42857142857143,
+    "Defense": 44.28571428571429,
+    "Dribbling": 76.66666666666667
+  },
+  {
+    "Name": "Mykhaylo Mudryk",
+    "Overall": "72",
+    "Pace": 87.5,
+    "Physical": 55,
+    "Shooting": 56.42857142857143,
+    "Passing": 60,
+    "Defense": 42.142857142857146,
+    "Dribbling": 80
+  },
+  {
+    "Name": "Weston McKennie",
+    "Overall": "72",
+    "Pace": 70,
+    "Physical": 79,
+    "Shooting": 59.28571428571429,
+    "Passing": 50,
+    "Defense": 62.142857142857146,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Bernd Leno",
+    "Overall": "72",
+    "Pace": 70,
+    "Physical": 54,
+    "Shooting": 72.85714285714286,
+    "Passing": 60.71428571428571,
+    "Defense": 65,
+    "Dribbling": 70
+  },
+  {
+    "Name": "Adam Lallana",
+    "Overall": "71",
+    "Pace": 50,
+    "Physical": 52,
+    "Shooting": 57.857142857142854,
+    "Passing": 65,
+    "Defense": 58.57142857142857,
+    "Dribbling": 65
+  },
+  {
+    "Name": "Hugo Lloris",
+    "Overall": "71",
+    "Pace": 72.5,
+    "Physical": 60,
+    "Shooting": 72.85714285714286,
+    "Passing": 63.57142857142857,
+    "Defense": 67.85714285714286,
+    "Dribbling": 55
+  },
+  {
+    "Name": "Patson Daka",
+    "Overall": "71",
+    "Pace": 82.5,
+    "Physical": 64,
+    "Shooting": 62.142857142857146,
+    "Passing": 48.57142857142857,
+    "Defense": 54.28571428571429,
+    "Dribbling": 68.33333333333333
+  },
+  {
+    "Name": "Wilfred Ndidi",
+    "Overall": "71",
+    "Pace": 62.5,
+    "Physical": 71,
+    "Shooting": 57.857142857142854,
+    "Passing": 58.57142857142857,
+    "Defense": 71.42857142857143,
+    "Dribbling": 61.66666666666667
+  },
+  {
+    "Name": "Felipe",
+    "Overall": "71",
+    "Pace": 57.5,
+    "Physical": 74,
+    "Shooting": 56.42857142857143,
+    "Passing": 47.857142857142854,
+    "Defense": 72.85714285714286,
+    "Dribbling": 55
+  },
+  {
+    "Name": "Mislav Oršić",
+    "Overall": "71",
+    "Pace": 85,
+    "Physical": 60,
+    "Shooting": 64.28571428571429,
+    "Passing": 59.28571428571429,
+    "Defense": 45,
+    "Dribbling": 71.66666666666667
+  },
+  {
+    "Name": "Joe Willock",
+    "Overall": "71",
+    "Pace": 80,
+    "Physical": 62,
+    "Shooting": 58.57142857142857,
+    "Passing": 55,
+    "Defense": 52.857142857142854,
+    "Dribbling": 81.66666666666666
+  },
+  {
+    "Name": "Eddie Nketiah",
+    "Overall": "71",
+    "Pace": 82.5,
+    "Physical": 63,
+    "Shooting": 55,
+    "Passing": 42.857142857142854,
+    "Defense": 44.28571428571429,
+    "Dribbling": 80
+  },
+  {
+    "Name": "Curtis Jones",
+    "Overall": "71",
+    "Pace": 67.5,
+    "Physical": 59,
+    "Shooting": 62.857142857142854,
+    "Passing": 65,
+    "Defense": 55.71428571428571,
+    "Dribbling": 75
+  },
+  {
+    "Name": "Tyrone Mings",
+    "Overall": "71",
+    "Pace": 70,
+    "Physical": 73,
+    "Shooting": 50,
+    "Passing": 52.142857142857146,
+    "Defense": 67.85714285714286,
+    "Dribbling": 68.33333333333333
+  },
+  {
+    "Name": "Adam Webster",
+    "Overall": "71",
+    "Pace": 70,
+    "Physical": 65,
+    "Shooting": 53.57142857142857,
+    "Passing": 49.28571428571429,
+    "Defense": 69.28571428571429,
+    "Dribbling": 61.66666666666667
+  },
+  {
+    "Name": "Donny van de Beek",
+    "Overall": "71",
+    "Pace": 57.5,
+    "Physical": 66,
+    "Shooting": 61.42857142857143,
+    "Passing": 67.14285714285714,
+    "Defense": 57.142857142857146,
+    "Dribbling": 63.33333333333333
+  },
+  {
+    "Name": "Tyler Adams",
+    "Overall": "71",
+    "Pace": 67.5,
+    "Physical": 70,
+    "Shooting": 51.42857142857143,
+    "Passing": 50,
+    "Defense": 64.28571428571429,
+    "Dribbling": 65
+  },
+  {
+    "Name": "Pervis Estupiñán",
+    "Overall": "71",
+    "Pace": 75,
+    "Physical": 68,
+    "Shooting": 53.57142857142857,
+    "Passing": 58.57142857142857,
+    "Defense": 57.142857142857146,
+    "Dribbling": 65
+  },
+  {
+    "Name": "Victor Lindelöf",
+    "Overall": "71",
+    "Pace": 65,
+    "Physical": 72,
+    "Shooting": 56.42857142857143,
+    "Passing": 51.42857142857143,
+    "Defense": 71.42857142857143,
+    "Dribbling": 61.66666666666667
+  },
+  {
+    "Name": "Fabian Schär",
+    "Overall": "71",
+    "Pace": 57.5,
+    "Physical": 66,
+    "Shooting": 65,
+    "Passing": 58.57142857142857,
+    "Defense": 72.85714285714286,
+    "Dribbling": 53.33333333333333
+  },
+  {
+    "Name": "Wout Faes",
+    "Overall": "71",
+    "Pace": 60,
+    "Physical": 68,
+    "Shooting": 54.28571428571429,
+    "Passing": 56.42857142857143,
+    "Defense": 72.85714285714286,
+    "Dribbling": 58.33333333333333
+  },
+  {
+    "Name": "Emerson Royal",
+    "Overall": "71",
+    "Pace": 75,
+    "Physical": 66,
+    "Shooting": 57.857142857142854,
+    "Passing": 59.28571428571429,
+    "Defense": 61.42857142857143,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Caoimhin Kelleher",
+    "Overall": "71",
+    "Pace": 60,
+    "Physical": 59,
+    "Shooting": 65,
+    "Passing": 60.71428571428571,
+    "Defense": 63.57142857142857,
+    "Dribbling": 68.33333333333333
+  },
+  {
+    "Name": "Kiernan Dewsbury-Hall",
+    "Overall": "71",
+    "Pace": 60,
+    "Physical": 64,
+    "Shooting": 61.42857142857143,
+    "Passing": 64.28571428571429,
+    "Defense": 56.42857142857143,
+    "Dribbling": 70
+  },
+  {
+    "Name": "Tyrick Mitchell",
+    "Overall": "71",
+    "Pace": 77.5,
+    "Physical": 64,
+    "Shooting": 53.57142857142857,
+    "Passing": 56.42857142857143,
+    "Defense": 66.42857142857143,
+    "Dribbling": 71.66666666666667
+  },
+  {
+    "Name": "Oliver Skipp",
+    "Overall": "71",
+    "Pace": 67.5,
+    "Physical": 67,
+    "Shooting": 58.57142857142857,
+    "Passing": 50.71428571428571,
+    "Defense": 67.85714285714286,
+    "Dribbling": 58.33333333333333
+  },
+  {
+    "Name": "Ollie Watkins",
+    "Overall": "71",
+    "Pace": 72.5,
+    "Physical": 71,
+    "Shooting": 52.142857142857146,
+    "Passing": 49.28571428571429,
+    "Defense": 45.71428571428571,
+    "Dribbling": 71.66666666666667
+  },
+  {
+    "Name": "Ebere Eze",
+    "Overall": "71",
+    "Pace": 65,
+    "Physical": 64,
+    "Shooting": 64.28571428571429,
+    "Passing": 64.28571428571429,
+    "Defense": 45.71428571428571,
+    "Dribbling": 75
+  },
+  {
+    "Name": "Joël Veltman",
+    "Overall": "71",
+    "Pace": 60,
+    "Physical": 66,
+    "Shooting": 56.42857142857143,
+    "Passing": 52.142857142857146,
+    "Defense": 75,
+    "Dribbling": 56.66666666666667
+  },
+  {
+    "Name": "Illan Meslier",
+    "Overall": "71",
+    "Pace": 72.5,
+    "Physical": 55,
+    "Shooting": 67.85714285714286,
+    "Passing": 62.142857142857146,
+    "Defense": 62.142857142857146,
+    "Dribbling": 68.33333333333333
+  },
+  {
+    "Name": "Kristoffer Ajer",
+    "Overall": "71",
+    "Pace": 67.5,
+    "Physical": 71,
+    "Shooting": 60.71428571428571,
+    "Passing": 52.857142857142854,
+    "Defense": 67.85714285714286,
+    "Dribbling": 60
+  },
+  {
+    "Name": "Luis Sinisterra",
+    "Overall": "71",
+    "Pace": 80,
+    "Physical": 62,
+    "Shooting": 52.857142857142854,
+    "Passing": 57.142857142857146,
+    "Defense": 42.857142857142854,
+    "Dribbling": 80
+  },
+  {
+    "Name": "Jamie Vardy",
+    "Overall": "70",
+    "Pace": 75,
+    "Physical": 61,
+    "Shooting": 65,
+    "Passing": 50.71428571428571,
+    "Defense": 53.57142857142857,
+    "Dribbling": 65
+  },
+  {
+    "Name": "Vicente Guaita",
+    "Overall": "70",
+    "Pace": 67.5,
+    "Physical": 54,
+    "Shooting": 61.42857142857143,
+    "Passing": 65.71428571428571,
+    "Defense": 67.85714285714286,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Tetê",
+    "Overall": "70",
+    "Pace": 80,
+    "Physical": 60,
+    "Shooting": 58.57142857142857,
+    "Passing": 59.28571428571429,
+    "Defense": 45.71428571428571,
+    "Dribbling": 76.66666666666667
+  },
+  {
+    "Name": "Duje Ćaleta-Car",
+    "Overall": "70",
+    "Pace": 55,
+    "Physical": 74,
+    "Shooting": 57.857142857142854,
+    "Passing": 47.142857142857146,
+    "Defense": 71.42857142857143,
+    "Dribbling": 48.33333333333333
+  },
+  {
+    "Name": "Danny Ings",
+    "Overall": "70",
+    "Pace": 67.5,
+    "Physical": 67,
+    "Shooting": 64.28571428571429,
+    "Passing": 54.28571428571429,
+    "Defense": 58.57142857142857,
+    "Dribbling": 68.33333333333333
+  },
+  {
+    "Name": "David Raya",
+    "Overall": "70",
+    "Pace": 70,
+    "Physical": 50,
+    "Shooting": 70,
+    "Passing": 62.857142857142854,
+    "Defense": 64.28571428571429,
+    "Dribbling": 65
+  },
+  {
+    "Name": "Antonee Robinson",
+    "Overall": "70",
+    "Pace": 85,
+    "Physical": 69,
+    "Shooting": 48.57142857142857,
+    "Passing": 50,
+    "Defense": 57.857142857142854,
+    "Dribbling": 71.66666666666667
+  },
+  {
+    "Name": "James Justin",
+    "Overall": "70",
+    "Pace": 75,
+    "Physical": 63,
+    "Shooting": 48.57142857142857,
+    "Passing": 54.28571428571429,
+    "Defense": 61.42857142857143,
+    "Dribbling": 68.33333333333333
+  },
+  {
+    "Name": "Ezri Konsa",
+    "Overall": "70",
+    "Pace": 70,
+    "Physical": 71,
+    "Shooting": 48.57142857142857,
+    "Passing": 49.28571428571429,
+    "Defense": 70,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Matty Cash",
+    "Overall": "70",
+    "Pace": 70,
+    "Physical": 66,
+    "Shooting": 57.857142857142854,
+    "Passing": 55.71428571428571,
+    "Defense": 60,
+    "Dribbling": 68.33333333333333
+  },
+  {
+    "Name": "Robert Sánchez",
+    "Overall": "70",
+    "Pace": 62.5,
+    "Physical": 59,
+    "Shooting": 62.142857142857146,
+    "Passing": 61.42857142857143,
+    "Defense": 61.42857142857143,
+    "Dribbling": 65
+  },
+  {
+    "Name": "Wout Weghorst",
+    "Overall": "70",
+    "Pace": 52.5,
+    "Physical": 79,
+    "Shooting": 62.857142857142854,
+    "Passing": 42.142857142857146,
+    "Defense": 59.28571428571429,
+    "Dribbling": 55
+  },
+  {
+    "Name": "Gianluca Scamacca",
+    "Overall": "70",
+    "Pace": 60,
+    "Physical": 77,
+    "Shooting": 63.57142857142857,
+    "Passing": 47.142857142857146,
+    "Defense": 48.57142857142857,
+    "Dribbling": 56.66666666666667
+  },
+  {
+    "Name": "Hamed Traoré",
+    "Overall": "70",
+    "Pace": 65,
+    "Physical": 55,
+    "Shooting": 60,
+    "Passing": 61.42857142857143,
+    "Defense": 44.28571428571429,
+    "Dribbling": 73.33333333333333
+  },
+  {
+    "Name": "Saïd Benrahma",
+    "Overall": "70",
+    "Pace": 70,
+    "Physical": 57,
+    "Shooting": 56.42857142857143,
+    "Passing": 62.142857142857146,
+    "Defense": 42.857142857142854,
+    "Dribbling": 76.66666666666667
+  },
+  {
+    "Name": "John McGinn",
+    "Overall": "70",
+    "Pace": 67.5,
+    "Physical": 70,
+    "Shooting": 60.71428571428571,
+    "Passing": 61.42857142857143,
+    "Defense": 56.42857142857143,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Mohammed Salisu",
+    "Overall": "70",
+    "Pace": 70,
+    "Physical": 71,
+    "Shooting": 52.142857142857146,
+    "Passing": 50,
+    "Defense": 71.42857142857143,
+    "Dribbling": 60
+  },
+  {
+    "Name": "Tim Ream",
+    "Overall": "70",
+    "Pace": 62.5,
+    "Physical": 72,
+    "Shooting": 50,
+    "Passing": 50.71428571428571,
+    "Defense": 67.85714285714286,
+    "Dribbling": 58.33333333333333
+  },
+  {
+    "Name": "Matt Turner",
+    "Overall": "70",
+    "Pace": 67.5,
+    "Physical": 48,
+    "Shooting": 60.71428571428571,
+    "Passing": 53.57142857142857,
+    "Defense": 57.857142857142854,
+    "Dribbling": 55
+  },
+  {
+    "Name": "Davinson Sánchez",
+    "Overall": "70",
+    "Pace": 75,
+    "Physical": 73,
+    "Shooting": 55,
+    "Passing": 52.857142857142854,
+    "Defense": 64.28571428571429,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Remo Freuler",
+    "Overall": "70",
+    "Pace": 62.5,
+    "Physical": 67,
+    "Shooting": 62.142857142857146,
+    "Passing": 57.857142857142854,
+    "Defense": 62.857142857142854,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Raúl Jiménez",
+    "Overall": "70",
+    "Pace": 65,
+    "Physical": 68,
+    "Shooting": 69.28571428571429,
+    "Passing": 50,
+    "Defense": 57.142857142857146,
+    "Dribbling": 63.33333333333333
+  },
+  {
+    "Name": "Łukasz Fabiański",
+    "Overall": "70",
+    "Pace": 62.5,
+    "Physical": 55,
+    "Shooting": 67.14285714285714,
+    "Passing": 60,
+    "Defense": 65,
+    "Dribbling": 71.66666666666667
+  },
+  {
+    "Name": "Mohamed Elneny",
+    "Overall": "70",
+    "Pace": 60,
+    "Physical": 77,
+    "Shooting": 64.28571428571429,
+    "Passing": 54.28571428571429,
+    "Defense": 67.85714285714286,
+    "Dribbling": 58.33333333333333
+  },
+  {
+    "Name": "Kelechi Iheanacho",
+    "Overall": "70",
+    "Pace": 70,
+    "Physical": 69,
+    "Shooting": 65,
+    "Passing": 45.71428571428571,
+    "Defense": 48.57142857142857,
+    "Dribbling": 70
+  },
+  {
+    "Name": "Cheick Doucouré",
+    "Overall": "70",
+    "Pace": 65,
+    "Physical": 66,
+    "Shooting": 60,
+    "Passing": 57.857142857142854,
+    "Defense": 65,
+    "Dribbling": 63.33333333333333
+  },
+  {
+    "Name": "Manuel Lanzini",
+    "Overall": "70",
+    "Pace": 72.5,
+    "Physical": 51,
+    "Shooting": 64.28571428571429,
+    "Passing": 63.57142857142857,
+    "Defense": 47.142857142857146,
+    "Dribbling": 71.66666666666667
+  },
+  {
+    "Name": "Renan Lodi",
+    "Overall": "70",
+    "Pace": 72.5,
+    "Physical": 59,
+    "Shooting": 62.142857142857146,
+    "Passing": 67.14285714285714,
+    "Defense": 62.142857142857146,
+    "Dribbling": 75
+  },
+  {
+    "Name": "Christian Nørgaard",
+    "Overall": "70",
+    "Pace": 60,
+    "Physical": 69,
+    "Shooting": 57.857142857142854,
+    "Passing": 60,
+    "Defense": 69.28571428571429,
+    "Dribbling": 58.33333333333333
+  },
+  {
+    "Name": "Patrick Bamford",
+    "Overall": "70",
+    "Pace": 67.5,
+    "Physical": 65,
+    "Shooting": 63.57142857142857,
+    "Passing": 49.28571428571429,
+    "Defense": 63.57142857142857,
+    "Dribbling": 61.66666666666667
+  },
+  {
+    "Name": "Dan Burn",
+    "Overall": "70",
+    "Pace": 55,
+    "Physical": 70,
+    "Shooting": 52.857142857142854,
+    "Passing": 49.28571428571429,
+    "Defense": 72.14285714285714,
+    "Dribbling": 43.33333333333333
+  },
+  {
+    "Name": "Harrison Reed",
+    "Overall": "70",
+    "Pace": 75,
+    "Physical": 63,
+    "Shooting": 55,
+    "Passing": 60.71428571428571,
+    "Defense": 66.42857142857143,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Scott McTominay",
+    "Overall": "70",
+    "Pace": 67.5,
+    "Physical": 83,
+    "Shooting": 54.28571428571429,
+    "Passing": 48.57142857142857,
+    "Defense": 62.142857142857146,
+    "Dribbling": 65
+  },
+  {
+    "Name": "Rico Henry",
+    "Overall": "70",
+    "Pace": 80,
+    "Physical": 61,
+    "Shooting": 57.142857142857146,
+    "Passing": 56.42857142857143,
+    "Defense": 65,
+    "Dribbling": 71.66666666666667
+  },
+  {
+    "Name": "Tyrell Malacia",
+    "Overall": "70",
+    "Pace": 72.5,
+    "Physical": 59,
+    "Shooting": 54.28571428571429,
+    "Passing": 56.42857142857143,
+    "Defense": 64.28571428571429,
+    "Dribbling": 73.33333333333333
+  },
+  {
+    "Name": "Noni Madueke",
+    "Overall": "70",
+    "Pace": 77.5,
+    "Physical": 67,
+    "Shooting": 52.142857142857146,
+    "Passing": 52.857142857142854,
+    "Defense": 40,
+    "Dribbling": 78.33333333333333
+  },
+  {
+    "Name": "Bryan Mbeumo",
+    "Overall": "70",
+    "Pace": 75,
+    "Physical": 62,
+    "Shooting": 59.28571428571429,
+    "Passing": 54.28571428571429,
+    "Defense": 48.57142857142857,
+    "Dribbling": 70
+  },
+  {
+    "Name": "Benoît Badiashile",
+    "Overall": "70",
+    "Pace": 67.5,
+    "Physical": 78,
+    "Shooting": 52.142857142857146,
+    "Passing": 45,
+    "Defense": 69.28571428571429,
+    "Dribbling": 55
+  },
+  {
+    "Name": "José Sá",
+    "Overall": "70",
+    "Pace": 67.5,
+    "Physical": 51,
+    "Shooting": 71.42857142857143,
+    "Passing": 62.142857142857146,
+    "Defense": 68.57142857142857,
+    "Dribbling": 65
+  },
+  {
+    "Name": "Saša Lukić",
+    "Overall": "70",
+    "Pace": 65,
+    "Physical": 66,
+    "Shooting": 65,
+    "Passing": 57.857142857142854,
+    "Defense": 62.142857142857146,
+    "Dribbling": 65
+  },
+  {
+    "Name": "Martin Dúbravka",
+    "Overall": "70",
+    "Pace": 55,
+    "Physical": 52,
+    "Shooting": 61.42857142857143,
+    "Passing": 60,
+    "Defense": 62.857142857142854,
+    "Dribbling": 61.66666666666667
+  },
+  {
+    "Name": "Rodrigo",
+    "Overall": "70",
+    "Pace": 77.5,
+    "Physical": 63,
+    "Shooting": 58.57142857142857,
+    "Passing": 59.28571428571429,
+    "Defense": 40.71428571428571,
+    "Dribbling": 75
+  },
+  {
+    "Name": "Jonny",
+    "Overall": "70",
+    "Pace": 65,
+    "Physical": 63,
+    "Shooting": 57.142857142857146,
+    "Passing": 51.42857142857143,
+    "Defense": 69.28571428571429,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Marc Roca",
+    "Overall": "70",
+    "Pace": 52.5,
+    "Physical": 64,
+    "Shooting": 60,
+    "Passing": 65,
+    "Defense": 65,
+    "Dribbling": 56.66666666666667
+  },
+  {
+    "Name": "Pablo Fornals",
+    "Overall": "70",
+    "Pace": 60,
+    "Physical": 61,
+    "Shooting": 60.71428571428571,
+    "Passing": 64.28571428571429,
+    "Defense": 60,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Yerry Mina",
+    "Overall": "70",
+    "Pace": 57.5,
+    "Physical": 64,
+    "Shooting": 55.71428571428571,
+    "Passing": 47.142857142857146,
+    "Defense": 70,
+    "Dribbling": 56.66666666666667
+  },
+  {
+    "Name": "Alphonse Areola",
+    "Overall": "70",
+    "Pace": 70,
+    "Physical": 62,
+    "Shooting": 64.28571428571429,
+    "Passing": 59.28571428571429,
+    "Defense": 65.71428571428571,
+    "Dribbling": 75
+  },
+  {
+    "Name": "Pascal Groß",
+    "Overall": "70",
+    "Pace": 42.5,
+    "Physical": 62,
+    "Shooting": 70,
+    "Passing": 72.85714285714286,
+    "Defense": 62.142857142857146,
+    "Dribbling": 50
+  },
+  {
+    "Name": "Willian",
+    "Overall": "69",
+    "Pace": 62.5,
+    "Physical": 58,
+    "Shooting": 62.142857142857146,
+    "Passing": 64.28571428571429,
+    "Defense": 48.57142857142857,
+    "Dribbling": 71.66666666666667
+  },
+  {
+    "Name": "Nayef Aguerd",
+    "Overall": "69",
+    "Pace": 67.5,
+    "Physical": 66,
+    "Shooting": 61.42857142857143,
+    "Passing": 45,
+    "Defense": 73.57142857142857,
+    "Dribbling": 50
+  },
+  {
+    "Name": "Gustavo Scarpa",
+    "Overall": "69",
+    "Pace": 60,
+    "Physical": 55,
+    "Shooting": 65.71428571428571,
+    "Passing": 72.14285714285714,
+    "Defense": 50.71428571428571,
+    "Dribbling": 70
+  },
+  {
+    "Name": "Emerson",
+    "Overall": "69",
+    "Pace": 77.5,
+    "Physical": 64,
+    "Shooting": 51.42857142857143,
+    "Passing": 63.57142857142857,
+    "Defense": 58.57142857142857,
+    "Dribbling": 75
+  },
+  {
+    "Name": "Aaron Wan-Bissaka",
+    "Overall": "69",
+    "Pace": 80,
+    "Physical": 69,
+    "Shooting": 40.71428571428571,
+    "Passing": 43.57142857142857,
+    "Defense": 60,
+    "Dribbling": 78.33333333333333
+  },
+  {
+    "Name": "James Tarkowski",
+    "Overall": "69",
+    "Pace": 70,
+    "Physical": 67,
+    "Shooting": 56.42857142857143,
+    "Passing": 45,
+    "Defense": 72.85714285714286,
+    "Dribbling": 56.66666666666667
+  },
+  {
+    "Name": "Pedro Neto",
+    "Overall": "69",
+    "Pace": 82.5,
+    "Physical": 51,
+    "Shooting": 50,
+    "Passing": 57.142857142857146,
+    "Defense": 36.42857142857143,
+    "Dribbling": 78.33333333333333
+  },
+  {
+    "Name": "Michael Olise",
+    "Overall": "69",
+    "Pace": 72.5,
+    "Physical": 60,
+    "Shooting": 60,
+    "Passing": 67.85714285714286,
+    "Defense": 50,
+    "Dribbling": 76.66666666666667
+  },
+  {
+    "Name": "Odsonne Edouard",
+    "Overall": "69",
+    "Pace": 72.5,
+    "Physical": 69,
+    "Shooting": 62.142857142857146,
+    "Passing": 52.857142857142854,
+    "Defense": 50.71428571428571,
+    "Dribbling": 70
+  },
+  {
+    "Name": "Boubakary Soumaré",
+    "Overall": "69",
+    "Pace": 57.5,
+    "Physical": 72,
+    "Shooting": 60,
+    "Passing": 62.142857142857146,
+    "Defense": 65,
+    "Dribbling": 63.33333333333333
+  },
+  {
+    "Name": "Stuart Dallas",
+    "Overall": "69",
+    "Pace": 60,
+    "Physical": 67,
+    "Shooting": 58.57142857142857,
+    "Passing": 57.142857142857146,
+    "Defense": 56.42857142857143,
+    "Dribbling": 58.33333333333333
+  },
+  {
+    "Name": "Ricardo Pereira",
+    "Overall": "69",
+    "Pace": 72.5,
+    "Physical": 55,
+    "Shooting": 63.57142857142857,
+    "Passing": 58.57142857142857,
+    "Defense": 62.857142857142854,
+    "Dribbling": 70
+  },
+  {
+    "Name": "Maxwel Cornet",
+    "Overall": "69",
+    "Pace": 75,
+    "Physical": 62,
+    "Shooting": 55.71428571428571,
+    "Passing": 57.142857142857146,
+    "Defense": 53.57142857142857,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Daniel Amartey",
+    "Overall": "69",
+    "Pace": 60,
+    "Physical": 69,
+    "Shooting": 54.28571428571429,
+    "Passing": 53.57142857142857,
+    "Defense": 69.28571428571429,
+    "Dribbling": 58.33333333333333
+  },
+  {
+    "Name": "Jan Bednarek",
+    "Overall": "69",
+    "Pace": 65,
+    "Physical": 76,
+    "Shooting": 51.42857142857143,
+    "Passing": 42.142857142857146,
+    "Defense": 70,
+    "Dribbling": 56.66666666666667
+  },
+  {
+    "Name": "Albert Sambi Lokonga",
+    "Overall": "69",
+    "Pace": 67.5,
+    "Physical": 61,
+    "Shooting": 58.57142857142857,
+    "Passing": 59.28571428571429,
+    "Defense": 60.71428571428571,
+    "Dribbling": 65
+  },
+  {
+    "Name": "Vladimír Coufal",
+    "Overall": "69",
+    "Pace": 67.5,
+    "Physical": 70,
+    "Shooting": 57.142857142857146,
+    "Passing": 51.42857142857143,
+    "Defense": 68.57142857142857,
+    "Dribbling": 58.33333333333333
+  },
+  {
+    "Name": "Mikkel Damsgaard",
+    "Overall": "69",
+    "Pace": 75,
+    "Physical": 49,
+    "Shooting": 54.28571428571429,
+    "Passing": 59.28571428571429,
+    "Defense": 40.71428571428571,
+    "Dribbling": 73.33333333333333
+  },
+  {
+    "Name": "Conor Coady",
+    "Overall": "69",
+    "Pace": 60,
+    "Physical": 69,
+    "Shooting": 59.28571428571429,
+    "Passing": 53.57142857142857,
+    "Defense": 67.14285714285714,
+    "Dribbling": 60
+  },
+  {
+    "Name": "Jesse Lingard",
+    "Overall": "69",
+    "Pace": 75,
+    "Physical": 60,
+    "Shooting": 59.28571428571429,
+    "Passing": 46.42857142857143,
+    "Defense": 44.28571428571429,
+    "Dribbling": 73.33333333333333
+  },
+  {
+    "Name": "Alex Iwobi",
+    "Overall": "69",
+    "Pace": 70,
+    "Physical": 68,
+    "Shooting": 63.57142857142857,
+    "Passing": 57.142857142857146,
+    "Defense": 57.857142857142854,
+    "Dribbling": 71.66666666666667
+  },
+  {
+    "Name": "Tariq Lamptey",
+    "Overall": "69",
+    "Pace": 87.5,
+    "Physical": 45,
+    "Shooting": 49.28571428571429,
+    "Passing": 45.71428571428571,
+    "Defense": 49.28571428571429,
+    "Dribbling": 81.66666666666666
+  },
+  {
+    "Name": "Levi Colwill",
+    "Overall": "69",
+    "Pace": 75,
+    "Physical": 69,
+    "Shooting": 47.857142857142854,
+    "Passing": 46.42857142857143,
+    "Defense": 65,
+    "Dribbling": 63.33333333333333
+  },
+  {
+    "Name": "Dominic Solanke",
+    "Overall": "69",
+    "Pace": 70,
+    "Physical": 72,
+    "Shooting": 59.28571428571429,
+    "Passing": 50,
+    "Defense": 51.42857142857143,
+    "Dribbling": 63.33333333333333
+  },
+  {
+    "Name": "Dean Henderson",
+    "Overall": "69",
+    "Pace": 67.5,
+    "Physical": 57,
+    "Shooting": 64.28571428571429,
+    "Passing": 63.57142857142857,
+    "Defense": 65.71428571428571,
+    "Dribbling": 63.33333333333333
+  },
+  {
+    "Name": "Ryan Sessegnon",
+    "Overall": "69",
+    "Pace": 75,
+    "Physical": 62,
+    "Shooting": 59.28571428571429,
+    "Passing": 55.71428571428571,
+    "Defense": 56.42857142857143,
+    "Dribbling": 68.33333333333333
+  },
+  {
+    "Name": "Angelo Ogbonna",
+    "Overall": "69",
+    "Pace": 60,
+    "Physical": 72,
+    "Shooting": 53.57142857142857,
+    "Passing": 40.71428571428571,
+    "Defense": 72.14285714285714,
+    "Dribbling": 53.33333333333333
+  },
+  {
+    "Name": "Craig Dawson",
+    "Overall": "69",
+    "Pace": 52.5,
+    "Physical": 75,
+    "Shooting": 55.71428571428571,
+    "Passing": 43.57142857142857,
+    "Defense": 72.85714285714286,
+    "Dribbling": 48.33333333333333
+  },
+  {
+    "Name": "Amadou Onana",
+    "Overall": "69",
+    "Pace": 72.5,
+    "Physical": 71,
+    "Shooting": 55,
+    "Passing": 55.71428571428571,
+    "Defense": 62.142857142857146,
+    "Dribbling": 65
+  },
+  {
+    "Name": "Alejandro Garnacho",
+    "Overall": "69",
+    "Pace": 90,
+    "Physical": 55,
+    "Shooting": 45.71428571428571,
+    "Passing": 45.71428571428571,
+    "Defense": 28.571428571428573,
+    "Dribbling": 78.33333333333333
+  },
+  {
+    "Name": "Ben Mee",
+    "Overall": "68",
+    "Pace": 62.5,
+    "Physical": 66,
+    "Shooting": 47.857142857142854,
+    "Passing": 43.57142857142857,
+    "Defense": 72.85714285714286,
+    "Dribbling": 55
+  },
+  {
+    "Name": "Ashley Young",
+    "Overall": "68",
+    "Pace": 65,
+    "Physical": 57,
+    "Shooting": 58.57142857142857,
+    "Passing": 62.857142857142854,
+    "Defense": 56.42857142857143,
+    "Dribbling": 63.33333333333333
+  },
+  {
+    "Name": "Fraser Forster",
+    "Overall": "68",
+    "Pace": 52.5,
+    "Physical": 59,
+    "Shooting": 60.71428571428571,
+    "Passing": 52.857142857142854,
+    "Defense": 58.57142857142857,
+    "Dribbling": 68.33333333333333
+  },
+  {
+    "Name": "Taiwo Awoniyi",
+    "Overall": "68",
+    "Pace": 77.5,
+    "Physical": 69,
+    "Shooting": 54.28571428571429,
+    "Passing": 47.857142857142854,
+    "Defense": 43.57142857142857,
+    "Dribbling": 76.66666666666667
+  },
+  {
+    "Name": "Leander Dendoncker",
+    "Overall": "68",
+    "Pace": 62.5,
+    "Physical": 67,
+    "Shooting": 58.57142857142857,
+    "Passing": 52.857142857142854,
+    "Defense": 71.42857142857143,
+    "Dribbling": 61.66666666666667
+  },
+  {
+    "Name": "Michail Antonio",
+    "Overall": "68",
+    "Pace": 75,
+    "Physical": 68,
+    "Shooting": 55,
+    "Passing": 50,
+    "Defense": 55,
+    "Dribbling": 70
+  },
+  {
+    "Name": "Sam Johnstone",
+    "Overall": "68",
+    "Pace": 62.5,
+    "Physical": 49,
+    "Shooting": 63.57142857142857,
+    "Passing": 63.57142857142857,
+    "Defense": 66.42857142857143,
+    "Dribbling": 56.66666666666667
+  },
+  {
+    "Name": "Matthew Targett",
+    "Overall": "68",
+    "Pace": 70,
+    "Physical": 67,
+    "Shooting": 53.57142857142857,
+    "Passing": 60.71428571428571,
+    "Defense": 64.28571428571429,
+    "Dribbling": 65
+  },
+  {
+    "Name": "Rob Holding",
+    "Overall": "68",
+    "Pace": 65,
+    "Physical": 71,
+    "Shooting": 49.28571428571429,
+    "Passing": 47.142857142857146,
+    "Defense": 70,
+    "Dribbling": 60
+  },
+  {
+    "Name": "Max Kilman",
+    "Overall": "68",
+    "Pace": 70,
+    "Physical": 66,
+    "Shooting": 48.57142857142857,
+    "Passing": 57.142857142857146,
+    "Defense": 67.14285714285714,
+    "Dribbling": 66.66666666666667
+  },
+  {
+    "Name": "Jacob Ramsey",
+    "Overall": "68",
+    "Pace": 70,
+    "Physical": 63,
+    "Shooting": 58.57142857142857,
+    "Passing": 54.28571428571429,
+    "Defense": 53.57142857142857,
+    "Dribbling": 71.66666666666667
+  },
+  {
+    "Name": "Çağlar Söyüncü",
+    "Overall": "68",
+    "Pace": 65,
+    "Physical": 72,
+    "Shooting": 52.142857142857146,
+    "Passing": 46.42857142857143,
+    "Defense": 67.14285714285714,
+    "Dribbling": 61.66666666666667
+  },
+  {
+    "Name": "Jack Harrison",
+    "Overall": "68",
+    "Pace": 72.5,
+    "Physical": 62,
+    "Shooting": 50.71428571428571,
+    "Passing": 57.857142857142854,
+    "Defense": 38.57142857142857,
+    "Dribbling": 63.33333333333333
+  },
+  {
+    "Name": "Nampalys Mendy",
+    "Overall": "68",
+    "Pace": 62.5,
+    "Physical": 63,
+    "Shooting": 60.71428571428571,
+    "Passing": 55.71428571428571,
+    "Defense": 66.42857142857143,
+    "Dribbling": 65
+  },
+  {
+    "Name": "Ethan Pinnock",
+    "Overall": "68",
+    "Pace": 60,
+    "Physical": 75,
+    "Shooting": 52.142857142857146,
+    "Passing": 46.42857142857143,
+    "Defense": 70,
+    "Dribbling": 55
+  },
+  {
+    "Name": "Vitaly Janelt",
+    "Overall": "68",
+    "Pace": 60,
+    "Physical": 71,
+    "Shooting": 60,
+    "Passing": 58.57142857142857,
+    "Defense": 65,
+    "Dribbling": 61.66666666666667
+  },
+  {
+    "Name": "Tom Heaton",
+    "Overall": "68",
+    "Pace": 52.5,
+    "Physical": 60,
+    "Shooting": 65.71428571428571,
+    "Passing": 48.57142857142857,
+    "Defense": 60,
+    "Dribbling": 51.66666666666667
+  },
+  {
+    "Name": "Dennis Praet",
+    "Overall": "68",
+    "Pace": 60,
+    "Physical": 58,
+    "Shooting": 60.71428571428571,
+    "Passing": 62.857142857142854,
+    "Defense": 57.857142857142854,
+    "Dribbling": 63.33333333333333
+  },
+  {
+    "Name": "Mathias Jensen",
+    "Overall": "68",
+    "Pace": 55,
+    "Physical": 59,
+    "Shooting": 58.57142857142857,
+    "Passing": 65,
+    "Defense": 58.57142857142857,
+    "Dribbling": 60
+  },
+  {
+    "Name": "Aaron Cresswell",
+    "Overall": "68",
+    "Pace": 65,
+    "Physical": 61,
+    "Shooting": 64.28571428571429,
+    "Passing": 67.85714285714286,
+    "Defense": 65,
+    "Dribbling": 65
+  },
+  {
+    "Name": "Japhet Tanganga",
+    "Overall": "68",
+    "Pace": 67.5,
+    "Physical": 72,
+    "Shooting": 51.42857142857143,
+    "Passing": 47.857142857142854,
+    "Defense": 66.42857142857143,
+    "Dribbling": 58.33333333333333
+  },
+  {
+    "Name": "Ben Johnson",
+    "Overall": "68",
+    "Pace": 65,
+    "Physical": 62,
+    "Shooting": 55,
+    "Passing": 51.42857142857143,
+    "Defense": 67.85714285714286,
+    "Dribbling": 65
+  },
+  {
+    "Name": "Cole Palmer",
+    "Overall": "68",
+    "Pace": 72.5,
+    "Physical": 60,
+    "Shooting": 60.71428571428571,
+    "Passing": 60,
+    "Defense": 47.857142857142854,
+    "Dribbling": 71.66666666666667
+  },
+  {
+    "Name": "Armando Broja",
+    "Overall": "68",
+    "Pace": 80,
+    "Physical": 70,
+    "Shooting": 53.57142857142857,
+    "Passing": 43.57142857142857,
+    "Defense": 45.71428571428571,
+    "Dribbling": 71.66666666666667
+  },
+  {
+    "Name": "Fábio Carvalho",
+    "Overall": "68",
+    "Pace": 72.5,
+    "Physical": 53,
+    "Shooting": 55,
+    "Passing": 60.71428571428571,
+    "Defense": 45.71428571428571,
+    "Dribbling": 73.33333333333333
+  },
+  {
+    "Name": "Danny Ward",
+    "Overall": "68",
+    "Pace": 62.5,
+    "Physical": 59,
+    "Shooting": 56.42857142857143,
+    "Passing": 61.42857142857143,
+    "Defense": 57.857142857142854,
+    "Dribbling": 61.66666666666667
+  },
+  {
+    "Name": "Brennan Johnson",
+    "Overall": "68",
+    "Pace": 77.5,
+    "Physical": 56,
+    "Shooting": 57.857142857142854,
+    "Passing": 54.28571428571429,
+    "Defense": 44.28571428571429,
+    "Dribbling": 71.66666666666667
+  },
+  {
+    "Name": "Kenny Tete",
+    "Overall": "68",
+    "Pace": 72.5,
+    "Physical": 69,
+    "Shooting": 54.28571428571429,
+    "Passing": 54.28571428571429,
+    "Defense": 64.28571428571429,
+    "Dribbling": 60
+  }
+]

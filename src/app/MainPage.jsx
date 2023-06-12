@@ -1,7 +1,9 @@
 "use client";
 import Image from "next/image";
 import { Card } from "./components/Card";
-import { getBlogPosts } from "./fetch/getData";
+import { getBlogPosts, setFifaPlayers } from "./fetch/getData";
+import fifaStats from "./fifa.json";
+import fmStats from "./fm.json";
 import { IconBottomBg, IconTopBg } from "./images/bg";
 import IconChart from "./images/icon-chart.png";
 import IconMaths from "./images/icon-maths.png";
@@ -10,7 +12,28 @@ import IconPlayer from "./images/icon-player.png";
 import Logo from "./images/logo.png";
 
 export function MainPage() {
-  const { data } = getBlogPosts();
+  const { data: blogPost } = getBlogPosts();
+  const { mutate } = setFifaPlayers();
+
+  function handleButtonFifaClick() {
+    fifaStats.map((stat) =>
+      mutate({
+        Name: stat.name,
+        Overall: parseInt(stat.rating),
+        Pace: parseInt(stat.pace),
+        Shooting: parseInt(stat.shots),
+        Passing: parseInt(stat.pass),
+        Dribbling: parseInt(stat.dribble),
+        Defense: parseInt(stat.defensive),
+        Physical: parseInt(stat.physicality),
+      })
+    );
+  }
+
+  function handleButtonFmClick() {
+    console.log(fmStats);
+  }
+
   return (
     <div className="py-8 font-sans">
       <IconTopBg />
@@ -27,6 +50,7 @@ export function MainPage() {
         <a
           href="https://github.com/jakubfalowski/analizerpilkarski"
           className="bg-white text-green-500 rounded-md px-8 py-4 font-bold"
+          target="_blank"
         >
           Github aplikacji
         </a>
@@ -94,8 +118,8 @@ export function MainPage() {
       <IconBottomBg />
       <div className="container mx-auto">
         <h1 className="text-4xl font-bold mt-32">Najnowsze informacje</h1>
-        {data &&
-          data.map((item) => (
+        {blogPost &&
+          blogPost.map((item) => (
             <Card
               title={item.title}
               content={item.description}
@@ -103,6 +127,8 @@ export function MainPage() {
               imgUrl={item.imgUrl}
             />
           ))}
+        <button onClick={handleButtonFifaClick}>Dodaj FIFA</button>
+        <button onClick={handleButtonFmClick}>Dodaj FM</button>
       </div>
     </div>
   );
