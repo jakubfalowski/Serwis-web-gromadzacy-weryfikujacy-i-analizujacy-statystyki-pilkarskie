@@ -1,5 +1,4 @@
 import NextCors from "nextjs-cors";
-import dictPlayers from "../../app/components/dictPlayers";
 import Fifa from "./appfifa";
 
 export default async function FifaAPI(req, res) {
@@ -21,7 +20,7 @@ export default async function FifaAPI(req, res) {
     });
     const jsonStats = playerStats.map((typeStat) => {
       return {
-        name: dictPlayers(typeStat[0]),
+        name: typeStat[0],
         rating: typeStat[1],
         pace: typeStat[2],
         shots: typeStat[3],
@@ -29,6 +28,10 @@ export default async function FifaAPI(req, res) {
         dribble: typeStat[5],
         defensive: typeStat[6],
         physicality: typeStat[7],
+        faceUrl: typeStat[8],
+        nationUrl: typeStat[9],
+        Club: typeStat[10],
+        ClubUrl: typeStat[11],
       };
     });
     res.json(jsonStats);

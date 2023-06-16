@@ -1,1655 +1,5 @@
 [
   {
-    "name": "Patson Daka",
-    "rating": "77",
-    "pace": "90",
-    "shots": "78",
-    "pass": "60",
-    "dribble": "75",
-    "defensive": "24",
-    "physicality": "70"
-  },
-  {
-    "name": "Pascal Gros",
-    "rating": "77",
-    "pace": "50",
-    "shots": "74",
-    "pass": "81",
-    "dribble": "75",
-    "defensive": "58",
-    "physicality": "72"
-  },
-  {
-    "name": "Matt Doherty",
-    "rating": "77",
-    "pace": "68",
-    "shots": "65",
-    "pass": "73",
-    "dribble": "73",
-    "defensive": "74",
-    "physicality": "75"
-  },
-  {
-    "name": "Taiwo Awoniyi",
-    "rating": "77",
-    "pace": "83",
-    "shots": "76",
-    "pass": "59",
-    "dribble": "70",
-    "defensive": "32",
-    "physicality": "80"
-  },
-  {
-    "name": "Konstantinos Tsimikas",
-    "rating": "77",
-    "pace": "80",
-    "shots": "57",
-    "pass": "72",
-    "dribble": "75",
-    "defensive": "72",
-    "physicality": "75"
-  },
-  {
-    "name": "Joachim Andersen",
-    "rating": "77",
-    "pace": "52",
-    "shots": "50",
-    "pass": "68",
-    "dribble": "64",
-    "defensive": "77",
-    "physicality": "80"
-  },
-  {
-    "name": "Kelechi Iheanacho",
-    "rating": "77",
-    "pace": "73",
-    "shots": "79",
-    "pass": "70",
-    "dribble": "77",
-    "defensive": "38",
-    "physicality": "70"
-  },
-  {
-    "name": "Jack Harrison",
-    "rating": "77",
-    "pace": "80",
-    "shots": "72",
-    "pass": "71",
-    "dribble": "79",
-    "defensive": "49",
-    "physicality": "69"
-  },
-  {
-    "name": "Rodrigo",
-    "rating": "77",
-    "pace": "77",
-    "shots": "77",
-    "pass": "76",
-    "dribble": "78",
-    "defensive": "45",
-    "physicality": "69"
-  },
-  {
-    "name": "Daniel James",
-    "rating": "77",
-    "pace": "95",
-    "shots": "70",
-    "pass": "69",
-    "dribble": "76",
-    "defensive": "47",
-    "physicality": "68"
-  },
-  {
-    "name": "Rasmus Kristensen",
-    "rating": "77",
-    "pace": "80",
-    "shots": "67",
-    "pass": "71",
-    "dribble": "72",
-    "defensive": "73",
-    "physicality": "82"
-  },
-  {
-    "name": "Fabian Schar",
-    "rating": "77",
-    "pace": "51",
-    "shots": "67",
-    "pass": "70",
-    "dribble": "67",
-    "defensive": "78",
-    "physicality": "74"
-  },
-  {
-    "name": "Ivan Toney",
-    "rating": "77",
-    "pace": "78",
-    "shots": "76",
-    "pass": "63",
-    "dribble": "73",
-    "defensive": "49",
-    "physicality": "82"
-  },
-  {
-    "name": "Ben Godfrey",
-    "rating": "77",
-    "pace": "82",
-    "shots": "44",
-    "pass": "61",
-    "dribble": "65",
-    "defensive": "76",
-    "physicality": "80"
-  },
-  {
-    "name": "Alex Oxlade-Chamberlain",
-    "rating": "77",
-    "pace": "80",
-    "shots": "74",
-    "pass": "76",
-    "dribble": "81",
-    "defensive": "67",
-    "physicality": "74"
-  },
-  {
-    "name": "Daniel James",
-    "rating": "77",
-    "pace": "95",
-    "shots": "70",
-    "pass": "69",
-    "dribble": "76",
-    "defensive": "47",
-    "physicality": "68"
-  },
-  {
-    "name": "Hwang Hee Chan",
-    "rating": "77",
-    "pace": "81",
-    "shots": "75",
-    "pass": "70",
-    "dribble": "78",
-    "defensive": "28",
-    "physicality": "70"
-  },
-  {
-    "name": "Max Kilman",
-    "rating": "77",
-    "pace": "61",
-    "shots": "42",
-    "pass": "63",
-    "dribble": "63",
-    "defensive": "78",
-    "physicality": "78"
-  },
-  {
-    "name": "Deniz Undav",
-    "rating": "77",
-    "pace": "68",
-    "shots": "80",
-    "pass": "71",
-    "dribble": "75",
-    "defensive": "32",
-    "physicality": "76"
-  },
-  {
-    "name": "Bertrand Traore",
-    "rating": "76",
-    "pace": "77",
-    "shots": "72",
-    "pass": "73",
-    "dribble": "81",
-    "defensive": "45",
-    "physicality": "64"
-  },
-  {
-    "name": "Jan Bednarek",
-    "rating": "76",
-    "pace": "48",
-    "shots": "22",
-    "pass": "53",
-    "dribble": "55",
-    "defensive": "77",
-    "physicality": "78"
-  },
-  {
-    "name": "Tete",
-    "rating": "76",
-    "pace": "82",
-    "shots": "72",
-    "pass": "72",
-    "dribble": "79",
-    "defensive": "41",
-    "physicality": "56"
-  },
-  {
-    "name": "Chris Wood",
-    "rating": "76",
-    "pace": "59",
-    "shots": "77",
-    "pass": "60",
-    "dribble": "70",
-    "defensive": "40",
-    "physicality": "80"
-  },
-  {
-    "name": "Ryan Fraser",
-    "rating": "76",
-    "pace": "83",
-    "shots": "69",
-    "pass": "71",
-    "dribble": "80",
-    "defensive": "49",
-    "physicality": "61"
-  },
-  {
-    "name": "Mohamed Elyounoussi",
-    "rating": "76",
-    "pace": "77",
-    "shots": "74",
-    "pass": "71",
-    "dribble": "78",
-    "defensive": "55",
-    "physicality": "70"
-  },
-  {
-    "name": "Aaron Hickey",
-    "rating": "75",
-    "pace": "77",
-    "shots": "55",
-    "pass": "69",
-    "dribble": "73",
-    "defensive": "70",
-    "physicality": "58"
-  },
-  {
-    "name": "Rico Henry",
-    "rating": "75",
-    "pace": "90",
-    "shots": "40",
-    "pass": "59",
-    "dribble": "74",
-    "defensive": "70",
-    "physicality": "72"
-  },
-  {
-    "name": "Layvin Kurzawa",
-    "rating": "75",
-    "pace": "71",
-    "shots": "65",
-    "pass": "72",
-    "dribble": "76",
-    "defensive": "72",
-    "physicality": "69"
-  },
-  {
-    "name": "Joelinton",
-    "rating": "75",
-    "pace": "76",
-    "shots": "67",
-    "pass": "66",
-    "dribble": "76",
-    "defensive": "67",
-    "physicality": "84"
-  },
-  {
-    "name": "Philip Billing",
-    "rating": "75",
-    "pace": "58",
-    "shots": "71",
-    "pass": "71",
-    "dribble": "72",
-    "defensive": "72",
-    "physicality": "79"
-  },
-  {
-    "name": "Tom Davies",
-    "rating": "75",
-    "pace": "65",
-    "shots": "64",
-    "pass": "73",
-    "dribble": "75",
-    "defensive": "69",
-    "physicality": "70"
-  },
-  {
-    "name": "Marc Albrighton",
-    "rating": "75",
-    "pace": "65",
-    "shots": "68",
-    "pass": "76",
-    "dribble": "76",
-    "defensive": "61",
-    "physicality": "65"
-  },
-  {
-    "name": "Jannik Vestergaard",
-    "rating": "75",
-    "pace": "32",
-    "shots": "48",
-    "pass": "61",
-    "dribble": "49",
-    "defensive": "75",
-    "physicality": "77"
-  },
-  {
-    "name": "Tariq Lamptey",
-    "rating": "75",
-    "pace": "87",
-    "shots": "44",
-    "pass": "66",
-    "dribble": "76",
-    "defensive": "70",
-    "physicality": "49"
-  },
-  {
-    "name": "Karl Darlow",
-    "rating": "75",
-    "pace": "77",
-    "shots": "71",
-    "pass": "68",
-    "dribble": "78",
-    "defensive": "58",
-    "physicality": "74"
-  },
-  {
-    "name": "Asmir Begovic",
-    "rating": "75",
-    "pace": "75",
-    "shots": "77",
-    "pass": "73",
-    "dribble": "71",
-    "defensive": "43",
-    "physicality": "73"
-  },
-  {
-    "name": "Pontus Jansson",
-    "rating": "75",
-    "pace": "53",
-    "shots": "42",
-    "pass": "54",
-    "dribble": "62",
-    "defensive": "75",
-    "physicality": "79"
-  },
-  {
-    "name": "Marvelous Nakamba",
-    "rating": "75",
-    "pace": "62",
-    "shots": "49",
-    "pass": "62",
-    "dribble": "71",
-    "defensive": "74",
-    "physicality": "76"
-  },
-  {
-    "name": "Yoane Wissa",
-    "rating": "75",
-    "pace": "86",
-    "shots": "74",
-    "pass": "65",
-    "dribble": "76",
-    "defensive": "28",
-    "physicality": "68"
-  },
-  {
-    "name": "Armando Broja",
-    "rating": "75",
-    "pace": "76",
-    "shots": "74",
-    "pass": "54",
-    "dribble": "75",
-    "defensive": "29",
-    "physicality": "76"
-  },
-  {
-    "name": "Jamaal Lascelles",
-    "rating": "75",
-    "pace": "41",
-    "shots": "35",
-    "pass": "49",
-    "dribble": "53",
-    "defensive": "75",
-    "physicality": "75"
-  },
-  {
-    "name": "Solly March",
-    "rating": "75",
-    "pace": "73",
-    "shots": "67",
-    "pass": "74",
-    "dribble": "77",
-    "defensive": "67",
-    "physicality": "62"
-  },
-  {
-    "name": "Joe Aribo",
-    "rating": "75",
-    "pace": "80",
-    "shots": "68",
-    "pass": "72",
-    "dribble": "78",
-    "defensive": "68",
-    "physicality": "76"
-  },
-  {
-    "name": "Luke Thomas",
-    "rating": "75",
-    "pace": "75",
-    "shots": "42",
-    "pass": "66",
-    "dribble": "71",
-    "defensive": "71",
-    "physicality": "71"
-  },
-  {
-    "name": "Harrison Reed",
-    "rating": "75",
-    "pace": "69",
-    "shots": "57",
-    "pass": "72",
-    "dribble": "70",
-    "defensive": "72",
-    "physicality": "74"
-  },
-  {
-    "name": "Junior Firpo",
-    "rating": "75",
-    "pace": "75",
-    "shots": "62",
-    "pass": "70",
-    "dribble": "71",
-    "defensive": "72",
-    "physicality": "75"
-  },
-  {
-    "name": "Cedric",
-    "rating": "75",
-    "pace": "71",
-    "shots": "61",
-    "pass": "70",
-    "dribble": "75",
-    "defensive": "73",
-    "physicality": "64"
-  },
-  {
-    "name": "Ryan Sessegnon",
-    "rating": "75",
-    "pace": "82",
-    "shots": "65",
-    "pass": "72",
-    "dribble": "77",
-    "defensive": "68",
-    "physicality": "66"
-  },
-  {
-    "name": "Alex McCarthy",
-    "rating": "75",
-    "pace": "74",
-    "shots": "72",
-    "pass": "61",
-    "dribble": "80",
-    "defensive": "57",
-    "physicality": "72"
-  },
-  {
-    "name": "Sam Johnstone",
-    "rating": "75",
-    "pace": "77",
-    "shots": "72",
-    "pass": "68",
-    "dribble": "77",
-    "defensive": "42",
-    "physicality": "74"
-  },
-  {
-    "name": "Ryan Fredericks",
-    "rating": "75",
-    "pace": "91",
-    "shots": "51",
-    "pass": "66",
-    "dribble": "73",
-    "defensive": "69",
-    "physicality": "67"
-  },
-  {
-    "name": "Adam Lallana",
-    "rating": "75",
-    "pace": "61",
-    "shots": "70",
-    "pass": "77",
-    "dribble": "77",
-    "defensive": "62",
-    "physicality": "61"
-  },
-  {
-    "name": "Kristoffer Ajer",
-    "rating": "75",
-    "pace": "72",
-    "shots": "56",
-    "pass": "61",
-    "dribble": "70",
-    "defensive": "75",
-    "physicality": "81"
-  },
-  {
-    "name": "Brennan Johnson",
-    "rating": "75",
-    "pace": "88",
-    "shots": "72",
-    "pass": "67",
-    "dribble": "76",
-    "defensive": "41",
-    "physicality": "57"
-  },
-  {
-    "name": "Will Hughes",
-    "rating": "75",
-    "pace": "48",
-    "shots": "64",
-    "pass": "77",
-    "dribble": "76",
-    "defensive": "68",
-    "physicality": "63"
-  },
-  {
-    "name": "Jordan Ayew",
-    "rating": "75",
-    "pace": "74",
-    "shots": "73",
-    "pass": "69",
-    "dribble": "77",
-    "defensive": "55",
-    "physicality": "73"
-  },
-  {
-    "name": "Joel Robles",
-    "rating": "75",
-    "pace": "76",
-    "shots": "73",
-    "pass": "72",
-    "dribble": "77",
-    "defensive": "52",
-    "physicality": "73"
-  },
-  {
-    "name": "Mason Holgate",
-    "rating": "75",
-    "pace": "71",
-    "shots": "43",
-    "pass": "68",
-    "dribble": "68",
-    "defensive": "76",
-    "physicality": "76"
-  },
-  {
-    "name": "Calum Chambers",
-    "rating": "75",
-    "pace": "65",
-    "shots": "56",
-    "pass": "69",
-    "dribble": "68",
-    "defensive": "76",
-    "physicality": "73"
-  },
-  {
-    "name": "Dominic Solanke",
-    "rating": "75",
-    "pace": "71",
-    "shots": "74",
-    "pass": "64",
-    "dribble": "73",
-    "defensive": "28",
-    "physicality": "78"
-  },
-  {
-    "name": "Nathan Collins",
-    "rating": "75",
-    "pace": "71",
-    "shots": "30",
-    "pass": "54",
-    "dribble": "61",
-    "defensive": "76",
-    "physicality": "76"
-  },
-  {
-    "name": "Tino Livramento",
-    "rating": "75",
-    "pace": "83",
-    "shots": "47",
-    "pass": "65",
-    "dribble": "74",
-    "defensive": "70",
-    "physicality": "67"
-  },
-  {
-    "name": "Djed Spence",
-    "rating": "75",
-    "pace": "89",
-    "shots": "43",
-    "pass": "58",
-    "dribble": "74",
-    "defensive": "67",
-    "physicality": "63"
-  },
-  {
-    "name": "Anthony Gordon",
-    "rating": "75",
-    "pace": "80",
-    "shots": "69",
-    "pass": "72",
-    "dribble": "75",
-    "defensive": "36",
-    "physicality": "62"
-  },
-  {
-    "name": "Jacob Ramsey",
-    "rating": "75",
-    "pace": "75",
-    "shots": "74",
-    "pass": "71",
-    "dribble": "78",
-    "defensive": "67",
-    "physicality": "74"
-  },
-  {
-    "name": "Kevin De Bruyne",
-    "rating": "91",
-    "pace": "74",
-    "shots": "88",
-    "pass": "93",
-    "dribble": "87",
-    "defensive": "64",
-    "physicality": "77"
-  },
-  {
-    "name": "Mohamed Salah",
-    "rating": "90",
-    "pace": "90",
-    "shots": "89",
-    "pass": "82",
-    "dribble": "90",
-    "defensive": "45",
-    "physicality": "75"
-  },
-  {
-    "name": "Cristiano Ronaldo",
-    "rating": "90",
-    "pace": "81",
-    "shots": "92",
-    "pass": "78",
-    "dribble": "85",
-    "defensive": "34",
-    "physicality": "75"
-  },
-  {
-    "name": "Virgil van Dijk",
-    "rating": "90",
-    "pace": "81",
-    "shots": "60",
-    "pass": "71",
-    "dribble": "72",
-    "defensive": "91",
-    "physicality": "86"
-  },
-  {
-    "name": "Casemiro",
-    "rating": "89",
-    "pace": "63",
-    "shots": "73",
-    "pass": "75",
-    "dribble": "72",
-    "defensive": "87",
-    "physicality": "90"
-  },
-  {
-    "name": "Alisson",
-    "rating": "89",
-    "pace": "86",
-    "shots": "85",
-    "pass": "85",
-    "dribble": "89",
-    "defensive": "54",
-    "physicality": "90"
-  },
-  {
-    "name": "Harry Kane",
-    "rating": "89",
-    "pace": "68",
-    "shots": "91",
-    "pass": "83",
-    "dribble": "82",
-    "defensive": "47",
-    "physicality": "82"
-  },
-  {
-    "name": "Ederson",
-    "rating": "89",
-    "pace": "87",
-    "shots": "82",
-    "pass": "93",
-    "dribble": "88",
-    "defensive": "64",
-    "physicality": "88"
-  },
-  {
-    "name": "N'Golo Kante",
-    "rating": "89",
-    "pace": "72",
-    "shots": "66",
-    "pass": "74",
-    "dribble": "81",
-    "defensive": "87",
-    "physicality": "82"
-  },
-  {
-    "name": "Heung Min Son",
-    "rating": "89",
-    "pace": "88",
-    "shots": "89",
-    "pass": "82",
-    "dribble": "86",
-    "defensive": "42",
-    "physicality": "69"
-  },
-  {
-    "name": "Keylor Navas",
-    "rating": "88",
-    "pace": "89",
-    "shots": "84",
-    "pass": "75",
-    "dribble": "89",
-    "defensive": "54",
-    "physicality": "87"
-  },
-  {
-    "name": "Joao Cancelo",
-    "rating": "88",
-    "pace": "85",
-    "shots": "73",
-    "pass": "85",
-    "dribble": "85",
-    "defensive": "81",
-    "physicality": "73"
-  },
-  {
-    "name": "Ruben Dias",
-    "rating": "88",
-    "pace": "63",
-    "shots": "39",
-    "pass": "66",
-    "dribble": "68",
-    "defensive": "88",
-    "physicality": "88"
-  },
-  {
-    "name": "Bernardo Silva",
-    "rating": "88",
-    "pace": "77",
-    "shots": "78",
-    "pass": "84",
-    "dribble": "92",
-    "defensive": "61",
-    "physicality": "68"
-  },
-  {
-    "name": "Erling Haaland",
-    "rating": "88",
-    "pace": "89",
-    "shots": "91",
-    "pass": "65",
-    "dribble": "80",
-    "defensive": "49",
-    "physicality": "87"
-  },
-  {
-    "name": "Fabinho",
-    "rating": "87",
-    "pace": "66",
-    "shots": "69",
-    "pass": "78",
-    "dribble": "77",
-    "defensive": "86",
-    "physicality": "83"
-  },
-  {
-    "name": "Rodri",
-    "rating": "87",
-    "pace": "58",
-    "shots": "72",
-    "pass": "78",
-    "dribble": "79",
-    "defensive": "83",
-    "physicality": "84"
-  },
-  {
-    "name": "Andrew Robertson",
-    "rating": "87",
-    "pace": "80",
-    "shots": "61",
-    "pass": "81",
-    "dribble": "81",
-    "defensive": "82",
-    "physicality": "76"
-  },
-  {
-    "name": "Kalidou Koulibaly",
-    "rating": "87",
-    "pace": "82",
-    "shots": "33",
-    "pass": "59",
-    "dribble": "68",
-    "defensive": "88",
-    "physicality": "85"
-  },
-  {
-    "name": "Trent Alexander-Arnold",
-    "rating": "87",
-    "pace": "76",
-    "shots": "69",
-    "pass": "89",
-    "dribble": "80",
-    "defensive": "80",
-    "physicality": "73"
-  },
-  {
-    "name": "Hugo Lloris",
-    "rating": "87",
-    "pace": "88",
-    "shots": "83",
-    "pass": "74",
-    "dribble": "88",
-    "defensive": "61",
-    "physicality": "84"
-  },
-  {
-    "name": "De Gea",
-    "rating": "87",
-    "pace": "88",
-    "shots": "80",
-    "pass": "76",
-    "dribble": "89",
-    "defensive": "51",
-    "physicality": "84"
-  },
-  {
-    "name": "Bruno Fernandes",
-    "rating": "86",
-    "pace": "72",
-    "shots": "86",
-    "pass": "88",
-    "dribble": "81",
-    "defensive": "67",
-    "physicality": "76"
-  },
-  {
-    "name": "Riyad Mahrez",
-    "rating": "86",
-    "pace": "80",
-    "shots": "83",
-    "pass": "81",
-    "dribble": "90",
-    "defensive": "38",
-    "physicality": "60"
-  },
-  {
-    "name": "Thiago",
-    "rating": "86",
-    "pace": "61",
-    "shots": "72",
-    "pass": "87",
-    "dribble": "90",
-    "defensive": "72",
-    "physicality": "69"
-  },
-  {
-    "name": "Mason Mount",
-    "rating": "84",
-    "pace": "74",
-    "shots": "81",
-    "pass": "85",
-    "dribble": "82",
-    "defensive": "55",
-    "physicality": "67"
-  },
-  {
-    "name": "Mateo Kovacic",
-    "rating": "84",
-    "pace": "70",
-    "shots": "69",
-    "pass": "83",
-    "dribble": "88",
-    "defensive": "71",
-    "physicality": "71"
-  },
-  {
-    "name": "Reece James",
-    "rating": "84",
-    "pace": "81",
-    "shots": "70",
-    "pass": "82",
-    "dribble": "82",
-    "defensive": "80",
-    "physicality": "82"
-  },
-  {
-    "name": "Jack Grealish",
-    "rating": "84",
-    "pace": "76",
-    "shots": "76",
-    "pass": "83",
-    "dribble": "87",
-    "defensive": "46",
-    "physicality": "69"
-  },
-  {
-    "name": "Kai Havertz",
-    "rating": "84",
-    "pace": "81",
-    "shots": "79",
-    "pass": "79",
-    "dribble": "84",
-    "defensive": "45",
-    "physicality": "66"
-  },
-  {
-    "name": "Cody Gakpo",
-    "rating": "83",
-    "pace": "87",
-    "shots": "82",
-    "pass": "77",
-    "dribble": "84",
-    "defensive": "41",
-    "physicality": "74"
-  },
-  {
-    "name": "Cristian Romero",
-    "rating": "83",
-    "pace": "73",
-    "shots": "46",
-    "pass": "57",
-    "dribble": "65",
-    "defensive": "85",
-    "physicality": "82"
-  },
-  {
-    "name": "Diego Carlos",
-    "rating": "83",
-    "pace": "76",
-    "shots": "47",
-    "pass": "63",
-    "dribble": "67",
-    "defensive": "82",
-    "physicality": "82"
-  },
-  {
-    "name": "Ricardo Pereira",
-    "rating": "83",
-    "pace": "79",
-    "shots": "67",
-    "pass": "79",
-    "dribble": "81",
-    "defensive": "80",
-    "physicality": "73"
-  },
-  {
-    "name": "Pierre-Emile Hojbjerg",
-    "rating": "83",
-    "pace": "55",
-    "shots": "73",
-    "pass": "77",
-    "dribble": "77",
-    "defensive": "80",
-    "physicality": "82"
-  },
-  {
-    "name": "Gabriel Jesus",
-    "rating": "83",
-    "pace": "84",
-    "shots": "82",
-    "pass": "74",
-    "dribble": "86",
-    "defensive": "40",
-    "physicality": "74"
-  },
-  {
-    "name": "John Stones",
-    "rating": "83",
-    "pace": "72",
-    "shots": "51",
-    "pass": "71",
-    "dribble": "75",
-    "defensive": "84",
-    "physicality": "77"
-  },
-  {
-    "name": "Ruben Neves",
-    "rating": "83",
-    "pace": "58",
-    "shots": "74",
-    "pass": "86",
-    "dribble": "77",
-    "defensive": "76",
-    "physicality": "73"
-  },
-  {
-    "name": "Roberto Firmino",
-    "rating": "83",
-    "pace": "74",
-    "shots": "76",
-    "pass": "79",
-    "dribble": "87",
-    "defensive": "59",
-    "physicality": "78"
-  },
-  {
-    "name": "Jordan Henderson",
-    "rating": "83",
-    "pace": "66",
-    "shots": "74",
-    "pass": "83",
-    "dribble": "78",
-    "defensive": "78",
-    "physicality": "81"
-  },
-  {
-    "name": "Hakim Ziyech",
-    "rating": "83",
-    "pace": "76",
-    "shots": "77",
-    "pass": "87",
-    "dribble": "83",
-    "defensive": "50",
-    "physicality": "65"
-  },
-  {
-    "name": "Arnaut Danjuma",
-    "rating": "82",
-    "pace": "88",
-    "shots": "81",
-    "pass": "75",
-    "dribble": "82",
-    "defensive": "42",
-    "physicality": "68"
-  },
-  {
-    "name": "Lukasz Fabianski",
-    "rating": "82",
-    "pace": "82",
-    "shots": "82",
-    "pass": "71",
-    "dribble": "82",
-    "defensive": "49",
-    "physicality": "83"
-  },
-  {
-    "name": "James Maddison",
-    "rating": "82",
-    "pace": "73",
-    "shots": "78",
-    "pass": "84",
-    "dribble": "85",
-    "defensive": "54",
-    "physicality": "62"
-  },
-  {
-    "name": "Idrissa Gueye",
-    "rating": "82",
-    "pace": "67",
-    "shots": "66",
-    "pass": "72",
-    "dribble": "78",
-    "defensive": "83",
-    "physicality": "76"
-  },
-  {
-    "name": "Lucas Digne",
-    "rating": "82",
-    "pace": "78",
-    "shots": "69",
-    "pass": "80",
-    "dribble": "79",
-    "defensive": "77",
-    "physicality": "76"
-  },
-  {
-    "name": "Jordan Pickford",
-    "rating": "82",
-    "pace": "84",
-    "shots": "77",
-    "pass": "87",
-    "dribble": "87",
-    "defensive": "51",
-    "physicality": "80"
-  },
-  {
-    "name": "Christian Eriksen",
-    "rating": "82",
-    "pace": "61",
-    "shots": "78",
-    "pass": "88",
-    "dribble": "80",
-    "defensive": "53",
-    "physicality": "52"
-  },
-  {
-    "name": "Raul Jimenez",
-    "rating": "82",
-    "pace": "73",
-    "shots": "81",
-    "pass": "76",
-    "dribble": "80",
-    "defensive": "47",
-    "physicality": "82"
-  },
-  {
-    "name": "Goncalo Guedes",
-    "rating": "82",
-    "pace": "86",
-    "shots": "83",
-    "pass": "74",
-    "dribble": "83",
-    "defensive": "38",
-    "physicality": "70"
-  },
-  {
-    "name": "Antony",
-    "rating": "82",
-    "pace": "93",
-    "shots": "74",
-    "pass": "75",
-    "dribble": "86",
-    "defensive": "39",
-    "physicality": "69"
-  },
-  {
-    "name": "Lucas Paqueta",
-    "rating": "82",
-    "pace": "72",
-    "shots": "78",
-    "pass": "79",
-    "dribble": "85",
-    "defensive": "69",
-    "physicality": "78"
-  },
-  {
-    "name": "Wilfried Zaha",
-    "rating": "82",
-    "pace": "91",
-    "shots": "79",
-    "pass": "73",
-    "dribble": "86",
-    "defensive": "37",
-    "physicality": "76"
-  },
-  {
-    "name": "Coutinho",
-    "rating": "82",
-    "pace": "62",
-    "shots": "79",
-    "pass": "80",
-    "dribble": "88",
-    "defensive": "52",
-    "physicality": "59"
-  },
-  {
-    "name": "Bukayo Saka",
-    "rating": "82",
-    "pace": "84",
-    "shots": "74",
-    "pass": "78",
-    "dribble": "83",
-    "defensive": "65",
-    "physicality": "65"
-  },
-  {
-    "name": "Darwin Nunez",
-    "rating": "82",
-    "pace": "89",
-    "shots": "82",
-    "pass": "68",
-    "dribble": "77",
-    "defensive": "42",
-    "physicality": "86"
-  },
-  {
-    "name": "Ben Chilwell",
-    "rating": "82",
-    "pace": "76",
-    "shots": "60",
-    "pass": "78",
-    "dribble": "78",
-    "defensive": "78",
-    "physicality": "75"
-  },
-  {
-    "name": "Azpilicueta",
-    "rating": "82",
-    "pace": "64",
-    "shots": "55",
-    "pass": "76",
-    "dribble": "72",
-    "defensive": "84",
-    "physicality": "76"
-  },
-  {
-    "name": "Aaron Ramsdale",
-    "rating": "82",
-    "pace": "83",
-    "shots": "77",
-    "pass": "85",
-    "dribble": "84",
-    "defensive": "48",
-    "physicality": "78"
-  },
-  {
-    "name": "Christian Pulisic",
-    "rating": "82",
-    "pace": "87",
-    "shots": "71",
-    "pass": "73",
-    "dribble": "86",
-    "defensive": "37",
-    "physicality": "59"
-  },
-  {
-    "name": "Pedro Porro",
-    "rating": "81",
-    "pace": "82",
-    "shots": "71",
-    "pass": "75",
-    "dribble": "80",
-    "defensive": "75",
-    "physicality": "78"
-  },
-  {
-    "name": "Felipe",
-    "rating": "81",
-    "pace": "59",
-    "shots": "43",
-    "pass": "59",
-    "dribble": "61",
-    "defensive": "81",
-    "physicality": "83"
-  },
-  {
-    "name": "Pablo Sarabia",
-    "rating": "81",
-    "pace": "73",
-    "shots": "76",
-    "pass": "82",
-    "dribble": "82",
-    "defensive": "57",
-    "physicality": "59"
-  },
-  {
-    "name": "Matheus Cunha",
-    "rating": "81",
-    "pace": "84",
-    "shots": "82",
-    "pass": "75",
-    "dribble": "84",
-    "defensive": "32",
-    "physicality": "74"
-  },
-  {
-    "name": "Gabriel",
-    "rating": "81",
-    "pace": "68",
-    "shots": "36",
-    "pass": "60",
-    "dribble": "58",
-    "defensive": "83",
-    "physicality": "80"
-  },
-  {
-    "name": "Ibrahima Konate",
-    "rating": "81",
-    "pace": "78",
-    "shots": "34",
-    "pass": "57",
-    "dribble": "67",
-    "defensive": "82",
-    "physicality": "80"
-  },
-  {
-    "name": "Harry Maguire",
-    "rating": "81",
-    "pace": "48",
-    "shots": "57",
-    "pass": "68",
-    "dribble": "67",
-    "defensive": "80",
-    "physicality": "84"
-  },
-  {
-    "name": "Nick Pope",
-    "rating": "81",
-    "pace": "80",
-    "shots": "82",
-    "pass": "75",
-    "dribble": "83",
-    "defensive": "49",
-    "physicality": "80"
-  },
-  {
-    "name": "Neto",
-    "rating": "81",
-    "pace": "82",
-    "shots": "78",
-    "pass": "77",
-    "dribble": "80",
-    "defensive": "54",
-    "physicality": "78"
-  },
-  {
-    "name": "Kieran Tierney",
-    "rating": "81",
-    "pace": "84",
-    "shots": "60",
-    "pass": "75",
-    "dribble": "78",
-    "defensive": "76",
-    "physicality": "79"
-  },
-  {
-    "name": "James Ward-Prowse",
-    "rating": "81",
-    "pace": "59",
-    "shots": "74",
-    "pass": "86",
-    "dribble": "78",
-    "defensive": "67",
-    "physicality": "73"
-  },
-  {
-    "name": "Alphonse Areola",
-    "rating": "81",
-    "pace": "85",
-    "shots": "79",
-    "pass": "75",
-    "dribble": "84",
-    "defensive": "55",
-    "physicality": "78"
-  },
-  {
-    "name": "Tomas Soucek",
-    "rating": "81",
-    "pace": "57",
-    "shots": "72",
-    "pass": "73",
-    "dribble": "72",
-    "defensive": "82",
-    "physicality": "85"
-  },
-  {
-    "name": "Palhinha",
-    "rating": "81",
-    "pace": "63",
-    "shots": "65",
-    "pass": "70",
-    "dribble": "72",
-    "defensive": "82",
-    "physicality": "89"
-  },
-  {
-    "name": "Kalvin Phillips",
-    "rating": "81",
-    "pace": "66",
-    "shots": "65",
-    "pass": "77",
-    "dribble": "76",
-    "defensive": "79",
-    "physicality": "82"
-  },
-  {
-    "name": "Thiago Silva",
-    "rating": "86",
-    "pace": "49",
-    "shots": "54",
-    "pass": "73",
-    "dribble": "72",
-    "defensive": "87",
-    "physicality": "76"
-  },
-  {
-    "name": "Raheem Sterling",
-    "rating": "86",
-    "pace": "90",
-    "shots": "80",
-    "pass": "78",
-    "dribble": "86",
-    "defensive": "45",
-    "physicality": "67"
-  },
-  {
-    "name": "Edouard Mendy",
-    "rating": "86",
-    "pace": "84",
-    "shots": "82",
-    "pass": "81",
-    "dribble": "88",
-    "defensive": "34",
-    "physicality": "85"
-  },
-  {
-    "name": "Aymeric Laporte",
-    "rating": "86",
-    "pace": "61",
-    "shots": "50",
-    "pass": "72",
-    "dribble": "69",
-    "defensive": "86",
-    "physicality": "79"
-  },
-  {
-    "name": "Jorginho",
-    "rating": "85",
-    "pace": "54",
-    "shots": "67",
-    "pass": "86",
-    "dribble": "81",
-    "defensive": "73",
-    "physicality": "73"
-  },
-  {
-    "name": "Pierre-Emerick Aubameyang",
-    "rating": "85",
-    "pace": "87",
-    "shots": "84",
-    "pass": "74",
-    "dribble": "79",
-    "defensive": "36",
-    "physicality": "68"
-  },
-  {
-    "name": "Jamie Vardy",
-    "rating": "85",
-    "pace": "84",
-    "shots": "84",
-    "pass": "70",
-    "dribble": "79",
-    "defensive": "52",
-    "physicality": "72"
-  },
-  {
-    "name": "Kyle Walker",
-    "rating": "85",
-    "pace": "91",
-    "shots": "63",
-    "pass": "77",
-    "dribble": "78",
-    "defensive": "80",
-    "physicality": "82"
-  },
-  {
-    "name": "Phil Foden",
-    "rating": "85",
-    "pace": "82",
-    "shots": "78",
-    "pass": "81",
-    "dribble": "88",
-    "defensive": "56",
-    "physicality": "60"
-  },
-  {
-    "name": "Ilkay Gundogan",
-    "rating": "85",
-    "pace": "64",
-    "shots": "80",
-    "pass": "85",
-    "dribble": "85",
-    "defensive": "72",
-    "physicality": "72"
-  },
-  {
-    "name": "Diogo Jota",
-    "rating": "85",
-    "pace": "85",
-    "shots": "83",
-    "pass": "75",
-    "dribble": "85",
-    "defensive": "57",
-    "physicality": "77"
-  },
-  {
-    "name": "Jorginho",
-    "rating": "85",
-    "pace": "54",
-    "shots": "67",
-    "pass": "86",
-    "dribble": "81",
-    "defensive": "73",
-    "physicality": "73"
-  },
-  {
-    "name": "Joao Felix",
-    "rating": "84",
-    "pace": "83",
-    "shots": "80",
-    "pass": "81",
-    "dribble": "88",
-    "defensive": "40",
-    "physicality": "67"
-  },
-  {
-    "name": "Kieran Trippier",
-    "rating": "84",
-    "pace": "70",
-    "shots": "64",
-    "pass": "82",
-    "dribble": "77",
-    "defensive": "80",
-    "physicality": "72"
-  },
-  {
-    "name": "Wilfred Ndidi",
-    "rating": "84",
-    "pace": "66",
-    "shots": "62",
-    "pass": "68",
-    "dribble": "73",
-    "defensive": "85",
-    "physicality": "83"
-  },
-  {
-    "name": "Raphael Varane",
-    "rating": "84",
-    "pace": "81",
-    "shots": "49",
-    "pass": "64",
-    "dribble": "66",
-    "defensive": "85",
-    "physicality": "80"
-  },
-  {
-    "name": "Emiliano Martinez",
-    "rating": "84",
-    "pace": "85",
-    "shots": "83",
-    "pass": "82",
-    "dribble": "85",
-    "defensive": "58",
-    "physicality": "83"
-  },
-  {
-    "name": "Thomas Partey",
-    "rating": "84",
-    "pace": "65",
-    "shots": "71",
-    "pass": "81",
-    "dribble": "80",
-    "defensive": "80",
-    "physicality": "83"
-  },
-  {
-    "name": "Ivan Perisic",
-    "rating": "84",
-    "pace": "78",
-    "shots": "81",
-    "pass": "79",
-    "dribble": "82",
-    "defensive": "74",
-    "physicality": "78"
-  },
-  {
-    "name": "Declan Rice",
-    "rating": "84",
-    "pace": "71",
-    "shots": "64",
-    "pass": "74",
-    "dribble": "76",
-    "defensive": "82",
-    "physicality": "83"
-  },
-  {
-    "name": "Youri Tielemans",
-    "rating": "84",
-    "pace": "56",
-    "shots": "80",
-    "pass": "86",
-    "dribble": "81",
-    "defensive": "70",
-    "physicality": "73"
-  },
-  {
-    "name": "Jadon Sancho",
-    "rating": "84",
-    "pace": "81",
-    "shots": "74",
-    "pass": "81",
-    "dribble": "89",
-    "defensive": "36",
-    "physicality": "59"
-  },
-  {
-    "name": "Martin Odegaard",
-    "rating": "84",
-    "pace": "76",
-    "shots": "75",
-    "pass": "86",
-    "dribble": "84",
-    "defensive": "58",
-    "physicality": "63"
-  },
-  {
-    "name": "Luis Diaz",
-    "rating": "84",
-    "pace": "91",
-    "shots": "80",
-    "pass": "75",
-    "dribble": "87",
-    "defensive": "34",
-    "physicality": "73"
-  },
-  {
-    "name": "Joel Matip",
-    "rating": "84",
-    "pace": "61",
-    "shots": "46",
-    "pass": "69",
-    "dribble": "71",
-    "defensive": "87",
-    "physicality": "78"
-  },
-  {
     "name": "Sasa Lukic",
     "rating": "77",
     "pace": "60",
@@ -1657,7 +7,11 @@
     "pass": "77",
     "dribble": "78",
     "defensive": "69",
-    "physicality": "72"
+    "physicality": "72",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/236699.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/51.png",
+    "Club": "Fulham",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/144.png"
   },
   {
     "name": "Jonjo Shelvey",
@@ -1667,7 +21,11 @@
     "pass": "80",
     "dribble": "72",
     "defensive": "62",
-    "physicality": "74"
+    "physicality": "74",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/189165.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Nottm Forest",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/14.png"
   },
   {
     "name": "Cheikhou Kouyate",
@@ -1677,7 +35,11 @@
     "pass": "64",
     "dribble": "69",
     "defensive": "77",
-    "physicality": "83"
+    "physicality": "83",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/186801.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/136.png",
+    "Club": "Nottm Forest",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/14.png"
   },
   {
     "name": "Noni Madueke",
@@ -1687,7 +49,11 @@
     "pass": "68",
     "dribble": "82",
     "defensive": "36",
-    "physicality": "62"
+    "physicality": "62",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/254796.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Chelsea",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/5.png"
   },
   {
     "name": "Benoit Badiashile",
@@ -1697,7 +63,11 @@
     "pass": "67",
     "dribble": "60",
     "defensive": "78",
-    "physicality": "76"
+    "physicality": "76",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/242578.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/18.png",
+    "Club": "Chelsea",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/5.png"
   },
   {
     "name": "Mislav Orsic",
@@ -1707,7 +77,11 @@
     "pass": "71",
     "dribble": "75",
     "defensive": "56",
-    "physicality": "61"
+    "physicality": "61",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/221174.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/10.png",
+    "Club": "Southampton",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/17.png"
   },
   {
     "name": "Bryan Gil",
@@ -1717,7 +91,11 @@
     "pass": "74",
     "dribble": "82",
     "defensive": "31",
-    "physicality": "35"
+    "physicality": "35",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/246785.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/45.png",
+    "Club": "Spurs",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/18.png"
   },
   {
     "name": "Matt Targett",
@@ -1727,7 +105,11 @@
     "pass": "72",
     "dribble": "72",
     "defensive": "74",
-    "physicality": "69"
+    "physicality": "69",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/218659.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Newcastle Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/13.png"
   },
   {
     "name": "Issa Diop",
@@ -1737,7 +119,11 @@
     "pass": "52",
     "dribble": "56",
     "defensive": "78",
-    "physicality": "78"
+    "physicality": "78",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/231633.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/18.png",
+    "Club": "Fulham",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/144.png"
   },
   {
     "name": "Yerry Mina",
@@ -1747,7 +133,11 @@
     "pass": "59",
     "dribble": "58",
     "defensive": "78",
-    "physicality": "77"
+    "physicality": "77",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/220523.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/56.png",
+    "Club": "Everton",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/7.png"
   },
   {
     "name": "Dan Burn",
@@ -1757,7 +147,11 @@
     "pass": "65",
     "dribble": "63",
     "defensive": "77",
-    "physicality": "80"
+    "physicality": "80",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/198032.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Newcastle Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/13.png"
   },
   {
     "name": "Wout Faes",
@@ -1767,7 +161,11 @@
     "pass": "55",
     "dribble": "58",
     "defensive": "78",
-    "physicality": "77"
+    "physicality": "77",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/235036.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/7.png",
+    "Club": "Leicester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/95.png"
   },
   {
     "name": "Rob Holding",
@@ -1777,7 +175,11 @@
     "pass": "61",
     "dribble": "66",
     "defensive": "78",
-    "physicality": "73"
+    "physicality": "73",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/228295.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Arsenal",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1.png"
   },
   {
     "name": "Fabio Vieira",
@@ -1787,7 +189,11 @@
     "pass": "77",
     "dribble": "77",
     "defensive": "40",
-    "physicality": "52"
+    "physicality": "52",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/256958.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/38.png",
+    "Club": "Arsenal",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1.png"
   },
   {
     "name": "Matt Turner",
@@ -1797,7 +203,11 @@
     "pass": "67",
     "dribble": "77",
     "defensive": "38",
-    "physicality": "79"
+    "physicality": "79",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/233267.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/95.png",
+    "Club": "Arsenal",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1.png"
   },
   {
     "name": "Mohammed Salisu",
@@ -1807,7 +217,11 @@
     "pass": "51",
     "dribble": "55",
     "defensive": "79",
-    "physicality": "80"
+    "physicality": "80",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/244915.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/117.png",
+    "Club": "Southampton",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/17.png"
   },
   {
     "name": "Oliver Skipp",
@@ -1817,7 +231,11 @@
     "pass": "68",
     "dribble": "71",
     "defensive": "75",
-    "physicality": "71"
+    "physicality": "71",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/241042.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Spurs",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/18.png"
   },
   {
     "name": "Jonjo Shelvey",
@@ -1827,7 +245,11 @@
     "pass": "80",
     "dribble": "72",
     "defensive": "62",
-    "physicality": "74"
+    "physicality": "74",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/189165.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Newcastle Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/13.png"
   },
   {
     "name": "Illan Meslier",
@@ -1837,7 +259,11 @@
     "pass": "73",
     "dribble": "81",
     "defensive": "38",
-    "physicality": "72"
+    "physicality": "72",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/242656.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/18.png",
+    "Club": "Leeds United",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/8.png"
   },
   {
     "name": "Ludwig Augustinsson",
@@ -1847,7 +273,11 @@
     "pass": "77",
     "dribble": "74",
     "defensive": "74",
-    "physicality": "70"
+    "physicality": "70",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/212678.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/46.png",
+    "Club": "Aston Villa",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/2.png"
   },
   {
     "name": "Michy Batshuayi",
@@ -1857,7 +287,11 @@
     "pass": "59",
     "dribble": "76",
     "defensive": "33",
-    "physicality": "73"
+    "physicality": "73",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/204529.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/7.png",
+    "Club": "Chelsea",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/5.png"
   },
   {
     "name": "Demarai Gray",
@@ -1867,7 +301,11 @@
     "pass": "69",
     "dribble": "81",
     "defensive": "37",
-    "physicality": "58"
+    "physicality": "58",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/220633.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Everton",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/7.png"
   },
   {
     "name": "Robert Sanchez",
@@ -1877,7 +315,11 @@
     "pass": "71",
     "dribble": "80",
     "defensive": "45",
-    "physicality": "77"
+    "physicality": "77",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/228789.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/45.png",
+    "Club": "Brighton",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1808.png"
   },
   {
     "name": "Kevin Mbabu",
@@ -1887,7 +329,11 @@
     "pass": "66",
     "dribble": "71",
     "defensive": "73",
-    "physicality": "81"
+    "physicality": "81",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/210625.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/47.png",
+    "Club": "Fulham",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/144.png"
   },
   {
     "name": "Emerson",
@@ -1897,507 +343,361 @@
     "pass": "75",
     "dribble": "78",
     "defensive": "73",
-    "physicality": "63"
+    "physicality": "63",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/210736.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/27.png",
+    "Club": "West Ham",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/19.png"
   },
   {
-    "name": "Paul Ebere Onuachu",
-    "rating": "79",
-    "pace": "70",
-    "shots": "78",
-    "pass": "62",
-    "dribble": "70",
-    "defensive": "45",
-    "physicality": "82"
-  },
-  {
-    "name": "Danny Ings",
-    "rating": "79",
-    "pace": "72",
-    "shots": "82",
-    "pass": "70",
-    "dribble": "78",
-    "defensive": "45",
-    "physicality": "70"
-  },
-  {
-    "name": "Leandro Trossard",
-    "rating": "79",
-    "pace": "82",
-    "shots": "78",
-    "pass": "76",
-    "dribble": "81",
-    "defensive": "30",
-    "physicality": "62"
-  },
-  {
-    "name": "Wout Weghorst",
-    "rating": "79",
-    "pace": "60",
-    "shots": "77",
-    "pass": "60",
-    "dribble": "69",
-    "defensive": "52",
-    "physicality": "86"
-  },
-  {
-    "name": "Jonny Evans",
-    "rating": "79",
-    "pace": "50",
-    "shots": "32",
-    "pass": "60",
-    "dribble": "58",
-    "defensive": "82",
-    "physicality": "76"
-  },
-  {
-    "name": "Angelo Ogbonna",
-    "rating": "79",
+    "name": "Thiago Silva",
+    "rating": "86",
     "pace": "49",
-    "shots": "40",
-    "pass": "60",
-    "dribble": "62",
-    "defensive": "82",
-    "physicality": "68"
-  },
-  {
-    "name": "Takehiro Tomiyasu",
-    "rating": "79",
-    "pace": "74",
-    "shots": "33",
-    "pass": "67",
-    "dribble": "71",
-    "defensive": "80",
-    "physicality": "79"
-  },
-  {
-    "name": "Manuel Lanzini",
-    "rating": "79",
-    "pace": "69",
-    "shots": "73",
-    "pass": "79",
-    "dribble": "82",
-    "defensive": "41",
-    "physicality": "55"
-  },
-  {
-    "name": "Pervis Estupinan",
-    "rating": "79",
-    "pace": "81",
-    "shots": "46",
-    "pass": "69",
-    "dribble": "72",
-    "defensive": "75",
-    "physicality": "76"
-  },
-  {
-    "name": "Lewis Dunk",
-    "rating": "79",
-    "pace": "44",
-    "shots": "51",
-    "pass": "62",
-    "dribble": "63",
-    "defensive": "80",
-    "physicality": "79"
-  },
-  {
-    "name": "Leandro Trossard",
-    "rating": "79",
-    "pace": "82",
-    "shots": "78",
-    "pass": "76",
-    "dribble": "81",
-    "defensive": "30",
-    "physicality": "62"
-  },
-  {
-    "name": "Granit Xhaka",
-    "rating": "79",
-    "pace": "49",
-    "shots": "64",
-    "pass": "79",
-    "dribble": "69",
-    "defensive": "69",
-    "physicality": "80"
-  },
-  {
-    "name": "Michael Keane",
-    "rating": "79",
-    "pace": "52",
-    "shots": "49",
-    "pass": "63",
-    "dribble": "62",
-    "defensive": "80",
-    "physicality": "79"
-  },
-  {
-    "name": "James Tarkowski",
-    "rating": "79",
-    "pace": "55",
-    "shots": "45",
-    "pass": "65",
-    "dribble": "62",
-    "defensive": "81",
-    "physicality": "80"
-  },
-  {
-    "name": "Tyrell Malacia",
-    "rating": "79",
-    "pace": "85",
-    "shots": "56",
-    "pass": "66",
-    "dribble": "77",
-    "defensive": "76",
-    "physicality": "76"
-  },
-  {
-    "name": "Benjamin White",
-    "rating": "79",
-    "pace": "70",
-    "shots": "29",
-    "pass": "67",
-    "dribble": "72",
-    "defensive": "81",
-    "physicality": "76"
-  },
-  {
-    "name": "Conor Coady",
-    "rating": "79",
-    "pace": "47",
-    "shots": "57",
-    "pass": "75",
-    "dribble": "66",
-    "defensive": "79",
-    "physicality": "73"
-  },
-  {
-    "name": "Oleksandr Zinchenko",
-    "rating": "79",
-    "pace": "68",
-    "shots": "65",
-    "pass": "80",
-    "dribble": "80",
-    "defensive": "77",
-    "physicality": "69"
-  },
-  {
-    "name": "Davinson Sanchez",
-    "rating": "79",
-    "pace": "75",
-    "shots": "47",
-    "pass": "55",
-    "dribble": "66",
-    "defensive": "79",
-    "physicality": "79"
-  },
-  {
-    "name": "Matty Cash",
-    "rating": "79",
-    "pace": "80",
-    "shots": "67",
-    "pass": "71",
-    "dribble": "75",
-    "defensive": "74",
-    "physicality": "76"
-  },
-  {
-    "name": "Guaita",
-    "rating": "79",
-    "pace": "80",
-    "shots": "77",
-    "pass": "78",
-    "dribble": "81",
-    "defensive": "51",
-    "physicality": "77"
-  },
-  {
-    "name": "Danny Ings",
-    "rating": "79",
-    "pace": "72",
-    "shots": "82",
-    "pass": "70",
-    "dribble": "78",
-    "defensive": "45",
-    "physicality": "70"
-  },
-  {
-    "name": "Dean Henderson",
-    "rating": "79",
-    "pace": "80",
-    "shots": "78",
-    "pass": "77",
-    "dribble": "82",
-    "defensive": "55",
-    "physicality": "75"
-  },
-  {
-    "name": "Ezri Konsa",
-    "rating": "79",
-    "pace": "78",
-    "shots": "39",
-    "pass": "62",
-    "dribble": "71",
-    "defensive": "80",
-    "physicality": "76"
-  },
-  {
-    "name": "Callum Wilson",
-    "rating": "79",
-    "pace": "81",
-    "shots": "78",
-    "pass": "66",
-    "dribble": "77",
-    "defensive": "42",
-    "physicality": "76"
-  },
-  {
-    "name": "Kurt Zouma",
-    "rating": "80",
-    "pace": "62",
-    "shots": "51",
-    "pass": "62",
-    "dribble": "56",
-    "defensive": "80",
-    "physicality": "84"
-  },
-  {
-    "name": "Jarrod Bowen",
-    "rating": "80",
-    "pace": "78",
-    "shots": "77",
-    "pass": "75",
-    "dribble": "81",
-    "defensive": "44",
-    "physicality": "66"
-  },
-  {
-    "name": "Leon Bailey",
-    "rating": "80",
-    "pace": "92",
-    "shots": "78",
-    "pass": "74",
-    "dribble": "83",
-    "defensive": "33",
-    "physicality": "61"
-  },
-  {
-    "name": "Alexander Isak",
-    "rating": "80",
-    "pace": "83",
-    "shots": "79",
-    "pass": "68",
-    "dribble": "83",
-    "defensive": "29",
-    "physicality": "68"
-  },
-  {
-    "name": "Luke Shaw",
-    "rating": "80",
-    "pace": "76",
     "shots": "54",
-    "pass": "78",
-    "dribble": "78",
-    "defensive": "79",
-    "physicality": "78"
-  },
-  {
-    "name": "Boubacar Kamara",
-    "rating": "80",
-    "pace": "70",
-    "shots": "54",
-    "pass": "71",
-    "dribble": "73",
-    "defensive": "80",
-    "physicality": "79"
-  },
-  {
-    "name": "Harvey Barnes",
-    "rating": "80",
-    "pace": "86",
-    "shots": "77",
-    "pass": "75",
-    "dribble": "81",
-    "defensive": "45",
-    "physicality": "64"
-  },
-  {
-    "name": "Dominic Calvert-Lewin",
-    "rating": "80",
-    "pace": "81",
-    "shots": "77",
-    "pass": "64",
-    "dribble": "76",
-    "defensive": "39",
-    "physicality": "80"
-  },
-  {
-    "name": "Anthony Martial",
-    "rating": "80",
-    "pace": "83",
-    "shots": "79",
-    "pass": "72",
-    "dribble": "84",
-    "defensive": "35",
-    "physicality": "66"
-  },
-  {
-    "name": "Bernd Leno",
-    "rating": "80",
-    "pace": "82",
-    "shots": "78",
-    "pass": "74",
-    "dribble": "82",
-    "defensive": "55",
-    "physicality": "79"
-  },
-  {
-    "name": "Nayef Aguerd",
-    "rating": "80",
-    "pace": "73",
-    "shots": "50",
-    "pass": "64",
-    "dribble": "65",
-    "defensive": "80",
-    "physicality": "77"
-  },
-  {
-    "name": "Stefan Ortega",
-    "rating": "80",
-    "pace": "76",
-    "shots": "74",
-    "pass": "86",
-    "dribble": "85",
-    "defensive": "52",
-    "physicality": "80"
-  },
-  {
-    "name": "Victor Lindelof",
-    "rating": "80",
-    "pace": "59",
-    "shots": "51",
-    "pass": "72",
+    "pass": "73",
     "dribble": "72",
-    "defensive": "82",
-    "physicality": "76"
+    "defensive": "87",
+    "physicality": "76",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/164240.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/54.png",
+    "Club": "Chelsea",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/5.png"
   },
   {
-    "name": "Renan Lodi",
-    "rating": "80",
-    "pace": "83",
-    "shots": "68",
-    "pass": "76",
-    "dribble": "80",
-    "defensive": "74",
-    "physicality": "75"
-  },
-  {
-    "name": "Remo Freuler",
-    "rating": "80",
-    "pace": "68",
-    "shots": "71",
-    "pass": "75",
-    "dribble": "78",
-    "defensive": "75",
-    "physicality": "74"
-  },
-  {
-    "name": "Eric Dier",
-    "rating": "80",
-    "pace": "54",
-    "shots": "64",
-    "pass": "70",
-    "dribble": "65",
-    "defensive": "80",
-    "physicality": "84"
-  },
-  {
-    "name": "Arthur",
-    "rating": "80",
-    "pace": "71",
-    "shots": "65",
-    "pass": "80",
+    "name": "Raheem Sterling",
+    "rating": "86",
+    "pace": "90",
+    "shots": "80",
+    "pass": "78",
     "dribble": "86",
-    "defensive": "72",
-    "physicality": "69"
+    "defensive": "45",
+    "physicality": "67",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/202652.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Chelsea",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/5.png"
   },
   {
-    "name": "Emiliano Buendia",
-    "rating": "80",
+    "name": "Edouard Mendy",
+    "rating": "86",
+    "pace": "84",
+    "shots": "82",
+    "pass": "81",
+    "dribble": "88",
+    "defensive": "34",
+    "physicality": "85",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/234642.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/136.png",
+    "Club": "Chelsea",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/5.png"
+  },
+  {
+    "name": "Aymeric Laporte",
+    "rating": "86",
+    "pace": "61",
+    "shots": "50",
+    "pass": "72",
+    "dribble": "69",
+    "defensive": "86",
+    "physicality": "79",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/212218.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/45.png",
+    "Club": "Manchester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/10.png"
+  },
+  {
+    "name": "Jorginho",
+    "rating": "85",
+    "pace": "54",
+    "shots": "67",
+    "pass": "86",
+    "dribble": "81",
+    "defensive": "73",
+    "physicality": "73",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/205498.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/27.png",
+    "Club": "Arsenal",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1.png"
+  },
+  {
+    "name": "Pierre-Emerick Aubameyang",
+    "rating": "85",
+    "pace": "87",
+    "shots": "84",
+    "pass": "74",
+    "dribble": "79",
+    "defensive": "36",
+    "physicality": "68",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/188567.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/115.png",
+    "Club": "Chelsea",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/5.png"
+  },
+  {
+    "name": "Jamie Vardy",
+    "rating": "85",
+    "pace": "84",
+    "shots": "84",
+    "pass": "70",
+    "dribble": "79",
+    "defensive": "52",
+    "physicality": "72",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/208830.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Leicester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/95.png"
+  },
+  {
+    "name": "Kyle Walker",
+    "rating": "85",
+    "pace": "91",
+    "shots": "63",
+    "pass": "77",
+    "dribble": "78",
+    "defensive": "80",
+    "physicality": "82",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/188377.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Manchester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/10.png"
+  },
+  {
+    "name": "Phil Foden",
+    "rating": "85",
+    "pace": "82",
+    "shots": "78",
+    "pass": "81",
+    "dribble": "88",
+    "defensive": "56",
+    "physicality": "60",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/237692.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Manchester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/10.png"
+  },
+  {
+    "name": "Ilkay Gundogan",
+    "rating": "85",
+    "pace": "64",
+    "shots": "80",
+    "pass": "85",
+    "dribble": "85",
+    "defensive": "72",
+    "physicality": "72",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/186942.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/21.png",
+    "Club": "Manchester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/10.png"
+  },
+  {
+    "name": "Diogo Jota",
+    "rating": "85",
+    "pace": "85",
+    "shots": "83",
+    "pass": "75",
+    "dribble": "85",
+    "defensive": "57",
+    "physicality": "77",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/224458.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/38.png",
+    "Club": "Liverpool",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/9.png"
+  },
+  {
+    "name": "Jorginho",
+    "rating": "85",
+    "pace": "54",
+    "shots": "67",
+    "pass": "86",
+    "dribble": "81",
+    "defensive": "73",
+    "physicality": "73",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/205498.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/27.png",
+    "Club": "Chelsea",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/5.png"
+  },
+  {
+    "name": "Joao Felix",
+    "rating": "84",
+    "pace": "83",
+    "shots": "80",
+    "pass": "81",
+    "dribble": "88",
+    "defensive": "40",
+    "physicality": "67",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/242444.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/38.png",
+    "Club": "Chelsea",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/5.png"
+  },
+  {
+    "name": "Kieran Trippier",
+    "rating": "84",
+    "pace": "70",
+    "shots": "64",
+    "pass": "82",
+    "dribble": "77",
+    "defensive": "80",
+    "physicality": "72",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/186345.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Newcastle Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/13.png"
+  },
+  {
+    "name": "Wilfred Ndidi",
+    "rating": "84",
+    "pace": "66",
+    "shots": "62",
+    "pass": "68",
+    "dribble": "73",
+    "defensive": "85",
+    "physicality": "83",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/226790.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/133.png",
+    "Club": "Leicester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/95.png"
+  },
+  {
+    "name": "Raphael Varane",
+    "rating": "84",
+    "pace": "81",
+    "shots": "49",
+    "pass": "64",
+    "dribble": "66",
+    "defensive": "85",
+    "physicality": "80",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/201535.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/18.png",
+    "Club": "Manchester Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/11.png"
+  },
+  {
+    "name": "Emiliano Martinez",
+    "rating": "84",
+    "pace": "85",
+    "shots": "83",
+    "pass": "82",
+    "dribble": "85",
+    "defensive": "58",
+    "physicality": "83",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/202811.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/52.png",
+    "Club": "Aston Villa",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/2.png"
+  },
+  {
+    "name": "Thomas Partey",
+    "rating": "84",
+    "pace": "65",
+    "shots": "71",
+    "pass": "81",
+    "dribble": "80",
+    "defensive": "80",
+    "physicality": "83",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/209989.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/117.png",
+    "Club": "Arsenal",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1.png"
+  },
+  {
+    "name": "Ivan Perisic",
+    "rating": "84",
+    "pace": "78",
+    "shots": "81",
+    "pass": "79",
+    "dribble": "82",
+    "defensive": "74",
+    "physicality": "78",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/181458.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/10.png",
+    "Club": "Spurs",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/18.png"
+  },
+  {
+    "name": "Declan Rice",
+    "rating": "84",
     "pace": "71",
+    "shots": "64",
+    "pass": "74",
+    "dribble": "76",
+    "defensive": "82",
+    "physicality": "83",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/234378.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "West Ham",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/19.png"
+  },
+  {
+    "name": "Youri Tielemans",
+    "rating": "84",
+    "pace": "56",
+    "shots": "80",
+    "pass": "86",
+    "dribble": "81",
+    "defensive": "70",
+    "physicality": "73",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/216393.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/7.png",
+    "Club": "Leicester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/95.png"
+  },
+  {
+    "name": "Jadon Sancho",
+    "rating": "84",
+    "pace": "81",
     "shots": "74",
     "pass": "81",
-    "dribble": "83",
-    "defensive": "66",
-    "physicality": "70"
+    "dribble": "89",
+    "defensive": "36",
+    "physicality": "59",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/233049.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Manchester Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/11.png"
   },
   {
-    "name": "Allan",
-    "rating": "80",
-    "pace": "70",
-    "shots": "69",
-    "pass": "73",
-    "dribble": "79",
-    "defensive": "79",
-    "physicality": "77"
-  },
-  {
-    "name": "Lucas Moura",
-    "rating": "80",
-    "pace": "89",
-    "shots": "77",
-    "pass": "70",
-    "dribble": "85",
-    "defensive": "46",
-    "physicality": "68"
-  },
-  {
-    "name": "Luis Sinisterra",
-    "rating": "80",
-    "pace": "89",
-    "shots": "73",
-    "pass": "72",
-    "dribble": "85",
-    "defensive": "53",
-    "physicality": "63"
-  },
-  {
-    "name": "Scott McTominay",
-    "rating": "80",
-    "pace": "63",
-    "shots": "74",
-    "pass": "74",
-    "dribble": "75",
-    "defensive": "78",
-    "physicality": "85"
-  },
-  {
-    "name": "Fred",
-    "rating": "80",
+    "name": "Martin Odegaard",
+    "rating": "84",
     "pace": "76",
-    "shots": "67",
-    "pass": "79",
-    "dribble": "81",
-    "defensive": "75",
-    "physicality": "71"
+    "shots": "75",
+    "pass": "86",
+    "dribble": "84",
+    "defensive": "58",
+    "physicality": "63",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/222665.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/36.png",
+    "Club": "Arsenal",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1.png"
   },
   {
-    "name": "Nelson Semedo",
-    "rating": "80",
-    "pace": "83",
-    "shots": "57",
+    "name": "Luis Diaz",
+    "rating": "84",
+    "pace": "91",
+    "shots": "80",
+    "pass": "75",
+    "dribble": "87",
+    "defensive": "34",
+    "physicality": "73",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/241084.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/56.png",
+    "Club": "Liverpool",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/9.png"
+  },
+  {
+    "name": "Joel Matip",
+    "rating": "84",
+    "pace": "61",
+    "shots": "46",
     "pass": "69",
-    "dribble": "80",
-    "defensive": "75",
-    "physicality": "74"
-  },
-  {
-    "name": "William Saliba",
-    "rating": "80",
-    "pace": "78",
-    "shots": "39",
-    "pass": "67",
     "dribble": "71",
-    "defensive": "80",
-    "physicality": "79"
+    "defensive": "87",
+    "physicality": "78",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/197061.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/103.png",
+    "Club": "Liverpool",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/9.png"
   },
   {
     "name": "Pablo Fornals",
@@ -2407,7 +707,11 @@
     "pass": "79",
     "dribble": "79",
     "defensive": "69",
-    "physicality": "71"
+    "physicality": "71",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/226456.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/45.png",
+    "Club": "West Ham",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/19.png"
   },
   {
     "name": "Rodrigo Bentancur",
@@ -2417,7 +721,11 @@
     "pass": "79",
     "dribble": "80",
     "defensive": "78",
-    "physicality": "77"
+    "physicality": "77",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/227535.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/60.png",
+    "Club": "Spurs",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/18.png"
   },
   {
     "name": "Conor Gallagher",
@@ -2427,7 +735,11 @@
     "pass": "75",
     "dribble": "78",
     "defensive": "67",
-    "physicality": "74"
+    "physicality": "74",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/238216.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Chelsea",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/5.png"
   },
   {
     "name": "Donny van de Beek",
@@ -2437,7 +749,11 @@
     "pass": "76",
     "dribble": "78",
     "defensive": "72",
-    "physicality": "75"
+    "physicality": "75",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/221363.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/34.png",
+    "Club": "Manchester Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/11.png"
   },
   {
     "name": "Ben Davies",
@@ -2447,7 +763,11 @@
     "pass": "72",
     "dribble": "72",
     "defensive": "80",
-    "physicality": "74"
+    "physicality": "74",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/205923.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/50.png",
+    "Club": "Spurs",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/18.png"
   },
   {
     "name": "John McGinn",
@@ -2457,7 +777,11 @@
     "pass": "76",
     "dribble": "77",
     "defensive": "73",
-    "physicality": "81"
+    "physicality": "81",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/210881.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/42.png",
+    "Club": "Aston Villa",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/2.png"
   },
   {
     "name": "Abdoulaye Doucoure",
@@ -2467,7 +791,11 @@
     "pass": "74",
     "dribble": "78",
     "defensive": "78",
-    "physicality": "82"
+    "physicality": "82",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/208135.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/126.png",
+    "Club": "Everton",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/7.png"
   },
   {
     "name": "Michail Antonio",
@@ -2477,7 +805,11 @@
     "pass": "73",
     "dribble": "77",
     "defensive": "55",
-    "physicality": "83"
+    "physicality": "83",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/190717.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/82.png",
+    "Club": "West Ham",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/19.png"
   },
   {
     "name": "Adama Traore",
@@ -2487,7 +819,11 @@
     "pass": "68",
     "dribble": "86",
     "defensive": "38",
-    "physicality": "83"
+    "physicality": "83",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/213956.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/45.png",
+    "Club": "Wolves",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/110.png"
   },
   {
     "name": "Matheus Nunes",
@@ -2497,7 +833,11 @@
     "pass": "73",
     "dribble": "82",
     "defensive": "74",
-    "physicality": "76"
+    "physicality": "76",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/253124.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/38.png",
+    "Club": "Wolves",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/110.png"
   },
   {
     "name": "Jonny",
@@ -2507,7 +847,11 @@
     "pass": "71",
     "dribble": "76",
     "defensive": "78",
-    "physicality": "69"
+    "physicality": "69",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/210455.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/45.png",
+    "Club": "Wolves",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/110.png"
   },
   {
     "name": "Wesley Fofana",
@@ -2517,7 +861,11 @@
     "pass": "55",
     "dribble": "64",
     "defensive": "81",
-    "physicality": "76"
+    "physicality": "76",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/248695.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/18.png",
+    "Club": "Chelsea",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/5.png"
   },
   {
     "name": "Hamed Junior Traore",
@@ -2527,7 +875,11 @@
     "pass": "72",
     "dribble": "81",
     "defensive": "59",
-    "physicality": "62"
+    "physicality": "62",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/240787.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/108.png",
+    "Club": "AFC Bournemouth",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1943.png"
   },
   {
     "name": "Enzo Fernandez",
@@ -2537,7 +889,11 @@
     "pass": "76",
     "dribble": "78",
     "defensive": "72",
-    "physicality": "80"
+    "physicality": "80",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/247090.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/52.png",
+    "Club": "Chelsea",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/5.png"
   },
   {
     "name": "Craig Dawson",
@@ -2547,7 +903,11 @@
     "pass": "59",
     "dribble": "55",
     "defensive": "79",
-    "physicality": "77"
+    "physicality": "77",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/194806.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Wolves",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/110.png"
   },
   {
     "name": "Moussa Niakhate",
@@ -2557,7 +917,11 @@
     "pass": "65",
     "dribble": "67",
     "defensive": "79",
-    "physicality": "78"
+    "physicality": "78",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/225859.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/136.png",
+    "Club": "Nottm Forest",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/14.png"
   },
   {
     "name": "Craig Dawson",
@@ -2567,7 +931,11 @@
     "pass": "59",
     "dribble": "55",
     "defensive": "79",
-    "physicality": "77"
+    "physicality": "77",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/194806.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "West Ham",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/19.png"
   },
   {
     "name": "Kyle Walker-Peters",
@@ -2577,7 +945,11 @@
     "pass": "68",
     "dribble": "76",
     "defensive": "74",
-    "physicality": "71"
+    "physicality": "71",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/227927.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Southampton",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/17.png"
   },
   {
     "name": "Aleksandar Mitrovic",
@@ -2587,7 +959,11 @@
     "pass": "57",
     "dribble": "71",
     "defensive": "27",
-    "physicality": "87"
+    "physicality": "87",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/215716.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/51.png",
+    "Club": "Fulham",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/144.png"
   },
   {
     "name": "Frederic Guilbert",
@@ -2597,7 +973,11 @@
     "pass": "69",
     "dribble": "72",
     "defensive": "75",
-    "physicality": "78"
+    "physicality": "78",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/227222.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/18.png",
+    "Club": "Aston Villa",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/2.png"
   },
   {
     "name": "Said Benrahma",
@@ -2607,7 +987,11 @@
     "pass": "75",
     "dribble": "81",
     "defensive": "40",
-    "physicality": "56"
+    "physicality": "56",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/220621.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/97.png",
+    "Club": "West Ham",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/19.png"
   },
   {
     "name": "Willy Boly",
@@ -2617,7 +1001,11 @@
     "pass": "64",
     "dribble": "63",
     "defensive": "77",
-    "physicality": "79"
+    "physicality": "79",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/202750.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/108.png",
+    "Club": "Nottm Forest",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/14.png"
   },
   {
     "name": "Aaron Cresswell",
@@ -2627,7 +1015,11 @@
     "pass": "75",
     "dribble": "75",
     "defensive": "77",
-    "physicality": "68"
+    "physicality": "68",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/189615.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "West Ham",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/19.png"
   },
   {
     "name": "Duje Caleta-Car",
@@ -2637,7 +1029,11 @@
     "pass": "59",
     "dribble": "62",
     "defensive": "79",
-    "physicality": "81"
+    "physicality": "81",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/225263.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/10.png",
+    "Club": "Southampton",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/17.png"
   },
   {
     "name": "Ben Mee",
@@ -2647,757 +1043,11 @@
     "pass": "58",
     "dribble": "62",
     "defensive": "80",
-    "physicality": "77"
-  },
-  {
-    "name": "David Brooks",
-    "rating": "76",
-    "pace": "69",
-    "shots": "71",
-    "pass": "75",
-    "dribble": "79",
-    "defensive": "48",
-    "physicality": "62"
-  },
-  {
-    "name": "Che Adams",
-    "rating": "76",
-    "pace": "81",
-    "shots": "77",
-    "pass": "62",
-    "dribble": "75",
-    "defensive": "40",
-    "physicality": "77"
-  },
-  {
-    "name": "Andreas Pereira",
-    "rating": "76",
-    "pace": "76",
-    "shots": "74",
-    "pass": "77",
-    "dribble": "78",
-    "defensive": "65",
-    "physicality": "68"
-  },
-  {
-    "name": "Ruben Loftus-Cheek",
-    "rating": "76",
-    "pace": "65",
-    "shots": "68",
-    "pass": "75",
-    "dribble": "78",
-    "defensive": "66",
-    "physicality": "75"
-  },
-  {
-    "name": "Daniel Amartey",
-    "rating": "76",
-    "pace": "63",
-    "shots": "55",
-    "pass": "65",
-    "dribble": "69",
-    "defensive": "76",
-    "physicality": "76"
-  },
-  {
-    "name": "Michael Olise",
-    "rating": "76",
-    "pace": "80",
-    "shots": "70",
-    "pass": "76",
-    "dribble": "80",
-    "defensive": "50",
-    "physicality": "53"
-  },
-  {
-    "name": "Fraser Forster",
-    "rating": "76",
-    "pace": "76",
-    "shots": "72",
-    "pass": "67",
-    "dribble": "81",
-    "defensive": "30",
-    "physicality": "75"
-  },
-  {
-    "name": "Trevoh Chalobah",
-    "rating": "76",
-    "pace": "64",
-    "shots": "47",
-    "pass": "65",
-    "dribble": "68",
-    "defensive": "76",
-    "physicality": "76"
-  },
-  {
-    "name": "Enock Mwepu",
-    "rating": "76",
-    "pace": "82",
-    "shots": "75",
-    "pass": "72",
-    "dribble": "75",
-    "defensive": "72",
-    "physicality": "78"
-  },
-  {
-    "name": "Dwight McNeil",
-    "rating": "76",
-    "pace": "70",
-    "shots": "65",
-    "pass": "75",
-    "dribble": "79",
-    "defensive": "53",
-    "physicality": "66"
-  },
-  {
-    "name": "Tyrick Mitchell",
-    "rating": "76",
-    "pace": "77",
-    "shots": "39",
-    "pass": "60",
-    "dribble": "70",
-    "defensive": "75",
-    "physicality": "68"
-  },
-  {
-    "name": "Jean-Philippe Mateta",
-    "rating": "76",
-    "pace": "71",
-    "shots": "74",
-    "pass": "57",
-    "dribble": "73",
-    "defensive": "34",
-    "physicality": "78"
-  },
-  {
-    "name": "Harry Wilson",
-    "rating": "76",
-    "pace": "77",
-    "shots": "78",
-    "pass": "76",
-    "dribble": "76",
-    "defensive": "45",
-    "physicality": "58"
-  },
-  {
-    "name": "Neal Maupay",
-    "rating": "76",
-    "pace": "74",
-    "shots": "77",
-    "pass": "67",
-    "dribble": "73",
-    "defensive": "41",
-    "physicality": "72"
-  },
-  {
-    "name": "Mikkel Damsgaard",
-    "rating": "76",
-    "pace": "84",
-    "shots": "68",
-    "pass": "71",
-    "dribble": "81",
-    "defensive": "48",
-    "physicality": "62"
-  },
-  {
-    "name": "Diego Llorente",
-    "rating": "76",
-    "pace": "67",
-    "shots": "40",
-    "pass": "63",
-    "dribble": "68",
-    "defensive": "75",
-    "physicality": "78"
-  },
-  {
-    "name": "Cheick Doucoure",
-    "rating": "76",
-    "pace": "68",
-    "shots": "57",
-    "pass": "71",
-    "dribble": "76",
-    "defensive": "74",
-    "physicality": "76"
-  },
-  {
-    "name": "Mohamed Elneny",
-    "rating": "76",
-    "pace": "56",
-    "shots": "63",
-    "pass": "71",
-    "dribble": "70",
-    "defensive": "73",
-    "physicality": "73"
-  },
-  {
-    "name": "Pascal Struijk",
-    "rating": "76",
-    "pace": "57",
-    "shots": "38",
-    "pass": "61",
-    "dribble": "63",
-    "defensive": "77",
-    "physicality": "76"
-  },
-  {
-    "name": "Adam Webster",
-    "rating": "76",
-    "pace": "68",
-    "shots": "31",
-    "pass": "60",
-    "dribble": "69",
-    "defensive": "77",
-    "physicality": "74"
-  },
-  {
-    "name": "Stuart Armstrong",
-    "rating": "76",
-    "pace": "70",
-    "shots": "77",
-    "pass": "73",
-    "dribble": "76",
-    "defensive": "65",
-    "physicality": "71"
-  },
-  {
-    "name": "Odsonne Edouard",
-    "rating": "76",
-    "pace": "79",
-    "shots": "75",
-    "pass": "68",
-    "dribble": "79",
-    "defensive": "45",
-    "physicality": "75"
-  },
-  {
-    "name": "James Justin",
-    "rating": "76",
-    "pace": "81",
-    "shots": "50",
-    "pass": "69",
-    "dribble": "72",
-    "defensive": "73",
-    "physicality": "70"
-  },
-  {
-    "name": "Emmanuel Dennis",
-    "rating": "76",
-    "pace": "87",
-    "shots": "75",
-    "pass": "62",
-    "dribble": "77",
-    "defensive": "38",
-    "physicality": "71"
-  },
-  {
-    "name": "Romain Perraud",
-    "rating": "76",
-    "pace": "72",
-    "shots": "72",
-    "pass": "75",
-    "dribble": "75",
-    "defensive": "72",
-    "physicality": "73"
-  },
-  {
-    "name": "Thomas Strakosha",
-    "rating": "78",
-    "pace": "79",
-    "shots": "76",
-    "pass": "73",
-    "dribble": "79",
-    "defensive": "43",
-    "physicality": "77"
-  },
-  {
-    "name": "Timothy Castagne",
-    "rating": "78",
-    "pace": "76",
-    "shots": "58",
-    "pass": "71",
-    "dribble": "75",
-    "defensive": "75",
-    "physicality": "73"
-  },
-  {
-    "name": "Emerson Royal",
-    "rating": "78",
-    "pace": "74",
-    "shots": "62",
-    "pass": "71",
-    "dribble": "74",
-    "defensive": "75",
-    "physicality": "76"
-  },
-  {
-    "name": "Marc Guehi",
-    "rating": "78",
-    "pace": "73",
-    "shots": "39",
-    "pass": "58",
-    "dribble": "68",
-    "defensive": "79",
-    "physicality": "75"
-  },
-  {
-    "name": "Diogo Dalot",
-    "rating": "78",
-    "pace": "79",
-    "shots": "60",
-    "pass": "73",
-    "dribble": "78",
-    "defensive": "73",
-    "physicality": "77"
-  },
-  {
-    "name": "Miguel Almiron",
-    "rating": "78",
-    "pace": "86",
-    "shots": "71",
-    "pass": "73",
-    "dribble": "79",
-    "defensive": "53",
-    "physicality": "61"
-  },
-  {
-    "name": "Dennis Praet",
-    "rating": "78",
-    "pace": "66",
-    "shots": "72",
-    "pass": "78",
-    "dribble": "79",
-    "defensive": "63",
-    "physicality": "66"
-  },
-  {
-    "name": "Clement Lenglet",
-    "rating": "78",
-    "pace": "68",
-    "shots": "45",
-    "pass": "69",
-    "dribble": "64",
-    "defensive": "77",
-    "physicality": "76"
-  },
-  {
-    "name": "Caglar Soyuncu",
-    "rating": "78",
-    "pace": "71",
-    "shots": "46",
-    "pass": "60",
-    "dribble": "65",
-    "defensive": "78",
-    "physicality": "79"
-  },
-  {
-    "name": "Jesse Lingard",
-    "rating": "78",
-    "pace": "75",
-    "shots": "77",
-    "pass": "73",
-    "dribble": "79",
-    "defensive": "57",
-    "physicality": "65"
-  },
-  {
-    "name": "Marcos Senesi",
-    "rating": "78",
-    "pace": "60",
-    "shots": "42",
-    "pass": "69",
-    "dribble": "74",
-    "defensive": "79",
-    "physicality": "78"
-  },
-  {
-    "name": "James Milner",
-    "rating": "78",
-    "pace": "52",
-    "shots": "70",
-    "pass": "80",
-    "dribble": "76",
-    "defensive": "77",
-    "physicality": "74"
-  },
-  {
-    "name": "Joel Veltman",
-    "rating": "78",
-    "pace": "64",
-    "shots": "49",
-    "pass": "67",
-    "dribble": "70",
-    "defensive": "79",
-    "physicality": "76"
-  },
-  {
-    "name": "Tyrone Mings",
-    "rating": "78",
-    "pace": "71",
-    "shots": "44",
-    "pass": "67",
-    "dribble": "66",
-    "defensive": "78",
-    "physicality": "80"
-  },
-  {
-    "name": "Douglas Luiz",
-    "rating": "78",
-    "pace": "67",
-    "shots": "68",
-    "pass": "77",
-    "dribble": "77",
-    "defensive": "73",
-    "physicality": "70"
-  },
-  {
-    "name": "Patrick Bamford",
-    "rating": "78",
-    "pace": "82",
-    "shots": "78",
-    "pass": "68",
-    "dribble": "73",
-    "defensive": "42",
-    "physicality": "77"
-  },
-  {
-    "name": "Moussa Niakhate",
-    "rating": "78",
-    "pace": "79",
-    "shots": "42",
-    "pass": "65",
-    "dribble": "67",
-    "defensive": "79",
-    "physicality": "78"
-  },
-  {
-    "name": "Ollie Watkins",
-    "rating": "78",
-    "pace": "84",
-    "shots": "76",
-    "pass": "68",
-    "dribble": "74",
-    "defensive": "46",
-    "physicality": "77"
-  },
-  {
-    "name": "Nathan Ake",
-    "rating": "78",
-    "pace": "76",
-    "shots": "53",
-    "pass": "70",
-    "dribble": "70",
-    "defensive": "79",
-    "physicality": "75"
-  },
-  {
-    "name": "Maxwel Cornet",
-    "rating": "78",
-    "pace": "87",
-    "shots": "76",
-    "pass": "71",
-    "dribble": "77",
-    "defensive": "67",
-    "physicality": "77"
-  },
-  {
-    "name": "Julian Alvarez",
-    "rating": "78",
-    "pace": "76",
-    "shots": "80",
-    "pass": "76",
-    "dribble": "83",
-    "defensive": "55",
-    "physicality": "75"
-  },
-  {
-    "name": "Daniel Podence",
-    "rating": "78",
-    "pace": "83",
-    "shots": "64",
-    "pass": "73",
-    "dribble": "85",
-    "defensive": "33",
-    "physicality": "50"
-  },
-  {
-    "name": "Pedro Neto",
-    "rating": "78",
-    "pace": "85",
-    "shots": "74",
-    "pass": "69",
-    "dribble": "81",
-    "defensive": "31",
-    "physicality": "58"
-  },
-  {
-    "name": "Sasa Kalajdzic",
-    "rating": "78",
-    "pace": "63",
-    "shots": "75",
-    "pass": "68",
-    "dribble": "73",
-    "defensive": "46",
-    "physicality": "70"
-  },
-  {
-    "name": "Gabriel Martinelli",
-    "rating": "78",
-    "pace": "87",
-    "shots": "71",
-    "pass": "68",
-    "dribble": "80",
-    "defensive": "45",
-    "physicality": "68"
-  },
-  {
-    "name": "Kamaldeen Sulemana",
-    "rating": "75",
-    "pace": "93",
-    "shots": "69",
-    "pass": "66",
-    "dribble": "80",
-    "defensive": "28",
-    "physicality": "62"
-  },
-  {
-    "name": "Anthony Gordon",
-    "rating": "75",
-    "pace": "80",
-    "shots": "69",
-    "pass": "72",
-    "dribble": "75",
-    "defensive": "37",
-    "physicality": "62"
-  },
-  {
-    "name": "Albert Sambi Lokonga",
-    "rating": "75",
-    "pace": "66",
-    "shots": "58",
-    "pass": "75",
-    "dribble": "78",
-    "defensive": "69",
-    "physicality": "69"
-  },
-  {
-    "name": "Matias Vina",
-    "rating": "75",
-    "pace": "81",
-    "shots": "62",
-    "pass": "70",
-    "dribble": "74",
-    "defensive": "68",
-    "physicality": "68"
-  },
-  {
-    "name": "Mario Lemina",
-    "rating": "75",
-    "pace": "68",
-    "shots": "67",
-    "pass": "74",
-    "dribble": "76",
-    "defensive": "74",
-    "physicality": "75"
-  },
-  {
-    "name": "Georginio Rutter",
-    "rating": "75",
-    "pace": "77",
-    "shots": "74",
-    "pass": "59",
-    "dribble": "76",
-    "defensive": "24",
-    "physicality": "64"
-  },
-  {
-    "name": "Maximilian Wober",
-    "rating": "75",
-    "pace": "72",
-    "shots": "51",
-    "pass": "66",
-    "dribble": "64",
-    "defensive": "74",
-    "physicality": "80"
-  },
-  {
-    "name": "Danny Welbeck",
-    "rating": "75",
-    "pace": "70",
-    "shots": "73",
-    "pass": "67",
-    "dribble": "74",
-    "defensive": "42",
-    "physicality": "66"
-  },
-  {
-    "name": "Orel Mangala",
-    "rating": "75",
-    "pace": "64",
-    "shots": "54",
-    "pass": "71",
-    "dribble": "82",
-    "defensive": "70",
-    "physicality": "72"
-  },
-  {
-    "name": "Bryan Mbeumo",
-    "rating": "75",
-    "pace": "81",
-    "shots": "73",
-    "pass": "70",
-    "dribble": "76",
-    "defensive": "41",
-    "physicality": "71"
-  },
-  {
-    "name": "Tosin Adarabioyo",
-    "rating": "75",
-    "pace": "72",
-    "shots": "31",
-    "pass": "57",
-    "dribble": "58",
-    "defensive": "75",
-    "physicality": "77"
-  },
-  {
-    "name": "Luke Ayling",
-    "rating": "75",
-    "pace": "64",
-    "shots": "57",
-    "pass": "64",
-    "dribble": "72",
-    "defensive": "75",
-    "physicality": "75"
-  },
-  {
-    "name": "Stuart Dallas",
-    "rating": "75",
-    "pace": "70",
-    "shots": "70",
-    "pass": "71",
-    "dribble": "74",
-    "defensive": "73",
-    "physicality": "76"
-  },
-  {
-    "name": "Alex Iwobi",
-    "rating": "75",
-    "pace": "74",
-    "shots": "64",
-    "pass": "72",
-    "dribble": "78",
-    "defensive": "38",
-    "physicality": "65"
-  },
-  {
-    "name": "Marek Rodak",
-    "rating": "75",
-    "pace": "76",
-    "shots": "71",
-    "pass": "73",
-    "dribble": "76",
-    "defensive": "48",
-    "physicality": "73"
-  },
-  {
-    "name": "James McArthur",
-    "rating": "75",
-    "pace": "52",
-    "shots": "67",
-    "pass": "71",
-    "dribble": "72",
-    "defensive": "74",
-    "physicality": "68"
-  },
-  {
-    "name": "Albert Sambi Lokonga",
-    "rating": "75",
-    "pace": "66",
-    "shots": "58",
-    "pass": "75",
-    "dribble": "78",
-    "defensive": "69",
-    "physicality": "69"
-  },
-  {
-    "name": "Ainsley Maitland-Niles",
-    "rating": "75",
-    "pace": "78",
-    "shots": "62",
-    "pass": "70",
-    "dribble": "74",
-    "defensive": "70",
-    "physicality": "71"
-  },
-  {
-    "name": "Jefferson Lerma",
-    "rating": "75",
-    "pace": "70",
-    "shots": "64",
-    "pass": "69",
-    "dribble": "72",
-    "defensive": "72",
-    "physicality": "81"
-  },
-  {
-    "name": "Robin Olsen",
-    "rating": "75",
-    "pace": "76",
-    "shots": "74",
-    "pass": "78",
-    "dribble": "75",
-    "defensive": "35",
-    "physicality": "75"
-  },
-  {
-    "name": "Joe Willock",
-    "rating": "75",
-    "pace": "76",
-    "shots": "72",
-    "pass": "69",
-    "dribble": "77",
-    "defensive": "67",
-    "physicality": "70"
-  },
-  {
-    "name": "Morgan Gibbs-White",
-    "rating": "75",
-    "pace": "76",
-    "shots": "70",
-    "pass": "73",
-    "dribble": "76",
-    "defensive": "57",
-    "physicality": "66"
-  },
-  {
-    "name": "Tom Cairney",
-    "rating": "75",
-    "pace": "58",
-    "shots": "73",
-    "pass": "77",
-    "dribble": "76",
-    "defensive": "62",
-    "physicality": "64"
-  },
-  {
-    "name": "Danny Ward",
-    "rating": "75",
-    "pace": "75",
-    "shots": "73",
-    "pass": "67",
-    "dribble": "76",
-    "defensive": "45",
-    "physicality": "74"
-  },
-  {
-    "name": "Ethan Pinnock",
-    "rating": "75",
-    "pace": "67",
-    "shots": "37",
-    "pass": "57",
-    "dribble": "61",
-    "defensive": "76",
-    "physicality": "79"
+    "physicality": "77",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/189682.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Brentford",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1925.png"
   },
   {
     "name": "Seamus Coleman",
@@ -3407,7 +1057,11 @@
     "pass": "72",
     "dribble": "76",
     "defensive": "77",
-    "physicality": "70"
+    "physicality": "70",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/180216.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/25.png",
+    "Club": "Everton",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/7.png"
   },
   {
     "name": "Curtis Jones",
@@ -3417,7 +1071,11 @@
     "pass": "72",
     "dribble": "80",
     "defensive": "64",
-    "physicality": "71"
+    "physicality": "71",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/242434.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Liverpool",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/9.png"
   },
   {
     "name": "Jeffrey Schlupp",
@@ -3427,7 +1085,11 @@
     "pass": "69",
     "dribble": "76",
     "defensive": "71",
-    "physicality": "74"
+    "physicality": "74",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/200759.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/117.png",
+    "Club": "Crystal Palace",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1799.png"
   },
   {
     "name": "Marc Roca",
@@ -3437,7 +1099,11 @@
     "pass": "76",
     "dribble": "72",
     "defensive": "70",
-    "physicality": "67"
+    "physicality": "67",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/235945.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/45.png",
+    "Club": "Leeds United",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/8.png"
   },
   {
     "name": "Andros Townsend",
@@ -3447,7 +1113,11 @@
     "pass": "75",
     "dribble": "79",
     "defensive": "38",
-    "physicality": "65"
+    "physicality": "65",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/194932.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Everton",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/7.png"
   },
   {
     "name": "Ayoze Perez",
@@ -3457,7 +1127,11 @@
     "pass": "73",
     "dribble": "80",
     "defensive": "58",
-    "physicality": "63"
+    "physicality": "63",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/215590.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/45.png",
+    "Club": "Leicester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/95.png"
   },
   {
     "name": "Morgan Sanson",
@@ -3467,7 +1141,11 @@
     "pass": "77",
     "dribble": "75",
     "defensive": "70",
-    "physicality": "72"
+    "physicality": "72",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/210896.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/18.png",
+    "Club": "Aston Villa",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/2.png"
   },
   {
     "name": "Boubakary Soumare",
@@ -3477,7 +1155,11 @@
     "pass": "73",
     "dribble": "74",
     "defensive": "70",
-    "physicality": "80"
+    "physicality": "80",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/239817.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/18.png",
+    "Club": "Leicester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/95.png"
   },
   {
     "name": "Chris Wood",
@@ -3487,7 +1169,11 @@
     "pass": "60",
     "dribble": "70",
     "defensive": "40",
-    "physicality": "80"
+    "physicality": "80",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/192123.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/198.png",
+    "Club": "Newcastle Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/13.png"
   },
   {
     "name": "Vitaliy Mykolenko",
@@ -3497,7 +1183,11 @@
     "pass": "64",
     "dribble": "61",
     "defensive": "73",
-    "physicality": "62"
+    "physicality": "62",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/244380.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/49.png",
+    "Club": "Everton",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/7.png"
   },
   {
     "name": "Manor Solomon",
@@ -3507,7 +1197,11 @@
     "pass": "74",
     "dribble": "79",
     "defensive": "43",
-    "physicality": "57"
+    "physicality": "57",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/246791.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/26.png",
+    "Club": "Fulham",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/144.png"
   },
   {
     "name": "Jan Bednarek",
@@ -3517,7 +1211,11 @@
     "pass": "53",
     "dribble": "55",
     "defensive": "77",
-    "physicality": "78"
+    "physicality": "78",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/220570.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/37.png",
+    "Club": "Aston Villa",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/2.png"
   },
   {
     "name": "Thilo Kehrer",
@@ -3527,7 +1225,11 @@
     "pass": "65",
     "dribble": "66",
     "defensive": "76",
-    "physicality": "78"
+    "physicality": "78",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/226229.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/21.png",
+    "Club": "West Ham",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/19.png"
   },
   {
     "name": "Vinicius",
@@ -3537,7 +1239,11 @@
     "pass": "61",
     "dribble": "73",
     "defensive": "41",
-    "physicality": "79"
+    "physicality": "79",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/244621.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/54.png",
+    "Club": "Fulham",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/144.png"
   },
   {
     "name": "Eberechi Eze",
@@ -3547,7 +1253,11 @@
     "pass": "74",
     "dribble": "81",
     "defensive": "47",
-    "physicality": "67"
+    "physicality": "67",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/235794.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Crystal Palace",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1799.png"
   },
   {
     "name": "Alexis Mac Allister",
@@ -3557,7 +1267,11 @@
     "pass": "78",
     "dribble": "75",
     "defensive": "56",
-    "physicality": "62"
+    "physicality": "62",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/239837.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/52.png",
+    "Club": "Brighton",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1808.png"
   },
   {
     "name": "Robin Koch",
@@ -3567,7 +1281,11 @@
     "pass": "60",
     "dribble": "64",
     "defensive": "77",
-    "physicality": "73"
+    "physicality": "73",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/236532.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/21.png",
+    "Club": "Leeds United",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/8.png"
   },
   {
     "name": "David Raya",
@@ -3577,7 +1295,11 @@
     "pass": "80",
     "dribble": "77",
     "defensive": "53",
-    "physicality": "75"
+    "physicality": "75",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/220901.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/45.png",
+    "Club": "Brentford",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1925.png"
   },
   {
     "name": "Christian Norgaard",
@@ -3587,7 +1309,11 @@
     "pass": "69",
     "dribble": "69",
     "defensive": "76",
-    "physicality": "78"
+    "physicality": "78",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/210697.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/13.png",
+    "Club": "Brentford",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1925.png"
   },
   {
     "name": "Tyler Adams",
@@ -3597,7 +1323,11 @@
     "pass": "69",
     "dribble": "73",
     "defensive": "73",
-    "physicality": "76"
+    "physicality": "76",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/232999.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/95.png",
+    "Club": "Leeds United",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/8.png"
   },
   {
     "name": "Leander Dendoncker",
@@ -3607,7 +1337,11 @@
     "pass": "76",
     "dribble": "71",
     "defensive": "77",
-    "physicality": "81"
+    "physicality": "81",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/212501.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/7.png",
+    "Club": "Aston Villa",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/2.png"
   },
   {
     "name": "Liam Cooper",
@@ -3617,7 +1351,11 @@
     "pass": "56",
     "dribble": "58",
     "defensive": "77",
-    "physicality": "77"
+    "physicality": "77",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/189456.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/42.png",
+    "Club": "Leeds United",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/8.png"
   },
   {
     "name": "Rayan Ait Nouri",
@@ -3627,7 +1365,11 @@
     "pass": "70",
     "dribble": "76",
     "defensive": "73",
-    "physicality": "62"
+    "physicality": "62",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/242641.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/18.png",
+    "Club": "Wolves",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/110.png"
   },
   {
     "name": "Andre Ayew",
@@ -3637,7 +1379,11 @@
     "pass": "72",
     "dribble": "77",
     "defensive": "57",
-    "physicality": "74"
+    "physicality": "74",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/176571.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/117.png",
+    "Club": "Nottm Forest",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/14.png"
   },
   {
     "name": "Cedric",
@@ -3647,7 +1393,361 @@
     "pass": "70",
     "dribble": "75",
     "defensive": "73",
-    "physicality": "64"
+    "physicality": "64",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/201118.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/38.png",
+    "Club": "Fulham",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/144.png"
+  },
+  {
+    "name": "Kevin De Bruyne",
+    "rating": "91",
+    "pace": "74",
+    "shots": "88",
+    "pass": "93",
+    "dribble": "87",
+    "defensive": "64",
+    "physicality": "77",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/192985.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/7.png",
+    "Club": "Manchester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/10.png"
+  },
+  {
+    "name": "Mohamed Salah",
+    "rating": "90",
+    "pace": "90",
+    "shots": "89",
+    "pass": "82",
+    "dribble": "90",
+    "defensive": "45",
+    "physicality": "75",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/209331.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/111.png",
+    "Club": "Liverpool",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/9.png"
+  },
+  {
+    "name": "Cristiano Ronaldo",
+    "rating": "90",
+    "pace": "81",
+    "shots": "92",
+    "pass": "78",
+    "dribble": "85",
+    "defensive": "34",
+    "physicality": "75",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/20801.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/38.png",
+    "Club": "Manchester Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/11.png"
+  },
+  {
+    "name": "Virgil van Dijk",
+    "rating": "90",
+    "pace": "81",
+    "shots": "60",
+    "pass": "71",
+    "dribble": "72",
+    "defensive": "91",
+    "physicality": "86",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/203376.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/34.png",
+    "Club": "Liverpool",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/9.png"
+  },
+  {
+    "name": "Casemiro",
+    "rating": "89",
+    "pace": "63",
+    "shots": "73",
+    "pass": "75",
+    "dribble": "72",
+    "defensive": "87",
+    "physicality": "90",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/200145.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/54.png",
+    "Club": "Manchester Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/11.png"
+  },
+  {
+    "name": "Alisson",
+    "rating": "89",
+    "pace": "86",
+    "shots": "85",
+    "pass": "85",
+    "dribble": "89",
+    "defensive": "54",
+    "physicality": "90",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/212831.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/54.png",
+    "Club": "Liverpool",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/9.png"
+  },
+  {
+    "name": "Harry Kane",
+    "rating": "89",
+    "pace": "68",
+    "shots": "91",
+    "pass": "83",
+    "dribble": "82",
+    "defensive": "47",
+    "physicality": "82",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/202126.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Spurs",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/18.png"
+  },
+  {
+    "name": "Ederson",
+    "rating": "89",
+    "pace": "87",
+    "shots": "82",
+    "pass": "93",
+    "dribble": "88",
+    "defensive": "64",
+    "physicality": "88",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/210257.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/54.png",
+    "Club": "Manchester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/10.png"
+  },
+  {
+    "name": "N'Golo Kante",
+    "rating": "89",
+    "pace": "72",
+    "shots": "66",
+    "pass": "74",
+    "dribble": "81",
+    "defensive": "87",
+    "physicality": "82",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/215914.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/18.png",
+    "Club": "Chelsea",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/5.png"
+  },
+  {
+    "name": "Heung Min Son",
+    "rating": "89",
+    "pace": "88",
+    "shots": "89",
+    "pass": "82",
+    "dribble": "86",
+    "defensive": "42",
+    "physicality": "69",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/200104.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/167.png",
+    "Club": "Spurs",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/18.png"
+  },
+  {
+    "name": "Keylor Navas",
+    "rating": "88",
+    "pace": "89",
+    "shots": "84",
+    "pass": "75",
+    "dribble": "89",
+    "defensive": "54",
+    "physicality": "87",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/193041.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/72.png",
+    "Club": "Nottm Forest",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/14.png"
+  },
+  {
+    "name": "Joao Cancelo",
+    "rating": "88",
+    "pace": "85",
+    "shots": "73",
+    "pass": "85",
+    "dribble": "85",
+    "defensive": "81",
+    "physicality": "73",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/210514.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/38.png",
+    "Club": "Manchester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/10.png"
+  },
+  {
+    "name": "Ruben Dias",
+    "rating": "88",
+    "pace": "63",
+    "shots": "39",
+    "pass": "66",
+    "dribble": "68",
+    "defensive": "88",
+    "physicality": "88",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/239818.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/38.png",
+    "Club": "Manchester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/10.png"
+  },
+  {
+    "name": "Bernardo Silva",
+    "rating": "88",
+    "pace": "77",
+    "shots": "78",
+    "pass": "84",
+    "dribble": "92",
+    "defensive": "61",
+    "physicality": "68",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/218667.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/38.png",
+    "Club": "Manchester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/10.png"
+  },
+  {
+    "name": "Erling Haaland",
+    "rating": "88",
+    "pace": "89",
+    "shots": "91",
+    "pass": "65",
+    "dribble": "80",
+    "defensive": "49",
+    "physicality": "87",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/239085.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/36.png",
+    "Club": "Manchester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/10.png"
+  },
+  {
+    "name": "Fabinho",
+    "rating": "87",
+    "pace": "66",
+    "shots": "69",
+    "pass": "78",
+    "dribble": "77",
+    "defensive": "86",
+    "physicality": "83",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/209499.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/54.png",
+    "Club": "Liverpool",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/9.png"
+  },
+  {
+    "name": "Rodri",
+    "rating": "87",
+    "pace": "58",
+    "shots": "72",
+    "pass": "78",
+    "dribble": "79",
+    "defensive": "83",
+    "physicality": "84",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/231866.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/45.png",
+    "Club": "Manchester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/10.png"
+  },
+  {
+    "name": "Andrew Robertson",
+    "rating": "87",
+    "pace": "80",
+    "shots": "61",
+    "pass": "81",
+    "dribble": "81",
+    "defensive": "82",
+    "physicality": "76",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/216267.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/42.png",
+    "Club": "Liverpool",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/9.png"
+  },
+  {
+    "name": "Kalidou Koulibaly",
+    "rating": "87",
+    "pace": "82",
+    "shots": "33",
+    "pass": "59",
+    "dribble": "68",
+    "defensive": "88",
+    "physicality": "85",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/201024.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/136.png",
+    "Club": "Chelsea",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/5.png"
+  },
+  {
+    "name": "Trent Alexander-Arnold",
+    "rating": "87",
+    "pace": "76",
+    "shots": "69",
+    "pass": "89",
+    "dribble": "80",
+    "defensive": "80",
+    "physicality": "73",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/231281.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Liverpool",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/9.png"
+  },
+  {
+    "name": "Hugo Lloris",
+    "rating": "87",
+    "pace": "88",
+    "shots": "83",
+    "pass": "74",
+    "dribble": "88",
+    "defensive": "61",
+    "physicality": "84",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/167948.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/18.png",
+    "Club": "Spurs",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/18.png"
+  },
+  {
+    "name": "De Gea",
+    "rating": "87",
+    "pace": "88",
+    "shots": "80",
+    "pass": "76",
+    "dribble": "89",
+    "defensive": "51",
+    "physicality": "84",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/193080.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/45.png",
+    "Club": "Manchester Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/11.png"
+  },
+  {
+    "name": "Bruno Fernandes",
+    "rating": "86",
+    "pace": "72",
+    "shots": "86",
+    "pass": "88",
+    "dribble": "81",
+    "defensive": "67",
+    "physicality": "76",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/212198.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/38.png",
+    "Club": "Manchester Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/11.png"
+  },
+  {
+    "name": "Riyad Mahrez",
+    "rating": "86",
+    "pace": "80",
+    "shots": "83",
+    "pass": "81",
+    "dribble": "90",
+    "defensive": "38",
+    "physicality": "60",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/204485.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/97.png",
+    "Club": "Manchester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/10.png"
+  },
+  {
+    "name": "Thiago",
+    "rating": "86",
+    "pace": "61",
+    "shots": "72",
+    "pass": "87",
+    "dribble": "90",
+    "defensive": "72",
+    "physicality": "69",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/189509.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/45.png",
+    "Club": "Liverpool",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/9.png"
   },
   {
     "name": "Bruno Guimaraes",
@@ -3657,7 +1757,11 @@
     "pass": "79",
     "dribble": "81",
     "defensive": "76",
-    "physicality": "77"
+    "physicality": "77",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/247851.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/54.png",
+    "Club": "Newcastle Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/13.png"
   },
   {
     "name": "Yves Bissouma",
@@ -3667,7 +1771,11 @@
     "pass": "75",
     "dribble": "79",
     "defensive": "80",
-    "physicality": "77"
+    "physicality": "77",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/236480.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/126.png",
+    "Club": "Spurs",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/18.png"
   },
   {
     "name": "Manuel Akanji",
@@ -3677,7 +1785,11 @@
     "pass": "70",
     "dribble": "74",
     "defensive": "83",
-    "physicality": "78"
+    "physicality": "78",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/229237.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/47.png",
+    "Club": "Manchester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/10.png"
   },
   {
     "name": "Richarlison",
@@ -3687,7 +1799,11 @@
     "pass": "72",
     "dribble": "82",
     "defensive": "53",
-    "physicality": "79"
+    "physicality": "79",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/231943.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/54.png",
+    "Club": "Spurs",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/18.png"
   },
   {
     "name": "Dejan Kulusevski",
@@ -3697,7 +1813,11 @@
     "pass": "79",
     "dribble": "83",
     "defensive": "56",
-    "physicality": "76"
+    "physicality": "76",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/247394.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/46.png",
+    "Club": "Spurs",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/18.png"
   },
   {
     "name": "Denis Zakaria",
@@ -3707,7 +1827,11 @@
     "pass": "73",
     "dribble": "77",
     "defensive": "80",
-    "physicality": "85"
+    "physicality": "85",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/229261.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/47.png",
+    "Club": "Chelsea",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/5.png"
   },
   {
     "name": "Lisandro Martinez",
@@ -3717,7 +1841,11 @@
     "pass": "76",
     "dribble": "77",
     "defensive": "82",
-    "physicality": "83"
+    "physicality": "83",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/239301.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/52.png",
+    "Club": "Manchester Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/11.png"
   },
   {
     "name": "Joao Moutinho",
@@ -3727,7 +1855,11 @@
     "pass": "84",
     "dribble": "79",
     "defensive": "71",
-    "physicality": "66"
+    "physicality": "66",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/162347.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/38.png",
+    "Club": "Wolves",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/110.png"
   },
   {
     "name": "Marcus Rashford",
@@ -3737,7 +1869,11 @@
     "pass": "75",
     "dribble": "81",
     "defensive": "41",
-    "physicality": "71"
+    "physicality": "71",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/231677.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Manchester Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/11.png"
   },
   {
     "name": "Allan Saint-Maximin",
@@ -3747,7 +1883,11 @@
     "pass": "73",
     "dribble": "88",
     "defensive": "27",
-    "physicality": "68"
+    "physicality": "68",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/216388.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/18.png",
+    "Club": "Newcastle Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/13.png"
   },
   {
     "name": "Jose Sa",
@@ -3757,7 +1897,11 @@
     "pass": "73",
     "dribble": "83",
     "defensive": "52",
-    "physicality": "79"
+    "physicality": "79",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/212442.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/38.png",
+    "Club": "Wolves",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/110.png"
   },
   {
     "name": "Joe Gomez",
@@ -3767,7 +1911,11 @@
     "pass": "67",
     "dribble": "69",
     "defensive": "81",
-    "physicality": "78"
+    "physicality": "78",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/225100.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Liverpool",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/9.png"
   },
   {
     "name": "Naby Keita",
@@ -3777,7 +1925,11 @@
     "pass": "76",
     "dribble": "86",
     "defensive": "69",
-    "physicality": "68"
+    "physicality": "68",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/220971.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/118.png",
+    "Club": "Liverpool",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/9.png"
   },
   {
     "name": "Cucurella",
@@ -3787,7 +1939,11 @@
     "pass": "78",
     "dribble": "80",
     "defensive": "77",
-    "physicality": "74"
+    "physicality": "74",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/239231.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/45.png",
+    "Club": "Chelsea",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/5.png"
   },
   {
     "name": "Weston McKennie",
@@ -3797,7 +1953,11 @@
     "pass": "76",
     "dribble": "80",
     "defensive": "78",
-    "physicality": "83"
+    "physicality": "83",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/238744.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/95.png",
+    "Club": "Leeds United",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/8.png"
   },
   {
     "name": "Marcel Sabitzer",
@@ -3807,7 +1967,11 @@
     "pass": "79",
     "dribble": "79",
     "defensive": "66",
-    "physicality": "76"
+    "physicality": "76",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/204923.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/4.png",
+    "Club": "Manchester Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/11.png"
   },
   {
     "name": "Alex Moreno",
@@ -3817,7 +1981,11 @@
     "pass": "73",
     "dribble": "76",
     "defensive": "75",
-    "physicality": "69"
+    "physicality": "69",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/217036.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/45.png",
+    "Club": "Aston Villa",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/2.png"
   },
   {
     "name": "Martin Dubravka",
@@ -3827,7 +1995,11 @@
     "pass": "79",
     "dribble": "81",
     "defensive": "46",
-    "physicality": "77"
+    "physicality": "77",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/220407.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/43.png",
+    "Club": "Newcastle Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/13.png"
   },
   {
     "name": "Emile Smith Rowe",
@@ -3837,7 +2009,11 @@
     "pass": "76",
     "dribble": "81",
     "defensive": "32",
-    "physicality": "61"
+    "physicality": "61",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/240273.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Arsenal",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1.png"
   },
   {
     "name": "Sven Botman",
@@ -3847,7 +2023,11 @@
     "pass": "60",
     "dribble": "62",
     "defensive": "80",
-    "physicality": "84"
+    "physicality": "84",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/251809.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/34.png",
+    "Club": "Newcastle Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/13.png"
   },
   {
     "name": "Aaron Wan-Bissaka",
@@ -3857,7 +2037,11 @@
     "pass": "66",
     "dribble": "75",
     "defensive": "78",
-    "physicality": "73"
+    "physicality": "73",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/229880.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Manchester Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/11.png"
   },
   {
     "name": "Gianluca Scamacca",
@@ -3867,7 +2051,11 @@
     "pass": "66",
     "dribble": "74",
     "defensive": "36",
-    "physicality": "74"
+    "physicality": "74",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/226710.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/27.png",
+    "Club": "West Ham",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/19.png"
   },
   {
     "name": "Kepa",
@@ -3877,7 +2065,11 @@
     "pass": "85",
     "dribble": "82",
     "defensive": "34",
-    "physicality": "77"
+    "physicality": "77",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/206585.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/45.png",
+    "Club": "Chelsea",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/5.png"
   },
   {
     "name": "Vladimir Coufal",
@@ -3887,7 +2079,11 @@
     "pass": "73",
     "dribble": "75",
     "defensive": "78",
-    "physicality": "81"
+    "physicality": "81",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/244470.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/12.png",
+    "Club": "West Ham",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/19.png"
   },
   {
     "name": "Martin Dubravka",
@@ -3897,6 +2093,1060 @@
     "pass": "79",
     "dribble": "81",
     "defensive": "46",
-    "physicality": "77"
+    "physicality": "77",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/220407.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/43.png",
+    "Club": "Manchester Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/11.png"
+  },
+  {
+    "name": "Mason Mount",
+    "rating": "84",
+    "pace": "74",
+    "shots": "81",
+    "pass": "85",
+    "dribble": "82",
+    "defensive": "55",
+    "physicality": "67",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/233064.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Chelsea",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/5.png"
+  },
+  {
+    "name": "Mateo Kovacic",
+    "rating": "84",
+    "pace": "70",
+    "shots": "69",
+    "pass": "83",
+    "dribble": "88",
+    "defensive": "71",
+    "physicality": "71",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/207410.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/10.png",
+    "Club": "Chelsea",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/5.png"
+  },
+  {
+    "name": "Reece James",
+    "rating": "84",
+    "pace": "81",
+    "shots": "70",
+    "pass": "82",
+    "dribble": "82",
+    "defensive": "80",
+    "physicality": "82",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/238074.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Chelsea",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/5.png"
+  },
+  {
+    "name": "Jack Grealish",
+    "rating": "84",
+    "pace": "76",
+    "shots": "76",
+    "pass": "83",
+    "dribble": "87",
+    "defensive": "46",
+    "physicality": "69",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/206517.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Manchester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/10.png"
+  },
+  {
+    "name": "Kai Havertz",
+    "rating": "84",
+    "pace": "81",
+    "shots": "79",
+    "pass": "79",
+    "dribble": "84",
+    "defensive": "45",
+    "physicality": "66",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/235790.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/21.png",
+    "Club": "Chelsea",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/5.png"
+  },
+  {
+    "name": "Cody Gakpo",
+    "rating": "83",
+    "pace": "87",
+    "shots": "82",
+    "pass": "77",
+    "dribble": "84",
+    "defensive": "41",
+    "physicality": "74",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/242516.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/34.png",
+    "Club": "Liverpool",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/9.png"
+  },
+  {
+    "name": "Cristian Romero",
+    "rating": "83",
+    "pace": "73",
+    "shots": "46",
+    "pass": "57",
+    "dribble": "65",
+    "defensive": "85",
+    "physicality": "82",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/232488.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/52.png",
+    "Club": "Spurs",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/18.png"
+  },
+  {
+    "name": "Diego Carlos",
+    "rating": "83",
+    "pace": "76",
+    "shots": "47",
+    "pass": "63",
+    "dribble": "67",
+    "defensive": "82",
+    "physicality": "82",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/219693.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/54.png",
+    "Club": "Aston Villa",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/2.png"
+  },
+  {
+    "name": "Ricardo Pereira",
+    "rating": "83",
+    "pace": "79",
+    "shots": "67",
+    "pass": "79",
+    "dribble": "81",
+    "defensive": "80",
+    "physicality": "73",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/210243.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/38.png",
+    "Club": "Leicester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/95.png"
+  },
+  {
+    "name": "Pierre-Emile Hojbjerg",
+    "rating": "83",
+    "pace": "55",
+    "shots": "73",
+    "pass": "77",
+    "dribble": "77",
+    "defensive": "80",
+    "physicality": "82",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/213648.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/13.png",
+    "Club": "Spurs",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/18.png"
+  },
+  {
+    "name": "Gabriel Jesus",
+    "rating": "83",
+    "pace": "84",
+    "shots": "82",
+    "pass": "74",
+    "dribble": "86",
+    "defensive": "40",
+    "physicality": "74",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/230666.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/54.png",
+    "Club": "Arsenal",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1.png"
+  },
+  {
+    "name": "John Stones",
+    "rating": "83",
+    "pace": "72",
+    "shots": "51",
+    "pass": "71",
+    "dribble": "75",
+    "defensive": "84",
+    "physicality": "77",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/203574.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Manchester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/10.png"
+  },
+  {
+    "name": "Ruben Neves",
+    "rating": "83",
+    "pace": "58",
+    "shots": "74",
+    "pass": "86",
+    "dribble": "77",
+    "defensive": "76",
+    "physicality": "73",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/224293.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/38.png",
+    "Club": "Wolves",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/110.png"
+  },
+  {
+    "name": "Roberto Firmino",
+    "rating": "83",
+    "pace": "74",
+    "shots": "76",
+    "pass": "79",
+    "dribble": "87",
+    "defensive": "59",
+    "physicality": "78",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/201942.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/54.png",
+    "Club": "Liverpool",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/9.png"
+  },
+  {
+    "name": "Jordan Henderson",
+    "rating": "83",
+    "pace": "66",
+    "shots": "74",
+    "pass": "83",
+    "dribble": "78",
+    "defensive": "78",
+    "physicality": "81",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/183711.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Liverpool",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/9.png"
+  },
+  {
+    "name": "Hakim Ziyech",
+    "rating": "83",
+    "pace": "76",
+    "shots": "77",
+    "pass": "87",
+    "dribble": "83",
+    "defensive": "50",
+    "physicality": "65",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/208670.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/129.png",
+    "Club": "Chelsea",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/5.png"
+  },
+  {
+    "name": "Arnaut Danjuma",
+    "rating": "82",
+    "pace": "88",
+    "shots": "81",
+    "pass": "75",
+    "dribble": "82",
+    "defensive": "42",
+    "physicality": "68",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/236276.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/34.png",
+    "Club": "Spurs",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/18.png"
+  },
+  {
+    "name": "Lukasz Fabianski",
+    "rating": "82",
+    "pace": "82",
+    "shots": "82",
+    "pass": "71",
+    "dribble": "82",
+    "defensive": "49",
+    "physicality": "83",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/164835.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/37.png",
+    "Club": "West Ham",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/19.png"
+  },
+  {
+    "name": "James Maddison",
+    "rating": "82",
+    "pace": "73",
+    "shots": "78",
+    "pass": "84",
+    "dribble": "85",
+    "defensive": "54",
+    "physicality": "62",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/220697.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Leicester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/95.png"
+  },
+  {
+    "name": "Idrissa Gueye",
+    "rating": "82",
+    "pace": "67",
+    "shots": "66",
+    "pass": "72",
+    "dribble": "78",
+    "defensive": "83",
+    "physicality": "76",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/193474.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/136.png",
+    "Club": "Everton",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/7.png"
+  },
+  {
+    "name": "Lucas Digne",
+    "rating": "82",
+    "pace": "78",
+    "shots": "69",
+    "pass": "80",
+    "dribble": "79",
+    "defensive": "77",
+    "physicality": "76",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/200458.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/18.png",
+    "Club": "Aston Villa",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/2.png"
+  },
+  {
+    "name": "Jordan Pickford",
+    "rating": "82",
+    "pace": "84",
+    "shots": "77",
+    "pass": "87",
+    "dribble": "87",
+    "defensive": "51",
+    "physicality": "80",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/204935.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Everton",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/7.png"
+  },
+  {
+    "name": "Christian Eriksen",
+    "rating": "82",
+    "pace": "61",
+    "shots": "78",
+    "pass": "88",
+    "dribble": "80",
+    "defensive": "53",
+    "physicality": "52",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/190460.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/13.png",
+    "Club": "Manchester Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/11.png"
+  },
+  {
+    "name": "Raul Jimenez",
+    "rating": "82",
+    "pace": "73",
+    "shots": "81",
+    "pass": "76",
+    "dribble": "80",
+    "defensive": "47",
+    "physicality": "82",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/204838.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/83.png",
+    "Club": "Wolves",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/110.png"
+  },
+  {
+    "name": "Goncalo Guedes",
+    "rating": "82",
+    "pace": "86",
+    "shots": "83",
+    "pass": "74",
+    "dribble": "83",
+    "defensive": "38",
+    "physicality": "70",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/224411.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/38.png",
+    "Club": "Wolves",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/110.png"
+  },
+  {
+    "name": "Kamaldeen Sulemana",
+    "rating": "75",
+    "pace": "93",
+    "shots": "69",
+    "pass": "66",
+    "dribble": "80",
+    "defensive": "28",
+    "physicality": "62",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/256035.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/117.png",
+    "Club": "Southampton",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/17.png"
+  },
+  {
+    "name": "Anthony Gordon",
+    "rating": "75",
+    "pace": "80",
+    "shots": "69",
+    "pass": "72",
+    "dribble": "75",
+    "defensive": "37",
+    "physicality": "62",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/242964.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Newcastle Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/13.png"
+  },
+  {
+    "name": "Albert Sambi Lokonga",
+    "rating": "75",
+    "pace": "66",
+    "shots": "58",
+    "pass": "75",
+    "dribble": "78",
+    "defensive": "69",
+    "physicality": "69",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/241928.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/7.png",
+    "Club": "Crystal Palace",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1799.png"
+  },
+  {
+    "name": "Matias Vina",
+    "rating": "75",
+    "pace": "81",
+    "shots": "62",
+    "pass": "70",
+    "dribble": "74",
+    "defensive": "68",
+    "physicality": "68",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/253290.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/60.png",
+    "Club": "AFC Bournemouth",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1943.png"
+  },
+  {
+    "name": "Mario Lemina",
+    "rating": "75",
+    "pace": "68",
+    "shots": "67",
+    "pass": "74",
+    "dribble": "76",
+    "defensive": "74",
+    "physicality": "75",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/212811.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/115.png",
+    "Club": "Wolves",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/110.png"
+  },
+  {
+    "name": "Georginio Rutter",
+    "rating": "75",
+    "pace": "77",
+    "shots": "74",
+    "pass": "59",
+    "dribble": "76",
+    "defensive": "24",
+    "physicality": "64",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/245637.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/18.png",
+    "Club": "Leeds United",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/8.png"
+  },
+  {
+    "name": "Maximilian Wober",
+    "rating": "75",
+    "pace": "72",
+    "shots": "51",
+    "pass": "66",
+    "dribble": "64",
+    "defensive": "74",
+    "physicality": "80",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/231838.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/4.png",
+    "Club": "Leeds United",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/8.png"
+  },
+  {
+    "name": "Danny Welbeck",
+    "rating": "75",
+    "pace": "70",
+    "shots": "73",
+    "pass": "67",
+    "dribble": "74",
+    "defensive": "42",
+    "physicality": "66",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/186146.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Brighton",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1808.png"
+  },
+  {
+    "name": "Orel Mangala",
+    "rating": "75",
+    "pace": "64",
+    "shots": "54",
+    "pass": "71",
+    "dribble": "82",
+    "defensive": "70",
+    "physicality": "72",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/234078.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/7.png",
+    "Club": "Nottm Forest",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/14.png"
+  },
+  {
+    "name": "Bryan Mbeumo",
+    "rating": "75",
+    "pace": "81",
+    "shots": "73",
+    "pass": "70",
+    "dribble": "76",
+    "defensive": "41",
+    "physicality": "71",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/243014.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/103.png",
+    "Club": "Brentford",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1925.png"
+  },
+  {
+    "name": "Tosin Adarabioyo",
+    "rating": "75",
+    "pace": "72",
+    "shots": "31",
+    "pass": "57",
+    "dribble": "58",
+    "defensive": "75",
+    "physicality": "77",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/222104.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Fulham",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/144.png"
+  },
+  {
+    "name": "Luke Ayling",
+    "rating": "75",
+    "pace": "64",
+    "shots": "57",
+    "pass": "64",
+    "dribble": "72",
+    "defensive": "75",
+    "physicality": "75",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/186156.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Leeds United",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/8.png"
+  },
+  {
+    "name": "Stuart Dallas",
+    "rating": "75",
+    "pace": "70",
+    "shots": "70",
+    "pass": "71",
+    "dribble": "74",
+    "defensive": "73",
+    "physicality": "76",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/203570.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/35.png",
+    "Club": "Leeds United",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/8.png"
+  },
+  {
+    "name": "Alex Iwobi",
+    "rating": "75",
+    "pace": "74",
+    "shots": "64",
+    "pass": "72",
+    "dribble": "78",
+    "defensive": "38",
+    "physicality": "65",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/213655.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/133.png",
+    "Club": "Everton",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/7.png"
+  },
+  {
+    "name": "Marek Rodak",
+    "rating": "75",
+    "pace": "76",
+    "shots": "71",
+    "pass": "73",
+    "dribble": "76",
+    "defensive": "48",
+    "physicality": "73",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/222951.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/43.png",
+    "Club": "Fulham",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/144.png"
+  },
+  {
+    "name": "James McArthur",
+    "rating": "75",
+    "pace": "52",
+    "shots": "67",
+    "pass": "71",
+    "dribble": "72",
+    "defensive": "74",
+    "physicality": "68",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/171972.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/42.png",
+    "Club": "Crystal Palace",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1799.png"
+  },
+  {
+    "name": "Albert Sambi Lokonga",
+    "rating": "75",
+    "pace": "66",
+    "shots": "58",
+    "pass": "75",
+    "dribble": "78",
+    "defensive": "69",
+    "physicality": "69",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/241928.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/7.png",
+    "Club": "Arsenal",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1.png"
+  },
+  {
+    "name": "Ainsley Maitland-Niles",
+    "rating": "75",
+    "pace": "78",
+    "shots": "62",
+    "pass": "70",
+    "dribble": "74",
+    "defensive": "70",
+    "physicality": "71",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/225782.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Southampton",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/17.png"
+  },
+  {
+    "name": "Jefferson Lerma",
+    "rating": "75",
+    "pace": "70",
+    "shots": "64",
+    "pass": "69",
+    "dribble": "72",
+    "defensive": "72",
+    "physicality": "81",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/213991.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/56.png",
+    "Club": "AFC Bournemouth",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1943.png"
+  },
+  {
+    "name": "Robin Olsen",
+    "rating": "75",
+    "pace": "76",
+    "shots": "74",
+    "pass": "78",
+    "dribble": "75",
+    "defensive": "35",
+    "physicality": "75",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/207557.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/46.png",
+    "Club": "Aston Villa",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/2.png"
+  },
+  {
+    "name": "Joe Willock",
+    "rating": "75",
+    "pace": "76",
+    "shots": "72",
+    "pass": "69",
+    "dribble": "77",
+    "defensive": "67",
+    "physicality": "70",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/237329.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Newcastle Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/13.png"
+  },
+  {
+    "name": "Morgan Gibbs-White",
+    "rating": "75",
+    "pace": "76",
+    "shots": "70",
+    "pass": "73",
+    "dribble": "76",
+    "defensive": "57",
+    "physicality": "66",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/236015.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Nottm Forest",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/14.png"
+  },
+  {
+    "name": "Tom Cairney",
+    "rating": "75",
+    "pace": "58",
+    "shots": "73",
+    "pass": "77",
+    "dribble": "76",
+    "defensive": "62",
+    "physicality": "64",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/195202.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/42.png",
+    "Club": "Fulham",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/144.png"
+  },
+  {
+    "name": "Danny Ward",
+    "rating": "75",
+    "pace": "75",
+    "shots": "73",
+    "pass": "67",
+    "dribble": "76",
+    "defensive": "45",
+    "physicality": "74",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/207998.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/50.png",
+    "Club": "Leicester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/95.png"
+  },
+  {
+    "name": "Ethan Pinnock",
+    "rating": "75",
+    "pace": "67",
+    "shots": "37",
+    "pass": "57",
+    "dribble": "61",
+    "defensive": "76",
+    "physicality": "79",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/238717.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/82.png",
+    "Club": "Brentford",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1925.png"
+  },
+  {
+    "name": "Thomas Strakosha",
+    "rating": "78",
+    "pace": "79",
+    "shots": "76",
+    "pass": "73",
+    "dribble": "79",
+    "defensive": "43",
+    "physicality": "77",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/212151.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/1.png",
+    "Club": "Brentford",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1925.png"
+  },
+  {
+    "name": "Timothy Castagne",
+    "rating": "78",
+    "pace": "76",
+    "shots": "58",
+    "pass": "71",
+    "dribble": "75",
+    "defensive": "75",
+    "physicality": "73",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/222501.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/7.png",
+    "Club": "Leicester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/95.png"
+  },
+  {
+    "name": "Emerson Royal",
+    "rating": "78",
+    "pace": "74",
+    "shots": "62",
+    "pass": "71",
+    "dribble": "74",
+    "defensive": "75",
+    "physicality": "76",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/247204.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/54.png",
+    "Club": "Spurs",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/18.png"
+  },
+  {
+    "name": "Marc Guehi",
+    "rating": "78",
+    "pace": "73",
+    "shots": "39",
+    "pass": "58",
+    "dribble": "68",
+    "defensive": "79",
+    "physicality": "75",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/241159.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Crystal Palace",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1799.png"
+  },
+  {
+    "name": "Diogo Dalot",
+    "rating": "78",
+    "pace": "79",
+    "shots": "60",
+    "pass": "73",
+    "dribble": "78",
+    "defensive": "73",
+    "physicality": "77",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/234574.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/38.png",
+    "Club": "Manchester Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/11.png"
+  },
+  {
+    "name": "Miguel Almiron",
+    "rating": "78",
+    "pace": "86",
+    "shots": "71",
+    "pass": "73",
+    "dribble": "79",
+    "defensive": "53",
+    "physicality": "61",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/230977.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/58.png",
+    "Club": "Newcastle Utd",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/13.png"
+  },
+  {
+    "name": "Dennis Praet",
+    "rating": "78",
+    "pace": "66",
+    "shots": "72",
+    "pass": "78",
+    "dribble": "79",
+    "defensive": "63",
+    "physicality": "66",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/199652.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/7.png",
+    "Club": "Leicester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/95.png"
+  },
+  {
+    "name": "Clement Lenglet",
+    "rating": "78",
+    "pace": "68",
+    "shots": "45",
+    "pass": "69",
+    "dribble": "64",
+    "defensive": "77",
+    "physicality": "76",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/220440.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/18.png",
+    "Club": "Spurs",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/18.png"
+  },
+  {
+    "name": "Caglar Soyuncu",
+    "rating": "78",
+    "pace": "71",
+    "shots": "46",
+    "pass": "60",
+    "dribble": "65",
+    "defensive": "78",
+    "physicality": "79",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/232119.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/48.png",
+    "Club": "Leicester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/95.png"
+  },
+  {
+    "name": "Jesse Lingard",
+    "rating": "78",
+    "pace": "75",
+    "shots": "77",
+    "pass": "73",
+    "dribble": "79",
+    "defensive": "57",
+    "physicality": "65",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/207494.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Nottm Forest",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/14.png"
+  },
+  {
+    "name": "Marcos Senesi",
+    "rating": "78",
+    "pace": "60",
+    "shots": "42",
+    "pass": "69",
+    "dribble": "74",
+    "defensive": "79",
+    "physicality": "78",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/236506.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/52.png",
+    "Club": "AFC Bournemouth",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1943.png"
+  },
+  {
+    "name": "James Milner",
+    "rating": "78",
+    "pace": "52",
+    "shots": "70",
+    "pass": "80",
+    "dribble": "76",
+    "defensive": "77",
+    "physicality": "74",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/138412.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Liverpool",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/9.png"
+  },
+  {
+    "name": "Joel Veltman",
+    "rating": "78",
+    "pace": "64",
+    "shots": "49",
+    "pass": "67",
+    "dribble": "70",
+    "defensive": "79",
+    "physicality": "76",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/208004.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/34.png",
+    "Club": "Brighton",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1808.png"
+  },
+  {
+    "name": "Tyrone Mings",
+    "rating": "78",
+    "pace": "71",
+    "shots": "44",
+    "pass": "67",
+    "dribble": "66",
+    "defensive": "78",
+    "physicality": "80",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/212419.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Aston Villa",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/2.png"
+  },
+  {
+    "name": "Douglas Luiz",
+    "rating": "78",
+    "pace": "67",
+    "shots": "68",
+    "pass": "77",
+    "dribble": "77",
+    "defensive": "73",
+    "physicality": "70",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/236499.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/54.png",
+    "Club": "Aston Villa",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/2.png"
+  },
+  {
+    "name": "Patrick Bamford",
+    "rating": "78",
+    "pace": "82",
+    "shots": "78",
+    "pass": "68",
+    "dribble": "73",
+    "defensive": "42",
+    "physicality": "77",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/206534.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Leeds United",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/8.png"
+  },
+  {
+    "name": "Moussa Niakhate",
+    "rating": "78",
+    "pace": "79",
+    "shots": "42",
+    "pass": "65",
+    "dribble": "67",
+    "defensive": "79",
+    "physicality": "78",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/225859.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/18.png",
+    "Club": "Nottm Forest",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/14.png"
+  },
+  {
+    "name": "Ollie Watkins",
+    "rating": "78",
+    "pace": "84",
+    "shots": "76",
+    "pass": "68",
+    "dribble": "74",
+    "defensive": "46",
+    "physicality": "77",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/221697.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/14.png",
+    "Club": "Aston Villa",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/2.png"
+  },
+  {
+    "name": "Nathan Ake",
+    "rating": "78",
+    "pace": "76",
+    "shots": "53",
+    "pass": "70",
+    "dribble": "70",
+    "defensive": "79",
+    "physicality": "75",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/208920.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/34.png",
+    "Club": "Manchester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/10.png"
+  },
+  {
+    "name": "Maxwel Cornet",
+    "rating": "78",
+    "pace": "87",
+    "shots": "76",
+    "pass": "71",
+    "dribble": "77",
+    "defensive": "67",
+    "physicality": "77",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/215798.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/108.png",
+    "Club": "West Ham",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/19.png"
+  },
+  {
+    "name": "Julian Alvarez",
+    "rating": "78",
+    "pace": "76",
+    "shots": "80",
+    "pass": "76",
+    "dribble": "83",
+    "defensive": "55",
+    "physicality": "75",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/246191.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/52.png",
+    "Club": "Manchester City",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/10.png"
+  },
+  {
+    "name": "Daniel Podence",
+    "rating": "78",
+    "pace": "83",
+    "shots": "64",
+    "pass": "73",
+    "dribble": "85",
+    "defensive": "33",
+    "physicality": "50",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/226766.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/38.png",
+    "Club": "Wolves",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/110.png"
+  },
+  {
+    "name": "Pedro Neto",
+    "rating": "78",
+    "pace": "85",
+    "shots": "74",
+    "pass": "69",
+    "dribble": "81",
+    "defensive": "31",
+    "physicality": "58",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/238616.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/38.png",
+    "Club": "Wolves",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/110.png"
+  },
+  {
+    "name": "Sasa Kalajdzic",
+    "rating": "78",
+    "pace": "63",
+    "shots": "75",
+    "pass": "68",
+    "dribble": "73",
+    "defensive": "46",
+    "physicality": "70",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/239901.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/4.png",
+    "Club": "Wolves",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/110.png"
+  },
+  {
+    "name": "Gabriel Martinelli",
+    "rating": "78",
+    "pace": "87",
+    "shots": "71",
+    "pass": "68",
+    "dribble": "80",
+    "defensive": "45",
+    "physicality": "68",
+    "faceUrl": "https://cdn.futwiz.com/assets/img/fifa23/faces/251566.png",
+    "nationUrl": "https://cdn.futwiz.com/assets/img/fifa23/flags/54.png",
+    "Club": "Arsenal",
+    "ClubUrl": "https://cdn.futwiz.com/assets/img/fifa23/badges/1.png"
   }
 ]

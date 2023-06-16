@@ -1,9 +1,7 @@
-"use client"
+"use client";
 import IAppShell from "../components/IAppShell";
-import SearchPlayers from "./searchPlayers";
-import TableCompare from "./tableCompare";
-import WatchDiagrams from "./watchDiagrams";
+import { Test } from "../components/test";
 
-export default function page(){
-    return(<IAppShell contain={<><SearchPlayers /><TableCompare /><WatchDiagrams /></>}/>)
+export default function page() {
+  return <IAppShell contain={<Test />} />;
 }

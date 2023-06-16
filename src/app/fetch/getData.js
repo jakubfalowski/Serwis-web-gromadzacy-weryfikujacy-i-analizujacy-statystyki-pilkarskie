@@ -13,22 +13,10 @@ export function getBlogPosts() {
   return { data };
 }
 
-async function getScrappingFifaStats() {
-  return client("http://localhost:3000/api/fifa");
-}
-
-export function getScrappingFifa() {
-  const { data } = useQuery({
-    queryFn: () => getScrappingFifaStats(),
-  });
-
-  return { data };
-}
-
 export function setFifaPlayers() {
   const { mutate } = useMutation({
     mutationFn: (body) =>
-      client("http://localhost:4000/futhead/create-fifa-stats", {data: body}),
+      client("http://localhost:4000/futhead/create-fifa-stats", { data: body }),
     onSuccess: () => {
       console.log(body);
     },
@@ -38,4 +26,37 @@ export function setFifaPlayers() {
   });
 
   return { mutate };
+}
+
+export function setFmPlayers() {
+  const { mutate } = useMutation({
+    mutationFn: (body) =>
+      client("http://localhost:4000/fminside/create-fm-stats", { data: body }),
+    onSuccess: () => {
+      console.log(body);
+    },
+    onError: (error) => {
+      console.log(error);
+    },
+  });
+
+  return { mutate };
+}
+
+async function getCompareGames(stat, game, sortBy) {
+  return client(
+    `http://localhost:4000/fminside/get-compare-data?stat=${stat}&game=${game}&sortBy=${sortBy}`
+  );
+}
+
+export function getCompare(stat, game, sortBy) {
+  const { data } = useQuery({
+    queryKey: ["getCompare", stat],
+    queryFn: () => getCompareGames(stat, game, sortBy),
+    onError(err) {
+      console.log(err);
+    },
+  });
+
+  return { data };
 }

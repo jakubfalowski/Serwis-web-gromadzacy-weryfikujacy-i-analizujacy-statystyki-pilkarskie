@@ -1,8 +1,8 @@
 import axios from "axios";
 import cheerio from "cheerio";
 
-const playerTab = new Array(7);
-for (let i = 0; i <= 7; i++) playerTab[i] = new Array(0);
+const playerTab = new Array(11);
+for (let i = 0; i <= 11; i++) playerTab[i] = new Array(0);
 
 let numberOfPage = 0;
 
@@ -23,6 +23,10 @@ export function Fifa() {
           const dribbling = $("tr.table-row .statCol:nth-of-type(9) .stat");
           const defending = $("tr.table-row .statCol:nth-of-type(10) .stat");
           const physicality = $("tr.table-row .statCol:nth-of-type(11) .stat");
+          const faceUrl = $(".player-img");
+          const nationUrl = $("img.nation");
+          const Club = $(".team a:nth-of-type(2)");
+          const ClubUrl = $("img.club");
 
           $(playerName).each((i, el) => {
             const item = $(el).text();
@@ -62,6 +66,26 @@ export function Fifa() {
           $(physicality).each((i, el) => {
             const item = $(el).text();
             playerTab[7].push(item);
+          });
+
+          $(faceUrl).each((i, el) => {
+            const item = $(el).attr("src");
+            playerTab[8].push(item);
+          });
+
+          $(nationUrl).each((i, el) => {
+            const item = $(el).attr("src");
+            playerTab[9].push(item);
+          });
+
+          $(Club).each((i, el) => {
+            const item = $(el).text();
+            playerTab[10].push(item);
+          });
+
+          $(ClubUrl).each((i, el) => {
+            const item = $(el).attr("src");
+            playerTab[11].push(item);
           });
         });
     }

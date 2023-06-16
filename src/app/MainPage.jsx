@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { Card } from "./components/Card";
-import { getBlogPosts, setFifaPlayers } from "./fetch/getData";
+import { getBlogPosts, setFifaPlayers, setFmPlayers } from "./fetch/getData";
 import fifaStats from "./fifa.json";
 import fmStats from "./fm.json";
 import { IconBottomBg, IconTopBg } from "./images/bg";
@@ -13,11 +13,12 @@ import Logo from "./images/logo.png";
 
 export function MainPage() {
   const { data: blogPost } = getBlogPosts();
-  const { mutate } = setFifaPlayers();
+  const { mutate: mutateFifa } = setFifaPlayers();
+  const { mutate: mutateFm } = setFmPlayers();
 
   function handleButtonFifaClick() {
     fifaStats.map((stat) =>
-      mutate({
+      mutateFifa({
         Name: stat.name,
         Overall: parseInt(stat.rating),
         Pace: parseInt(stat.pace),
@@ -26,12 +27,27 @@ export function MainPage() {
         Dribbling: parseInt(stat.dribble),
         Defense: parseInt(stat.defensive),
         Physical: parseInt(stat.physicality),
+        Club: stat.Club,
+        ClubUrl: stat.ClubUrl,
+        faceUrl: stat.faceUrl,
+        nationUrl: stat.nationUrl,
       })
     );
   }
 
   function handleButtonFmClick() {
-    console.log(fmStats);
+    fmStats.map((stat) =>
+      mutateFm({
+        Name: stat.Name,
+        Overall: parseInt(stat.Overall),
+        Pace: parseInt(stat.Pace),
+        Shooting: parseInt(stat.Shooting),
+        Passing: parseInt(stat.Passing),
+        Dribbling: parseInt(stat.Dribbling),
+        Defense: parseInt(stat.Defense),
+        Physical: parseInt(stat.Physical),
+      })
+    );
   }
 
   return (
