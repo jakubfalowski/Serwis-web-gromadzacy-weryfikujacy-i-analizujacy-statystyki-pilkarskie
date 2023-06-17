@@ -1,7 +1,6 @@
 import { Table } from "@mantine/core";
 
 export function ATable(value) {
-  console.log(value);
   return (
     <Table>
       <thead>

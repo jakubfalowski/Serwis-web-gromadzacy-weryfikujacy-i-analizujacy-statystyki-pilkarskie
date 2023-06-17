@@ -1,7 +1,7 @@
 "use client";
 import IAppShell from "../components/IAppShell";
-import { Test } from "../components/test";
+import { PlayerTable } from "../components/PlayerTable";
 
 export default function page() {
-  return <IAppShell contain={<Test />} />;
+  return <IAppShell contain={<PlayerTable />} />;
 }

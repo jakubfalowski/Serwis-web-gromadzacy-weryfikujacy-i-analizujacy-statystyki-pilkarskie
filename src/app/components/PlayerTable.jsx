@@ -1,19 +1,89 @@
 import { SegmentedControl } from "@mantine/core";
 import { useSearchParams } from "next/navigation";
 
-import { getCompare } from "../fetch/getData";
+import { useEffect, useState } from "react";
+import { client } from "../fetch/client";
+import { getCompare, setSofaPlayers } from "../fetch/getData";
 import { ATable } from "./ATable";
 
-export function Test() {
+let i = 0;
+export function PlayerTable() {
   const searchParams = useSearchParams();
   const sortParam = searchParams.get("sort") || "Overall";
   const count = searchParams.get("count") || "10";
   const gameParam = searchParams.get("game") || "futhead";
   const typeParam = searchParams.get("sortBy") || "DESC";
   const data = getCompare(sortParam, gameParam, typeParam);
-  console.log(data);
-  console.log(parseInt(count));
   const tableValue = data.data && data.data.slice(0, parseInt(count));
+  const [names, setNames] = useState([]);
+  const { mutate: mutateSofa } = setSofaPlayers();
+
+  useEffect(() => {
+    const extractedNames =
+      data && data.data && data.data.map((imie) => imie.Name);
+    setNames(extractedNames);
+  }, [data]);
+
+  useEffect(() => {
+    names && XD();
+  }, [names]);
+
+  async function XD() {
+    if (i === 0) {
+      let intervalId = null;
+      let index = 0;
+      const sofaHeader = {
+        "X-RapidAPI-Key": "551e98c5c3mshd0988d9c99175fcp1dd8fajsn02d2cf82f9a8",
+        "X-RapidAPI-Host": "sofascore.p.rapidapi.com",
+      };
+
+      if (names && names.length === 157) {
+        i++;
+        intervalId = setInterval(() => {
+          client(
+            `https://sofascore.p.rapidapi.com/players/search?name=${names[index]}`,
+            { headers: sofaHeader }
+          ).then((data) => {
+            console.log(data);
+            // client(
+            //   `https://sofascore.p.rapidapi.com/players/get-statistics?playerId=${data.players[0].id}&tournamentId=17&seasonId=41886&typ=overall`,
+            //   { headers: sofaHeader }
+            // ).then((value) =>
+            //   mutateSofa({
+            //     Name: names[index],
+            //     Dribbling:
+            //       value.statistics.minutesPlayed > 89
+            //         ? value.statistics.successfulDribbles /
+            //           (value.statistics.minutesPlayed / 90)
+            //         : value.statistics.successfulDribbles,
+            //     BeingFouled: value.statistics.wasFouled,
+            //     PercentHeader: value.statistics.aerialDuelsWonPercentage,
+            //     PercentGround: value.statistics.groundDuelsWonPercentage,
+            //     Goals: value.statistics.goals,
+            //     Shots: value.statistics.totalShots,
+            //     Interceptions: value.statistics.interceptions,
+            //     Tackles: value.statistics.tackles,
+            //     Clearances: value.statistics.clearances,
+            //     Assists: value.statistics.assists,
+            //     KeyPasses: value.statistics.keyPasses,
+            //     DangerousSituation: value.statistics.bigChancesCreated,
+            //     PercentAccuracyPasses:
+            //       value.statistics.accuratePassesPercentage,
+            //     Rating: value.statistics.rating,
+            //     Minutes: value.statistics.minutesPlayed,
+            //   })
+            // );
+          });
+
+          index++;
+
+          if (index === names.length) {
+            clearInterval(intervalId);
+          }
+        }, 1000);
+      }
+    }
+  }
 
   return (
     <div className="container mx-auto bg-white rounded-2xl overflow-hidden">
@@ -157,18 +227,6 @@ export function Test() {
               </div>
             ),
             value: "100",
-          },
-          {
-            label: (
-              <div
-                onClick={() =>
-                  (window.location.href = `/players?sort=${sortParam}&count=200&game=${gameParam}&sortBy=${typeParam}`)
-                }
-              >
-                200
-              </div>
-            ),
-            value: "200",
           },
         ]}
       />
