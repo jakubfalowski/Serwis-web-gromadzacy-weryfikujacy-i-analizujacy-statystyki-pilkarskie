@@ -1,7 +1,7 @@
-"use client"
+"use client";
 import IAppShell from "../../components/IAppShell";
-import AdvancedPlayer from "./AdvancedPlayer";
+import { PlayerPage } from "./playerPage";
 
-export default function Page({params}){
-    return(<IAppShell contain={<AdvancedPlayer parameter={params.name} />}/>)
+export default function Page({ params }) {
+  return <IAppShell contain={<PlayerPage player={params.name} />} />;
 }

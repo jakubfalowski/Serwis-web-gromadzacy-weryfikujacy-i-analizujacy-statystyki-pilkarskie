@@ -119,3 +119,31 @@ export function setSofaPlayers() {
 
   return { mutate };
 }
+
+async function getAllPlayerData(name) {
+  return client(
+    `http://localhost:4000/sofascore/get-players-all-data?name=${name}`
+  );
+}
+
+export function getPlayerData(name) {
+  const { data } = useQuery({
+    queryKey: ["playerData"],
+    queryFn: () => getAllPlayerData(name),
+  });
+
+  return { data };
+}
+
+async function getMaxPlayerRatings() {
+  return client(`http://localhost:4000/sofascore/get-max-ratings`);
+}
+
+export function getMaxRatings() {
+  const { data } = useQuery({
+    queryKey: ["maxRating"],
+    queryFn: () => getMaxPlayerRatings(),
+  });
+
+  return { data };
+}

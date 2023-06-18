@@ -20,3 +20,7 @@
     background-position: 0% 50%;
   }
 }
+
+.container-bg {
+  background-image: url("app/images/background.jpg");
+}
