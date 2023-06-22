@@ -1,13 +1,23 @@
-import { BarChart, Bar, CartesianGrid, XAxis, YAxis,Tooltip, Legend } from "recharts";
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  Legend,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
 
-export function Charts(data, type, dataKey1, dataKey2, description){
-    return(
-        <div style={{
-          backgroundColor: "#ffffff",
-          width: "1600px"
-        }}>
-          <h2 className='center'>{data.description}</h2>
-        <BarChart
+export function Charts(data) {
+  return (
+    <div
+      style={{
+        backgroundColor: "#ffffff",
+        width: "1600px",
+      }}
+    >
+      <h2 className="text-2xl py-8 font-bold pl-16">{data.description}</h2>
+      <BarChart
         width={1500}
         height={400}
         data={data.data}
@@ -15,19 +25,19 @@ export function Charts(data, type, dataKey1, dataKey2, description){
           top: 5,
           right: 30,
           left: 20,
-          bottom: 5
+          bottom: 5,
         }}
       >
         <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="name" />
-        <YAxis  />
-        <Tooltip  />
+        <XAxis dataKey="Club" />
+        <YAxis />
+        <Tooltip />
         <Legend />
-        <Bar dataKey={data.dataKey1} stackId="a" fill="#4d331f" />
-        <Bar dataKey={data.dataKey2} stackId="a" fill="#ad8881" />
+        <Bar dataKey={data.dataKey1} stackId="a" fill="#22C55E" />
+        <Bar dataKey={data.dataKey2} stackId="b" fill="#A6F490" />
       </BarChart>
-      </div>
-      )
+    </div>
+  );
 }
 
 export default Charts;

@@ -7,7 +7,6 @@ import { getCompare } from "../fetch/getData";
 export function SearchPlayers() {
   const data = getCompare("Overall", "futhead", "DESC");
   const ref = useRef(null);
-  const router = useRouter();
   const [names, setNames] = useState([]);
 
   useEffect(() => {

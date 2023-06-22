@@ -18,7 +18,7 @@ export function setFifaPlayers() {
     mutationFn: (body) =>
       client("http://localhost:4000/futhead/create-fifa-stats", { data: body }),
     onSuccess: () => {
-      console.log(body);
+      console.log("udane");
     },
     onError: (error) => {
       console.log(error);
@@ -33,7 +33,7 @@ export function setFmPlayers() {
     mutationFn: (body) =>
       client("http://localhost:4000/fminside/create-fm-stats", { data: body }),
     onSuccess: () => {
-      console.log(body);
+      console.log("udane");
     },
     onError: (error) => {
       console.log(error);
@@ -110,7 +110,7 @@ export function setSofaPlayers() {
         data: body,
       }),
     onSuccess: () => {
-      console.log(body);
+      console.log("udane");
     },
     onError: (error) => {
       console.log(error);
@@ -146,4 +146,109 @@ export function getMaxRatings() {
   });
 
   return { data };
+}
+
+async function getAvgPlayerRatings() {
+  return client(`http://localhost:4000/fminside/get-average-ratings`);
+}
+
+export function getAverageRatings() {
+  const { data } = useQuery({
+    queryKey: ["averageRating"],
+    queryFn: () => getAvgPlayerRatings(),
+  });
+
+  return { data };
+}
+
+async function getClubs(name) {
+  return client(`http://localhost:4000/fminside/get-club-data?stat=${name}`);
+}
+
+export function getClubsData(stat) {
+  const { data } = useQuery({
+    queryKey: [`averageClubs: ${stat}`],
+    queryFn: () => getClubs(stat),
+  });
+
+  return { data };
+}
+
+const flashscoreHeader = {
+  "X-RapidAPI-Key": "0c9455a446msh97e79af488aa513p1a114fjsneb4cb16023d6",
+  "X-RapidAPI-Host": "flashlive-sports.p.rapidapi.com",
+};
+
+async function getTeamsInfo() {
+  return client(
+    `https://flashlive-sports.p.rapidapi.com/v1/tournaments/standings?locale=pl_PL&tournament_stage_id=4fofM1vn&standing_type=overall&tournament_season_id=WI1bjKHl`,
+    { headers: flashscoreHeader }
+  );
+}
+
+export function getTeamsInfoData() {
+  const { data } = useQuery({
+    queryKey: [`teamsInfo`],
+    queryFn: () => getTeamsInfo(),
+  });
+
+  return { data };
+}
+
+export function setTeam() {
+  const { mutate } = useMutation({
+    mutationFn: (body) =>
+      client("http://localhost:4000/team/create-team", { data: body }),
+    onSuccess: () => {
+      console.log("udane dodawanie rekordu do bazy");
+    },
+    onError: (error) => {
+      console.log(error);
+    },
+  });
+
+  return { mutate };
+}
+
+export function getMatches() {
+  return client(
+    `https://flashlive-sports.p.rapidapi.com/v1/tournaments/results?locale=pl_PL&tournament_stage_id=4fofM1vn&page=1`,
+    { headers: flashscoreHeader }
+  );
+}
+
+export function getMatchesData() {
+  const { data } = useQuery({
+    queryKey: [`matchesInfo`],
+    queryFn: () => getMatches(),
+  });
+
+  return { data };
+}
+
+async function getDBTeamsInfo() {
+  return client("http://localhost:4000/team/get-teams");
+}
+
+export function getDBTeams() {
+  const { data } = useQuery({
+    queryFn: () => getDBTeamsInfo(),
+  });
+
+  return { data };
+}
+
+export function setMatch() {
+  const { mutate } = useMutation({
+    mutationFn: (body) =>
+      client("http://localhost:4000/match/create-match", { data: body }),
+    onSuccess: () => {
+      console.log("udane dodawanie rekordu do bazy");
+    },
+    onError: (error) => {
+      console.log(error);
+    },
+  });
+
+  return { mutate };
 }

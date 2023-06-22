@@ -79,7 +79,7 @@ export function MainPage() {
                   Najlepsze drużyny według atrybutu
                 </h1>
                 <a
-                  href="/players"
+                  href="/players/club-chart"
                   className="bg-white text-green-500 rounded-md px-8 py-2 font-bold mt-2"
                 >
                   Przejdź
@@ -121,7 +121,7 @@ export function MainPage() {
                   Porównanie zawodników
                 </h1>
                 <a
-                  href="/players/club-chart"
+                  href="/players"
                   className="bg-white text-green-500 rounded-md px-8 py-2 font-bold mt-2"
                 >
                   Przejdź

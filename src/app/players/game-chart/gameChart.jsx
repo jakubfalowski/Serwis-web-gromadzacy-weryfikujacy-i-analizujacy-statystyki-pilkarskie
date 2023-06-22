@@ -1,64 +1,108 @@
-import { useState } from 'react';
-import { playerTabFunction } from '../fetchData';
-import { BarChart, Bar, CartesianGrid, XAxis, YAxis,Tooltip, Legend } from "recharts";
-import { LoadingOverlay, Anchor, Button} from '@mantine/core';
+import { LoadingOverlay } from "@mantine/core";
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  Legend,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
+import { getAverageRatings } from "../../fetch/getData";
 
+export default function GameChart() {
+  const data = getAverageRatings();
+  const formatedData = data &&
+    data.data &&
+    data.data[0] && [
+      {
+        name: "Ocena ogólna FIFA",
+        fifa: data.data[0].overallFIFA,
+      },
+      {
+        name: "Ocena ogólna FM",
+        fm: data.data[0].overallFM,
+      },
+      {
+        name: "Szybkość FIFA",
+        fifa: data.data[0].paceFIFA,
+      },
+      {
+        name: "Szybkość FM",
+        fm: data.data[0].paceFM,
+      },
+      {
+        name: "Atak FIFA",
+        fifa: data.data[0].shootingFIFA,
+      },
+      {
+        name: "Atak FM",
+        fm: data.data[0].shootingFM,
+      },
+      {
+        name: "Drybling FIFA",
+        fifa: data.data[0].dribblingFIFA,
+      },
+      {
+        name: "Drybling FM",
+        fm: data.data[0].dribblingFM,
+      },
+      {
+        name: "Podania FIFA",
+        fifa: data.data[0].overallFIFA,
+      },
+      {
+        name: "Podania FM",
+        fm: data.data[0].passingFM,
+      },
+      {
+        name: "Defensywa FIFA",
+        fifa: data.data[0].defenseFIFA,
+      },
+      {
+        name: "Defensywa FM",
+        fm: data.data[0].defenseFM,
+      },
+      {
+        name: "Fizyczność FIFA",
+        fifa: data.data[0].physicalFIFA,
+      },
+      {
+        name: "Fizyczność FM",
+        fm: data.data[0].physicalFM,
+      },
+    ];
 
-let playerTab = [];
-
-export default function GameChart(){
-
-  const [on, setOn] = useState(false)
-
-  let average;
-  const nameOfStat = ['Ocena ogólna','Ocena ogólna','Szybkość','Szybkość','Fizyczność','Fizyczność','Strzały','Atak','Defensywa','Defensywa','Drybling','Podania','Technika','Mentalność',];
-
-    playerTabFunction().then((stat) => {
-      if(on === false && playerTab.length < 1){
-        for(let a = 0; a < 14; a++){
-          average = 0;
-          for(let i = 0; i < 426; i++){
-            average += parseInt(stat[i][a+1])
-          }
-          average = average/425;
-            if([0,2,4,6,8,10,11].includes(a)) playerTab.push({name: nameOfStat[a], fifa: average.toFixed(2)})
-            else playerTab.push({name: nameOfStat[a], fm: average.toFixed(2)})
-        }
-      }
-    }).then(()=>{
-      setOn(true)
-    })
-  
   return (
     <div>
-    { on === true ?
-      <div className='containerChart'>
-        <h2 className='center'>Średnia ocena danej statystyki</h2>
-      <BarChart
-      width={1500}
-      height={400}
-      data={playerTab}
-      margin={{
-        top: 5,
-        right: 30,
-        left: 20,
-        bottom: 5
-      }}
-    >
-      <CartesianGrid strokeDasharray="3 3" />
-      <XAxis dataKey="name" />
-      <YAxis  />
-      <Tooltip  />
-      <Legend />
-      <Bar dataKey="fifa" stackId="a" fill="#4d331f" />
-      <Bar dataKey="fm" stackId="a" fill="#ad8881" />
-    </BarChart>
+      {data ? (
+        <div className="container mx-auto container-bg ">
+          <h2 className="text-2xl py-8 pl-16 font-bold">
+            Średnia ocena danej statystyki
+          </h2>
+          <BarChart
+            width={1500}
+            height={400}
+            data={formatedData}
+            margin={{
+              top: 5,
+              right: 30,
+              left: 20,
+              bottom: 5,
+            }}
+          >
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="name" />
+            <YAxis />
+            <Tooltip />
+            <Legend />
+            <Bar dataKey="fifa" stackId="a" fill="#22C55E" />
+            <Bar dataKey="fm" stackId="a" fill="#A6F490" />
+          </BarChart>
+        </div>
+      ) : (
+        <LoadingOverlay visible={true} overlayBlur={2} />
+      )}
     </div>
-    : <LoadingOverlay visible={true} overlayBlur={2} />}
-    <Anchor href="/players/club-chart">
-        <Button variant="gradient" gradient={{ from: '#ad8881', to: '#4d331f', deg: 60 }} sx={{marginLeft:"10px"}}>Statystyki porównując atrybuty klubów</Button>
-    </Anchor>
-    </div>
-    
   );
 }
