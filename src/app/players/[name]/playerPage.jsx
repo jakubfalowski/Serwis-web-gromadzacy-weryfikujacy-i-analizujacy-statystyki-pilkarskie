@@ -22,7 +22,7 @@ export function PlayerPage(props) {
   const { data } = getPlayerData(props.player);
   const { data: maxRatings } = getMaxRatings();
   return (
-    <div className="bg-white container container-bg mx-auto">
+    <div className="bg-white container container-bg mx-auto pl-8">
       {data && maxRatings && (
         <>
           <Grid>

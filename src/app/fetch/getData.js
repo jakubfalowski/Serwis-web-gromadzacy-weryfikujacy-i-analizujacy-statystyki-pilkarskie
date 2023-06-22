@@ -252,3 +252,74 @@ export function setMatch() {
 
   return { mutate };
 }
+
+async function getRoundMatches(round) {
+  return client(`http://localhost:4000/match/get-all-matches?round=${round}`);
+}
+
+export function getAllMatches(round) {
+  const { data } = useQuery({
+    queryKey: [`get matches from round: ${round}`],
+    queryFn: () => getRoundMatches(round),
+  });
+
+  return { data };
+}
+
+async function getMatch(id) {
+  return client(`http://localhost:4000/match/get-matches-by-id?id=${id}`);
+}
+
+export function getMatchById(id) {
+  const { data } = useQuery({
+    queryKey: [`get matches from id: ${id}`],
+    queryFn: () => getMatch(id),
+  });
+
+  return { data };
+}
+
+async function getMatchesTeam(teamId) {
+  return client(
+    `http://localhost:4000/match/get-matches-team?teamId=${teamId}`
+  );
+}
+
+export function getMatchesFromTeam(teamId) {
+  const { data } = useQuery({
+    queryKey: [`get matches from club id: ${teamId}`],
+    queryFn: () => getMatchesTeam(teamId),
+  });
+
+  return { data };
+}
+
+async function getHomeMatchesTeam(teamId) {
+  return client(
+    `http://localhost:4000/match/get-home-matches-team?teamId=${teamId}`
+  );
+}
+
+export function getHomeMatchesFromTeam(teamId) {
+  const { data } = useQuery({
+    queryKey: [`get matches from home club id: ${teamId}`],
+    queryFn: () => getHomeMatchesTeam(teamId),
+  });
+
+  return { data };
+}
+
+async function getAwayMatchesTeam(teamId) {
+  return client(
+    `http://localhost:4000/match/get-away-matches-team?teamId=${teamId}`
+  );
+}
+
+export function getAwayMatchesFromTeam(teamId) {
+  const { data } = useQuery({
+    queryKey: [`get matches from away club id: ${teamId}`],
+    queryFn: () => getAwayMatchesTeam(teamId),
+  });
+
+  return { data };
+}

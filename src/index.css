@@ -23,4 +23,5 @@
 
 .container-bg {
   background-image: url("app/images/background.jpg");
+  min-height: 100vh;
 }

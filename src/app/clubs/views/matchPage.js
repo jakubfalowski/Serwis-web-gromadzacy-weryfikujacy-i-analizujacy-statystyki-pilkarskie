@@ -1,6 +1,8 @@
 let ifMutate = true;
+import { Grid } from "@mantine/core";
 
 import {
+  getAllMatches,
   getDBTeams,
   getMatchesData,
   getTeamsInfoData,
@@ -14,10 +16,20 @@ export function PageIndex() {
   const { data: matchData } = getMatchesData();
   const { data: teamData } = getDBTeams();
   const { mutate: mutateMatch } = setMatch();
+  const { data: roundMatchData } = getAllMatches("34");
 
   function getIdFromName(name) {
-    const team = teamData.find((team) => team.name === name);
-    return team ? parseInt(team.id) : null;
+    if (teamData) {
+      const team = teamData.find((team) => team.name === name);
+      return team ? parseInt(team.id) : null;
+    }
+  }
+
+  function getNameFromId(id) {
+    if (teamData) {
+      const team = teamData.find((team) => team.id === id);
+      return team ? team.name : null;
+    }
   }
 
   function truncateRound(text) {
@@ -39,105 +51,47 @@ export function PageIndex() {
       );
   }
 
-  function handleAddMatches(){
+  function handleAddMatches() {
     if (matchData && matchData.DATA[0] && matchData.DATA[0].EVENTS && ifMutate)
-    matchData.DATA[0].EVENTS.map((match) => {
-      mutateMatch({
-        id_home: getIdFromName(match.HOME_NAME),
-        id_away: getIdFromName(match.AWAY_NAME),
-        homeGoals: parseInt(match.HOME_SCORE_CURRENT),
-        awayGoals: parseInt(match.AWAY_SCORE_CURRENT),
-        result: `${match.HOME_SCORE_CURRENT}-${match.AWAY_SCORE_CURRENT}`,
-        date: convertUnixToDate(match.START_TIME),
-        round: truncateRound(match.ROUND),
+      matchData.DATA[0].EVENTS.map((match) => {
+        mutateMatch({
+          id_home: getIdFromName(match.HOME_NAME),
+          id_away: getIdFromName(match.AWAY_NAME),
+          homeGoals: parseInt(match.HOME_SCORE_CURRENT),
+          awayGoals: parseInt(match.AWAY_SCORE_CURRENT),
+          result: `${match.HOME_SCORE_CURRENT}-${match.AWAY_SCORE_CURRENT}`,
+          date: convertUnixToDate(match.START_TIME),
+          round: truncateRound(match.ROUND),
+        });
+        ifMutate = false;
       });
-      ifMutate = false;
-    });
   }
-  
 
-  //   const [dataset, setDataset] = useState();
-  //   const [leagueName, setLeagueName] = useState();
-  //   const date = new Date();
-
-  //   let today = [];
-  //   const futureDaysMatches = 14;
-  //   const dayInMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-
-  //   let lastI;
-  //   for (let i = 0; i < futureDaysMatches; i++) {
-  //     if (date.getDate() + i <= dayInMonth[date.getMonth()]) {
-  //       today[i] =
-  //         date.getFullYear() +
-  //         "-" +
-  //         (date.getMonth() + 1) +
-  //         "-" +
-  //         (date.getDate() + i);
-  //       lastI = i;
-  //     } else {
-  //       today[i] =
-  //         date.getFullYear() + "-" + (date.getMonth() + 2) + "-" + (i - lastI);
-  //     }
-  //   }
-  //   let ifFetch = true;
-
-  //   async function fetchData(query) {
-  //     try {
-  //       const response = await fetch(
-  //         `https://flashscore.p.rapidapi.com/v1/tournaments/fixtures?tournament_stage_id=${query}&locale=en_GB&page=1`,
-  //         options
-  //       );
-  //       console.log(response);
-  //       const data = await response.json();
-  //       setLeagueName(data.DATA[0].NAME);
-  //       const results = data.DATA[0].EVENTS;
-  //       setDataset(results);
-  //     } catch (error) {
-  //       console.log(error);
-  //     }
-  //   }
-
-  //   useEffect(() => {
-  //     fetchData("4fofM1vn");
-  //   }, [ifFetch]);
-
-  //   console.log(dataset);
   return (
-    <>
-      <h2 className="leagueName">aaa</h2>
-      <button onClick={handleAddTeams}>Dodaj kluby</button>
-      <button onClick={handleAddMatches}>Dodaj mecze</button>
-      {/* <Grid grow>
-        {dataset &&
-          dataset.map((data, i) => {
-            for (
-              let daysMatch = futureDaysMatches;
-              daysMatch >= 0;
-              daysMatch--
-            ) {
-              if (convertToDate(data.START_TIME).endsWith(today[daysMatch])) {
-                return (
-                  <Grid.Col md={4} sm={6} xs={12}>
-                    <img
-                      className="clubLogo"
-                      src={`${data.HOME_IMAGES[0]}`}
-                      alt={data.HOME_NAME}
-                    />
-                    <img src={`${data.AWAY_IMAGES[0]}`} alt={data.AWAY_NAME} />
-                    <a
-                      href={`/clubs/${data.EVENT_ID}/${data.HOME_PARTICIPANT_IDS[0]}/${data.AWAY_PARTICIPANT_IDS[0]}`}
-                    >
-                      {dictClubs(data.HOME_NAME)} - {dictClubs(data.AWAY_NAME)}{" "}
-                      <br />
-                    </a>
-                    <p>{convertToDate(data.START_TIME)}</p>
-                  </Grid.Col>
-                );
-              }
-            }
+    <div className="container container-bg mx-auto pl-8">
+      <h2 className="text-2xl font-bold py-8">Ostatnia kolejka</h2>
+
+      <Grid grow>
+        {roundMatchData &&
+          roundMatchData.map((match, i) => {
+            return (
+              <Grid.Col md={4} sm={6} xs={12}>
+                <a
+                  href={`/clubs/${match.id}/${match.id_home}/${match.id_away}`}
+                  className="font-semibold"
+                >
+                  {getNameFromId(match.id_home)}{" "}
+                  <span className="font-extrabold"> {match.result} </span>
+                  {getNameFromId(match.id_away)} <br />
+                </a>
+                <p>{match.date}</p>
+              </Grid.Col>
+            );
           })}
-      </Grid> */}
-    </>
+      </Grid>
+      {/* <button onClick={handleAddTeams}>Dodaj kluby</button>
+      <button onClick={handleAddMatches}>Dodaj mecze</button> */}
+    </div>
   );
 }
 export default PageIndex;
