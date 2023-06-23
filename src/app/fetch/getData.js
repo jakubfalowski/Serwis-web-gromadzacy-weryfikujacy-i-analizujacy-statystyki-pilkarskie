@@ -323,3 +323,16 @@ export function getAwayMatchesFromTeam(teamId) {
 
   return { data };
 }
+
+async function getBetimateMatches() {
+  return client("http://localhost:3000/api/betimate");
+}
+
+export function getBetimate() {
+  const { data } = useQuery({
+    queryKey: ["betimate"],
+    queryFn: () => getBetimateMatches(),
+  });
+
+  return { data };
+}

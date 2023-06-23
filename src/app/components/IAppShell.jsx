@@ -38,9 +38,9 @@ export function IAppShell(props) {
             padding: 0,
           },
           root: {
-            overflowX: "hidden",
-            overflowY: props.forbidenScroll ?? "hidden",
-            maxHeight: props.forbidenScroll ?? "100vh",
+            overflowX: props.forbidenScroll ? "hidden" : "",
+            overflowY: "hidden",
+            maxHeight: props.forbidenScroll ? "100vh" : "none",
           },
         })}
       >

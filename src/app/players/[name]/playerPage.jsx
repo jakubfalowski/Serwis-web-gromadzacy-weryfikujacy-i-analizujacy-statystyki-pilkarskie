@@ -21,6 +21,7 @@ const color = {
 export function PlayerPage(props) {
   const { data } = getPlayerData(props.player);
   const { data: maxRatings } = getMaxRatings();
+  console.log(data, maxRatings);
   return (
     <div className="bg-white container container-bg mx-auto pl-8">
       {data && maxRatings && (
