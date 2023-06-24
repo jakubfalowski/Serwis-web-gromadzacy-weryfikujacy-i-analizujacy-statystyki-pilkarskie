@@ -28,7 +28,18 @@ export function IAppShell(props) {
               <button onClick={() => router.push("/players")} className="mr-12">
                 Zawodnicy
               </button>
-              <button onClick={() => router.push("/clubs")}>Kluby</button>
+              <button onClick={() => router.push("/clubs")} className="mr-12">
+                Kluby
+              </button>
+              <button
+                onClick={() => router.push("/players/game-chart")}
+                className="mr-12"
+              >
+                Wykres gier
+              </button>
+              <button onClick={() => router.push("/players/club-chart")}>
+                Wykres klubów
+              </button>
             </div>
             <Divider my="sm" variant="dashed" style={{ margin: "0px" }} />
           </div>

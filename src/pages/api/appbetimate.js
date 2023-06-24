@@ -9,13 +9,13 @@ function translate(item) {
   else if (item === "Zaglebie Lubin") return "Zagłębie Lubin";
   else if (item === "Pogon Szczecin") return "Pogoń Szczecin";
   else if (item === "Lech Poznan") return "Lech Poznań";
-  else if (item === "Jagiellonia Bialystok") return "Jagiellonia  Białystok";
+  else if (item === "Jagiellonia Bialystok") return "Jagiellonia Białystok";
   else if (item === "Miedz Legnica") return "Miedź Legnica";
   else if (item === "Gornik Zabrze") return "Górnik Zabrze";
   else if (item === "Legia Warsaw") return "Legia Warszawa";
   else if (item === "Slask Wroclaw") return "Śląsk Wrocław";
   else if (item === "Widzew Lodz") return "Widzew Łódź";
-  else if (item === "Cracovia Krakow") return "Cracovia Kraków";
+  else if (item === "Cracovia Krakow") return "Cracovia";
   else if (item === "Wisla Plock") return "Wisła Płock";
   else if (item === "Warta Poznan") return "Warta Poznań";
   else return item;

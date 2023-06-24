@@ -23,6 +23,7 @@
     "nextjs-cors": "^2.1.2",
     "puppeteer": "^20.6.0",
     "react": "18.2.0",
+    "react-seven-segment-display": "^2.1.0",
     "recharts": "^2.3.2",
     "sass": "^1.57.1"
   },

@@ -32,5 +32,5 @@ export function getPoints(lastMatches, teamId, HAMatches) {
     ((lastMatchesPoints[14] / 45) * 200 + (HAMPoints[4] / 15) * 100) /
     3
   ).toFixed(2);
-  return percentStrength;
+  return { percentStrength, lastMatchesPoints, HAMPoints };
 }
