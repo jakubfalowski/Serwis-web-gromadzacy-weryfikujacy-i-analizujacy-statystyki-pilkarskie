@@ -210,9 +210,7 @@ export function PredictPage(props) {
           {matchData.result_odd}
         </td>
       </tr>
-      {betimateData &&
-        home &&
-        teamData &&
+      {betimateData && betimateData.length > 0 ? (
         betimateData.map((match) => {
           if (
             match.homeName === getNameFromId(parseInt(home), teamData) &&
@@ -243,7 +241,12 @@ export function PredictPage(props) {
               </tr>
             );
           }
-        })}
+        })
+      ) : (
+        <tr>
+          <td colSpan="5">Brak danych ze strony betimate</td>
+        </tr>
+      )}
     </>
   );
 

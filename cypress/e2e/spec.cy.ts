@@ -1,30 +1,47 @@
-describe('Testowanie strony zawodników', () => {
-
+describe("Testowanie pobrania danych i sortowania zawodników", () => {
   beforeEach(() => {
-    cy.visit('http://localhost:3000/players');
-  })
-
-  let skillTab = new Array(14);
-  for(let i=0;i<=14;i++) skillTab[i]=new Array(0);
-
-  it('Znajdowanie wszystkich elementów tablicy', () => {
-    cy.wait(5000);
-    cy.get('thead tr button').each(($td, index) => {
-        cy.wrap($td).click();
-        cy.wait(1000);
-        cy.get('tbody tr').each($td2 => {
-          cy.wrap($td2).find("td:nth-of-type(" + (index + 2) + ")").then(($skill) =>{
-            skillTab[index].push($skill.text());
-          })
-        });
-      });
+    cy.visit(
+      "http://localhost:3000/players?sort=Pace&count=30&game=fminside&sortBy=ASC"
+    );
   });
 
-  it('Sprawdzanie poprawności sortowania', () => {
-    for(let i = 0; i < skillTab.length; i++){
-      for(let j = 0; j < skillTab[i].length; j++){
-        if(j>0) expect(parseInt(skillTab[i][j-1])).to.be.gte(parseInt(skillTab[i][j]));  
-      }
+  let skillTab = new Array(0);
+  skillTab[0] = new Array(0);
+
+  it("Znajdowanie wszystkich elementów tablicy", () => {
+    cy.wait(5000);
+    cy.get("tr td:nth-of-type(3)").each(($column) => {
+      cy.wrap($column).then(($stat) => {
+        skillTab[0].push($stat.text());
+      });
+    });
+  });
+
+  it("Sprawdzanie filtru ilości zawodników", () => {
+    expect(skillTab[0].length).to.be.equal(30);
+  });
+
+  it("Sprawdzanie sortowania FM, ASC", () => {
+    for (let j = 1; j < skillTab[0].length; j++) {
+      expect(parseInt(skillTab[0][j - 1])).to.be.lte(parseInt(skillTab[0][j]));
     }
+  });
+});
+
+describe("Testowanie przekierowania zawodników", () => {
+  beforeEach(() => {
+    cy.visit("http://localhost:3000/players");
+  });
+
+  const player = "Kevin De Bruyne";
+
+  it("Za pomocą inputa", () => {
+    cy.wait(3000);
+    cy.get("input.mantine-Input-input").type(player);
+    cy.get("#searchButton").click();
+    cy.wait(5000);
+    cy.get("#playerName").invoke('text').then((text) => {
+      expect(text).to.be.equal(player);
+    });
   });
 });

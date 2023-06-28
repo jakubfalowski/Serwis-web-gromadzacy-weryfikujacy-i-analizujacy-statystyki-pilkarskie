@@ -35,6 +35,7 @@ export function SearchPlayers() {
                 window.location.href = `/players/${ref.current.value}`;
               }
             }}
+            id="searchButton"
           >
             Przekieruj
           </Button>

@@ -84,7 +84,7 @@ export function PlayerTable() {
       <h1 className="text-4xl font-bold mt-16 mb-12 pl-4">Tabela zawodników</h1>
       <Grid style={{ backgroundColor: "black" }}>
         <Grid.Col sm={3}>
-          <Menu trigger="hover">
+          <Menu trigger="hover" id="sortMenu">
             <Menu.Target>
               <Button
                 style={{
@@ -92,6 +92,7 @@ export function PlayerTable() {
                   borderRadius: "0px",
                   width: "100%",
                 }}
+                id="button"
               >
                 Statystyka
               </Button>
@@ -111,6 +112,7 @@ export function PlayerTable() {
                   onClick={() =>
                     (window.location.href = `/players?sort=Pace&count=${count}&game=${gameParam}&sortBy=${typeParam}`)
                   }
+                  id="pace"
                 >
                   Szybkość
                 </div>
@@ -172,6 +174,7 @@ export function PlayerTable() {
                   borderRadius: "0px",
                   width: "100%",
                 }}
+                id="count"
               >
                 Ilość
               </Button>
@@ -200,6 +203,7 @@ export function PlayerTable() {
                   onClick={() =>
                     (window.location.href = `/players?sort=${sortParam}&count=50&game=${gameParam}&sortBy=${typeParam}`)
                   }
+                  id="50"
                 >
                   50
                 </div>
@@ -225,6 +229,7 @@ export function PlayerTable() {
                   borderRadius: "0px",
                   width: "100%",
                 }}
+                id="game"
               >
                 Gra
               </Button>
@@ -244,6 +249,7 @@ export function PlayerTable() {
                   onClick={() =>
                     (window.location.href = `/players?sort=${sortParam}&count=${count}&game=fminside&sortBy=${typeParam}`)
                   }
+                  id="fm"
                 >
                   Football Manager
                 </div>
@@ -260,6 +266,7 @@ export function PlayerTable() {
                   borderRadius: "0px",
                   width: "100%",
                 }}
+                id="sort"
               >
                 Sortowanie
               </Button>
@@ -279,6 +286,7 @@ export function PlayerTable() {
                   onClick={() =>
                     (window.location.href = `/players?sort=${sortParam}&count=${count}&game=${gameParam}&sortBy=ASC`)
                   }
+                  id="ASC"
                 >
                   Rosnąco
                 </div>

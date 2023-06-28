@@ -51,7 +51,7 @@ async function getCompareGames(stat, game, sortBy) {
 
 export function getCompare(stat, game, sortBy) {
   const { data } = useQuery({
-    queryKey: ["getCompare", stat],
+    queryKey: ["getCompare", stat, game, sortBy],
     queryFn: () => getCompareGames(stat, game, sortBy),
     onError(err) {
       console.log(err);

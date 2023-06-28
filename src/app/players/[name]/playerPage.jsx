@@ -28,7 +28,10 @@ export function PlayerPage(props) {
         <>
           <Grid>
             <Grid.Col sm={12} md={4}>
-              <h2 className="text-2xl mb-3 font-bold text-center">
+              <h2
+                className="text-2xl mb-3 font-bold text-center"
+                id="playerName"
+              >
                 {data[0].Name}
               </h2>
               <Image

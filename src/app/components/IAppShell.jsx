@@ -25,15 +25,21 @@ export function IAppShell(props) {
                   className="mr-12"
                 />
               </button>
-              <button onClick={() => router.push("/players")} className="mr-12">
+              <button
+                onClick={() => router.push("/players")}
+                className="pr-12 px-8"
+              >
                 Zawodnicy
               </button>
-              <button onClick={() => router.push("/clubs")} className="mr-12">
+              <button
+                onClick={() => router.push("/clubs")}
+                className="pr-12 px-8"
+              >
                 Kluby
               </button>
               <button
                 onClick={() => router.push("/players/game-chart")}
-                className="mr-12"
+                className="pr-12 px-8"
               >
                 Wykres gier
               </button>
