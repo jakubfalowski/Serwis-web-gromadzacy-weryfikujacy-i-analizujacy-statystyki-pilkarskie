@@ -33,7 +33,10 @@ export function setFmPlayers() {
     mutationFn: (body) =>
       client("http://localhost:4000/fminside/create-fm-stats", { data: body }),
     onSuccess: () => {
-      console.log("udane");
+      console.log(
+        "Dodanie zawodników do bazy Football Managera się powiodło",
+        body
+      );
     },
     onError: (error) => {
       console.log(error);
@@ -324,14 +327,14 @@ export function getAwayMatchesFromTeam(teamId) {
   return { data };
 }
 
-async function getBetimateMatches() {
-  return client("http://localhost:3000/api/betimate");
+async function getBetimateMatches(home, away) {
+  return client(`http://localhost:4000/match/get-betimate-by-teams?home=${home}&away=${away}`);
 }
 
-export function getBetimate() {
+export function getBetimate(home, away) {
   const { data } = useQuery({
-    queryKey: ["betimate"],
-    queryFn: () => getBetimateMatches(),
+    queryKey: ["betimate"+ home+ away],
+    queryFn: () => getBetimateMatches(home, away),
   });
 
   return { data };

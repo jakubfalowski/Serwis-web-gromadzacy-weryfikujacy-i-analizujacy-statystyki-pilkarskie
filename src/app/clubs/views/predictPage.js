@@ -18,10 +18,56 @@ import { getPoints } from "../calculation/getTeamStrength";
 import { getWinner } from "../calculation/getWinner";
 import { appForebetHead } from "./tableHead";
 
+function staticTranslateIDToNameTeam(id) {
+  switch (id) {
+    case 1:
+      return "Miedź Legnica";
+    case 2:
+      return "Lech Poznań";
+    case 3:
+      return "Pogoń Szczecin";
+    case 4:
+      return "Raków Częstochowa";
+    case 5:
+      return "Legia Warszawa";
+    case 8:
+      return "Piast Gliwice";
+    case 9:
+      return "Lechia Gdańsk";
+    case 12:
+      return "Górnik Zabrze";
+    case 14:
+      return "Cracovia Kraków";
+    case 16:
+      return "Warta Poznań";
+    case 17:
+      return "Zagłębie Lubin";
+    case 18:
+      return "Radomiak Radom";
+    case 19:
+      return "Stal Mielec";
+    case 20:
+      return "Widzew Łódź";
+    case 21:
+      return "Korona Kielce";
+    case 22:
+      return "Jagiellonia Białystok";
+    case 23:
+      return "Śląsk Wrocław";
+    case 25:
+      return "Wisła Płock";
+    default:
+      return "";
+  }
+}
+
 export function PredictPage(props) {
   const match = props.match;
   const home = props.home;
   const away = props.away;
+  const round = props.round < 0 ? parseInt(props.round) * -1 : 0;
+
+  console.log(round);
 
   const { data: matchData } = getMatchById(match);
   const { data: homeTeamMatchesData } = getMatchesFromTeam(home);
@@ -29,7 +75,10 @@ export function PredictPage(props) {
   const { data: teamHomeMatchesData } = getHomeMatchesFromTeam(home);
   const { data: teamAwayMatchesData } = getAwayMatchesFromTeam(away);
   const { data: teamData } = getDBTeams();
-  const { data: betimateData } = getBetimate();
+  const { data: betimateData } = getBetimate(
+    staticTranslateIDToNameTeam(parseInt(home)),
+    staticTranslateIDToNameTeam(parseInt(away))
+  );
 
   function getNameFromId(id, teamData) {
     if (teamData) {
@@ -44,9 +93,9 @@ export function PredictPage(props) {
     teamHomeMatchesData &&
     home &&
     getPoints(
-      homeTeamMatchesData.slice(1, 16),
+      homeTeamMatchesData.slice(round, 15 + round),
       home,
-      teamHomeMatchesData.slice(1, 6)
+      teamHomeMatchesData.slice(round, 5 + round)
     ).percentStrength;
 
   const HomeTeamPercentAllForm =
@@ -55,9 +104,9 @@ export function PredictPage(props) {
     home &&
     (
       (getPoints(
-        homeTeamMatchesData.slice(1, 16),
+        homeTeamMatchesData.slice(round, 15 + round),
         home,
-        teamHomeMatchesData.slice(1, 6)
+        teamHomeMatchesData.slice(round, 5 + round)
       ).lastMatchesPoints[14] /
         45) *
       100
@@ -69,9 +118,9 @@ export function PredictPage(props) {
     home &&
     (
       (getPoints(
-        homeTeamMatchesData.slice(1, 16),
+        homeTeamMatchesData.slice(round, 15 + round),
         home,
-        teamHomeMatchesData.slice(1, 6)
+        teamHomeMatchesData.slice(round, 5 + round)
       ).HAMPoints[4] /
         15) *
       100
@@ -82,9 +131,9 @@ export function PredictPage(props) {
     teamAwayMatchesData &&
     away &&
     getPoints(
-      awayTeamMatchesData.slice(1, 16),
+      awayTeamMatchesData.slice(round, 15 + round),
       away,
-      teamAwayMatchesData.slice(1, 6)
+      teamAwayMatchesData.slice(round, 5 + round)
     ).percentStrength;
 
   const AwayTeamPercentAllForm =
@@ -93,9 +142,9 @@ export function PredictPage(props) {
     away &&
     (
       (getPoints(
-        awayTeamMatchesData.slice(1, 16),
+        awayTeamMatchesData.slice(round, 15 + round),
         away,
-        teamAwayMatchesData.slice(1, 6)
+        teamAwayMatchesData.slice(round, 5 + round)
       ).lastMatchesPoints[14] /
         45) *
       100
@@ -107,9 +156,9 @@ export function PredictPage(props) {
     away &&
     (
       (getPoints(
-        awayTeamMatchesData.slice(1, 16),
+        awayTeamMatchesData.slice(round, 15 + round),
         away,
-        teamAwayMatchesData.slice(1, 6)
+        teamAwayMatchesData.slice(round, 5 + round)
       ).HAMPoints[4] /
         15) *
       100
@@ -129,9 +178,11 @@ export function PredictPage(props) {
     getWinner(HomeTeamPercent, AwayTeamPercent).away;
 
   const TeamHomeGoals =
-    teamHomeMatchesData && getHomeGoals(teamHomeMatchesData.slice(1, 6));
+    teamHomeMatchesData &&
+    getHomeGoals(teamHomeMatchesData.slice(round, 5 + round));
   const TeamAwayGoals =
-    teamAwayMatchesData && getAwayGoals(teamAwayMatchesData.slice(1, 6));
+    teamAwayMatchesData &&
+    getAwayGoals(teamAwayMatchesData.slice(round, 5 + round));
 
   const HomeTeamGoals =
     homeTeamMatchesData && getGoals(homeTeamMatchesData.slice(0, 15), home);
@@ -172,8 +223,6 @@ export function PredictPage(props) {
       AwayTeamProbabilityGoals.lost
     );
 
-  console.log(awayTeamMatchesData);
-
   const appRows = matchData && formResult && (
     <>
       <tr className="font-medium">
@@ -210,41 +259,28 @@ export function PredictPage(props) {
           {matchData.result_odd}
         </td>
       </tr>
-      {betimateData && betimateData.length > 0 ? (
-        betimateData.map((match) => {
-          if (
-            match.homeName === getNameFromId(parseInt(home), teamData) &&
-            match.awayName === getNameFromId(parseInt(away), teamData)
-          ) {
-            return (
-              <tr className="font-medium">
-                <td>Betimate.com</td>
-                <td>
-                  {match.predictHome}% -{" "}
-                  {((1 / match.predictHome) * 100).toFixed(2)}
-                </td>
-                <td>
-                  {match.predictDraw}% -{" "}
-                  {((1 / match.predictDraw) * 100).toFixed(2)}
-                </td>
-                <td>
-                  {match.predictAway}% -{" "}
-                  {((1 / match.predictAway) * 100).toFixed(2)}
-                </td>
-                <td
-                  className={
-                    match.predictResult === matchData.result ? "underline" : ""
-                  }
-                >
-                  {match.predictResult}
-                </td>
-              </tr>
-            );
-          }
-        })
-      ) : (
-        <tr>
-          <td colSpan="5">Brak danych ze strony betimate</td>
+      {betimateData && (
+        <tr className="font-medium">
+          <td>Betimate.com</td>
+          <td>
+            {betimateData.homePercent}% -{" "}
+            {((1 / betimateData.homePercent) * 100).toFixed(2)}
+          </td>
+          <td>
+            {betimateData.drawPercent}% -{" "}
+            {((1 / betimateData.drawPercent) * 100).toFixed(2)}
+          </td>
+          <td>
+            {betimateData.awayPercent}% -{" "}
+            {((1 / betimateData.awayPercent) * 100).toFixed(2)}
+          </td>
+          <td
+            className={
+              betimateData.result === matchData.result ? "underline" : ""
+            }
+          >
+            {betimateData.result}
+          </td>
         </tr>
       )}
     </>
@@ -417,7 +453,7 @@ export function PredictPage(props) {
             </p>
             <Spoiler maxHeight={600} showLabel="Rozwiń" hideLabel="Zwiń">
               {homeTeamMatchesData &&
-                homeTeamMatchesData.slice(1, 11).map((match) => (
+                homeTeamMatchesData.slice(round, round + 10).map((match) => (
                   <Grid className="md:m-8">
                     <Grid.Col span={2}>
                       <Image src={match.logo_home} alt="home" />
@@ -578,7 +614,7 @@ export function PredictPage(props) {
             </p>
             <Spoiler maxHeight={600} showLabel="Rozwiń" hideLabel="Zwiń">
               {awayTeamMatchesData &&
-                awayTeamMatchesData.slice(1, 11).map((match) => (
+                awayTeamMatchesData.slice(round, round + 10).map((match) => (
                   <Grid className="md:m-8">
                     <Grid.Col span={2}>
                       <Image src={match.logo_home} alt="home" />

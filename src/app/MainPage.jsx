@@ -14,7 +14,7 @@ import Logo from "./images/logo.png";
 export function MainPage() {
   const { data: blogPost } = getBlogPosts();
   const { mutate: mutateFifa } = setFifaPlayers();
-  const { mutate: mutateFm } = setFmPlayers();
+  
 
   function handleButtonFifaClick() {
     fifaStats.map((stat) =>
@@ -34,7 +34,8 @@ export function MainPage() {
       })
     );
   }
-
+  const { mutate: mutateFm } = setFmPlayers();
+  
   function handleButtonFmClick() {
     fmStats.map((stat) =>
       mutateFm({
@@ -143,8 +144,8 @@ export function MainPage() {
               imgUrl={item.imgUrl}
             />
           ))}
-        <button onClick={handleButtonFifaClick}>Dodaj FIFA</button>
-        <button onClick={handleButtonFmClick}>Dodaj FM</button>
+        {/* <button onClick={handleButtonFifaClick}>Dodaj FIFA</button>
+        <button onClick={handleButtonFmClick}>Dodaj FM</button> */}
       </div>
     </div>
   );

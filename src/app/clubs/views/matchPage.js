@@ -16,7 +16,8 @@ export function PageIndex() {
   const { data: matchData } = getMatchesData();
   const { data: teamData } = getDBTeams();
   const { mutate: mutateMatch } = setMatch();
-  const { data: roundMatchData } = getAllMatches("34");
+  const { data: lastRoundMatchData } = getAllMatches("34");
+  const { data: penultimateRoundMatchData } = getAllMatches("33");
 
   function getIdFromName(name) {
     if (teamData) {
@@ -70,14 +71,32 @@ export function PageIndex() {
   return (
     <div className="container container-bg mx-auto pl-8">
       <h2 className="text-2xl font-bold py-8">Ostatnia kolejka</h2>
-
       <Grid grow>
-        {roundMatchData &&
-          roundMatchData.map((match, i) => {
+        {lastRoundMatchData &&
+          lastRoundMatchData.map((match, i) => {
             return (
               <Grid.Col md={4} sm={6} xs={12}>
                 <a
-                  href={`/clubs/${match.id}/${match.id_home}/${match.id_away}`}
+                  href={`/clubs/${match.id}/${match.id_home}/${match.id_away}/-1`}
+                  className="font-semibold"
+                >
+                  {getNameFromId(match.id_home)}{" "}
+                  <span className="font-extrabold"> {match.result} </span>
+                  {getNameFromId(match.id_away)} <br />
+                </a>
+                <p>{match.date}</p>
+              </Grid.Col>
+            );
+          })}
+      </Grid>
+      <h2 className="text-2xl font-bold py-8">Przedostatnia kolejka</h2>
+      <Grid grow>
+        {penultimateRoundMatchData &&
+          penultimateRoundMatchData.map((match, i) => {
+            return (
+              <Grid.Col md={4} sm={6} xs={12}>
+                <a
+                  href={`/clubs/${match.id}/${match.id_home}/${match.id_away}/-2`}
                   className="font-semibold"
                 >
                   {getNameFromId(match.id_home)}{" "}
