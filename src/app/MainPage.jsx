@@ -14,7 +14,6 @@ import Logo from "./images/logo.png";
 export function MainPage() {
   const { data: blogPost } = getBlogPosts();
   const { mutate: mutateFifa } = setFifaPlayers();
-  
 
   function handleButtonFifaClick() {
     fifaStats.map((stat) =>
@@ -35,7 +34,7 @@ export function MainPage() {
     );
   }
   const { mutate: mutateFm } = setFmPlayers();
-  
+
   function handleButtonFmClick() {
     fmStats.map((stat) =>
       mutateFm({
@@ -52,9 +51,11 @@ export function MainPage() {
   }
 
   return (
-    <div className="py-8 font-sans">
-      <IconTopBg />
-      <div className="w-full h-[600px] -my-0.5 bg-green-500 flex flex-col items-center text-white">
+    <div className="py-8 font-sans overflow-y-hidden">
+      <div className="hidden md:block">
+        <IconTopBg />
+      </div>
+      <div className="w-full h-[900px] md:h-[600px] -my-4 bg-green-500 flex flex-col items-center text-white">
         <Image
           src={Logo}
           alt="logo"
@@ -132,7 +133,10 @@ export function MainPage() {
           </ol>
         </div>
       </div>
-      <IconBottomBg />
+      <div className="hidden md:block">
+        <IconBottomBg />
+      </div>
+
       <div className="container mx-auto">
         <h1 className="text-4xl font-bold mt-32">Najnowsze informacje</h1>
         {blogPost &&

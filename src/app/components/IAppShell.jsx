@@ -15,8 +15,8 @@ export function IAppShell(props) {
       <AppShell
         header={
           <div className="bg-white">
-            <div className="container mx-auto flex items-center pr-12 font-sans font-bold text-xl leading-6 h-[116px] ">
-              <button onClick={() => router.push("/")}>
+            <div className="container mx-auto flex items-center px-4 md:pr-12 font-sans font-bold text-xl leading-6 h-[116px] ">
+              <a href="/">
                 <Image
                   src={Logo}
                   alt="logo"
@@ -24,28 +24,28 @@ export function IAppShell(props) {
                   height={60}
                   className="mr-12"
                 />
-              </button>
-              <button
-                onClick={() => router.push("/players")}
-                className="pr-12 px-8"
+              </a>
+              <a
+                href="/players"
+                className="text-xs md:text-base pr-4 md:pr-12 md:px-8"
               >
                 Zawodnicy
-              </button>
-              <button
-                onClick={() => router.push("/clubs")}
-                className="pr-12 px-8"
+              </a>
+              <a
+                href="/clubs"
+                className="text-xs md:text-base pr-4 md:pr-12 md:px-8"
               >
                 Kluby
-              </button>
-              <button
-                onClick={() => router.push("/players/game-chart")}
-                className="pr-12 px-8"
+              </a>
+              <a
+                href="/players/game-chart"
+                className="text-xs md:text-base pr-4 md:pr-12 md:px-8"
               >
                 Wykres gier
-              </button>
-              <button onClick={() => router.push("/players/club-chart")}>
+              </a>
+              <a href="/players/club-chart" className="text-xs md:text-base">
                 Wykres klubów
-              </button>
+              </a>
             </div>
             <Divider my="sm" variant="dashed" style={{ margin: "0px" }} />
           </div>
@@ -58,6 +58,7 @@ export function IAppShell(props) {
             overflowX: props.forbidenScroll ? "hidden" : "",
             overflowY: "hidden",
             maxHeight: props.forbidenScroll ? "100vh" : "none",
+            margin: "auto",
           },
         })}
       >

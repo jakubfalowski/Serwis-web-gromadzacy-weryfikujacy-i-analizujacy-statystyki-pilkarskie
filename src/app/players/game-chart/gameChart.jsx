@@ -1,4 +1,3 @@
-import { LoadingOverlay } from "@mantine/core";
 import {
   Bar,
   BarChart,
@@ -75,7 +74,7 @@ export default function GameChart() {
 
   return (
     <div>
-      {data ? (
+      {formatedData && (
         <div className="container mx-auto container-bg ">
           <h2 className="text-2xl py-8 pl-16 font-bold">
             Średnia ocena danej statystyki
@@ -100,8 +99,6 @@ export default function GameChart() {
             <Bar dataKey="fm" stackId="a" fill="#A6F490" />
           </BarChart>
         </div>
-      ) : (
-        <LoadingOverlay visible={true} overlayBlur={2} />
       )}
     </div>
   );

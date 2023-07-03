@@ -1,7 +1,7 @@
 export function IconTopBg() {
   return (
     <svg
-      width="1920"
+      width="99.1vw"
       height="75"
       version="1.1"
       viewBox="0 0 508 19.8"
@@ -24,7 +24,7 @@ export function IconTopBg() {
 export function IconBottomBg() {
   return (
     <svg
-      width="1920"
+      width="99.1vw"
       height="75"
       version="1.1"
       viewBox="0 0 508 19.8"

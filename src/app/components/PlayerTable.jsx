@@ -99,68 +99,54 @@ export function PlayerTable() {
             </Menu.Target>
             <Menu.Dropdown>
               <Menu.Item>
-                <div
-                  onClick={() =>
-                    (window.location.href = `/players?sort=Overall&count=${count}&game=${gameParam}&sortBy=${typeParam}`)
-                  }
+                <a
+                  href={`/players?sort=Overall&count=${count}&game=${gameParam}&sortBy=${typeParam}`}
                 >
                   Ocena ogólna
-                </div>
+                </a>
               </Menu.Item>
               <Menu.Item>
-                <div
-                  onClick={() =>
-                    (window.location.href = `/players?sort=Pace&count=${count}&game=${gameParam}&sortBy=${typeParam}`)
-                  }
+                <a
+                  href={`/players?sort=Pace&count=${count}&game=${gameParam}&sortBy=${typeParam}`}
                   id="pace"
                 >
                   Szybkość
-                </div>
+                </a>
               </Menu.Item>
               <Menu.Item>
-                <div
-                  onClick={() =>
-                    (window.location.href = `/players?sort=Passing&count=${count}&game=${gameParam}&sortBy=${typeParam}`)
-                  }
+                <a
+                  href={`/players?sort=Passing&count=${count}&game=${gameParam}&sortBy=${typeParam}`}
                 >
                   Podania
-                </div>
+                </a>
               </Menu.Item>
               <Menu.Item>
-                <div
-                  onClick={() =>
-                    (window.location.href = `/players?sort=Shooting&count=${count}&game=${gameParam}&sortBy=${typeParam}`)
-                  }
+                <a
+                  href={`/players?sort=Shooting&count=${count}&game=${gameParam}&sortBy=${typeParam}`}
                 >
                   Atak
-                </div>
+                </a>
               </Menu.Item>
               <Menu.Item>
-                <div
-                  onClick={() =>
-                    (window.location.href = `/players?sort=Dribbling&count=${count}&game=${gameParam}&sortBy=${typeParam}`)
-                  }
+                <a
+                  href={`/players?sort=Dribbling&count=${count}&game=${gameParam}&sortBy=${typeParam}`}
                 >
                   Drybling
-                </div>
+                </a>
               </Menu.Item>
               <Menu.Item>
-                <div
-                  onClick={() =>
-                    (window.location.href = `/players?sort=Defense&count=${count}&game=${gameParam}&sortBy=${typeParam}`)
-                  }
+                <a
+                  href={`/players?sort=Defense&count=${count}&game=${gameParam}&sortBy=${typeParam}`}
                 >
                   Defensywa
-                </div>
+                </a>
               </Menu.Item>
               <Menu.Item>
-                <div
-                  onClick={() =>
-                    (window.location.href = `/players?sort=Physical&count=${count}&game=${gameParam}&sortBy=${typeParam}`)
-                  }
+                <a
+                  href={`/players?sort=Physical&count=${count}&game=${gameParam}&sortBy=${typeParam}`}
                 >
                   Fizyczność
-                </div>
+                </a>
               </Menu.Item>
             </Menu.Dropdown>
           </Menu>
@@ -181,41 +167,33 @@ export function PlayerTable() {
             </Menu.Target>
             <Menu.Dropdown>
               <Menu.Item>
-                <div
-                  onClick={() =>
-                    (window.location.href = `/players?sort=${sortParam}&count=10&game=${gameParam}&sortBy=${typeParam}`)
-                  }
+                <a
+                  href={`/players?sort=${sortParam}&count=10&game=${gameParam}&sortBy=${typeParam}`}
                 >
                   10
-                </div>
+                </a>
               </Menu.Item>
               <Menu.Item>
-                <div
-                  onClick={() =>
-                    (window.location.href = `/players?sort=${sortParam}&count=30&game=${gameParam}&sortBy=${typeParam}`)
-                  }
+                <a
+                  href={`/players?sort=${sortParam}&count=30&game=${gameParam}&sortBy=${typeParam}`}
                 >
                   30
-                </div>
+                </a>
               </Menu.Item>
               <Menu.Item>
-                <div
-                  onClick={() =>
-                    (window.location.href = `/players?sort=${sortParam}&count=50&game=${gameParam}&sortBy=${typeParam}`)
-                  }
+                <a
+                  href={`/players?sort=${sortParam}&count=50&game=${gameParam}&sortBy=${typeParam}`}
                   id="50"
                 >
                   50
-                </div>
+                </a>
               </Menu.Item>
               <Menu.Item>
-                <div
-                  onClick={() =>
-                    (window.location.href = `/players?sort=${sortParam}&count=10&game=${gameParam}&sortBy=${typeParam}`)
-                  }
+                <a
+                  href={`/players?sort=${sortParam}&count=100&game=${gameParam}&sortBy=${typeParam}`}
                 >
                   100
-                </div>
+                </a>
               </Menu.Item>
             </Menu.Dropdown>
           </Menu>
@@ -236,23 +214,19 @@ export function PlayerTable() {
             </Menu.Target>
             <Menu.Dropdown>
               <Menu.Item>
-                <div
-                  onClick={() =>
-                    (window.location.href = `/players?sort=${sortParam}&count=${count}&game=futhead&sortBy=${typeParam}`)
-                  }
+                <a
+                  href={`/players?sort=${sortParam}&count=${count}&game=futhead&sortBy=${typeParam}`}
                 >
                   FIFA
-                </div>
+                </a>
               </Menu.Item>
               <Menu.Item>
-                <div
-                  onClick={() =>
-                    (window.location.href = `/players?sort=${sortParam}&count=${count}&game=fminside&sortBy=${typeParam}`)
-                  }
+                <a
+                  href={`/players?sort=${sortParam}&count=${count}&game=fminside&sortBy=${typeParam}`}
                   id="fm"
                 >
                   Football Manager
-                </div>
+                </a>
               </Menu.Item>
             </Menu.Dropdown>
           </Menu>
@@ -273,23 +247,19 @@ export function PlayerTable() {
             </Menu.Target>
             <Menu.Dropdown>
               <Menu.Item>
-                <div
-                  onClick={() =>
-                    (window.location.href = `/players?sort=${sortParam}&count=${count}&game=${gameParam}&sortBy=DESC`)
-                  }
+                <a
+                  href={`/players?sort=${sortParam}&count=${count}&game=${gameParam}&sortBy=DESC`}
                 >
                   Malejąco
-                </div>
+                </a>
               </Menu.Item>
               <Menu.Item>
-                <div
-                  onClick={() =>
-                    (window.location.href = `/players?sort=${sortParam}&count=${count}&game=${gameParam}&sortBy=ASC`)
-                  }
+                <a
+                  href={`/players?sort=${sortParam}&count=${count}&game=${gameParam}&sortBy=ASC`}
                   id="ASC"
                 >
                   Rosnąco
-                </div>
+                </a>
               </Menu.Item>
             </Menu.Dropdown>
           </Menu>

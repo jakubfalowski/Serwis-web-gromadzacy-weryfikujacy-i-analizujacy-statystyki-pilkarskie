@@ -13,7 +13,7 @@ export function ClubChart() {
   const { data: physicalData } = getClubsData("Physical");
 
   return (
-    <>
+    <div>
       <div className="container mx-auto">
         <Charts
           data={overallData}
@@ -58,15 +58,7 @@ export function ClubChart() {
           description="Zespoły najlepsze fizycznie"
         />
       </div>
-      <Anchor href="/players/game-chart">
-        <Button
-          variant="gradient"
-          gradient={{ from: "#ad8881", to: "#4d331f", deg: 60 }}
-        >
-          Statystyki porównując gry
-        </Button>
-      </Anchor>
-    </>
+    </div>
   );
 }
 export default ClubChart;
