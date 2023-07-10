@@ -8,6 +8,27 @@ import { ATable } from "./ATable";
 let i = 0;
 let index = 0;
 
+function translateFiltrParam(param) {
+  switch (param) {
+    case "Overall":
+      return "Ocena ogólna";
+    case "Pace":
+      return "Szybkość";
+    case "Passing":
+      return "Podania";
+    case "Dribbling":
+      return " Drybling";
+    case "Shooting":
+      return "Atak";
+    case "Defense":
+      return "Defensywa";
+    case "Physicality":
+      return "Fizyczność";
+    default:
+      return "";
+  }
+}
+
 export function PlayerTable() {
   const searchParams = useSearchParams();
   const sortParam = searchParams.get("sort") || "Overall";
@@ -98,56 +119,42 @@ export function PlayerTable() {
               </Button>
             </Menu.Target>
             <Menu.Dropdown>
-              <Menu.Item>
-                <a
-                  href={`/players?sort=Overall&count=${count}&game=${gameParam}&sortBy=${typeParam}`}
-                >
-                  Ocena ogólna
-                </a>
-              </Menu.Item>
-              <Menu.Item>
-                <a
-                  href={`/players?sort=Pace&count=${count}&game=${gameParam}&sortBy=${typeParam}`}
-                  id="pace"
-                >
-                  Szybkość
-                </a>
-              </Menu.Item>
-              <Menu.Item>
-                <a
-                  href={`/players?sort=Passing&count=${count}&game=${gameParam}&sortBy=${typeParam}`}
-                >
-                  Podania
-                </a>
-              </Menu.Item>
-              <Menu.Item>
-                <a
-                  href={`/players?sort=Shooting&count=${count}&game=${gameParam}&sortBy=${typeParam}`}
-                >
-                  Atak
-                </a>
-              </Menu.Item>
-              <Menu.Item>
-                <a
-                  href={`/players?sort=Dribbling&count=${count}&game=${gameParam}&sortBy=${typeParam}`}
-                >
-                  Drybling
-                </a>
-              </Menu.Item>
-              <Menu.Item>
-                <a
-                  href={`/players?sort=Defense&count=${count}&game=${gameParam}&sortBy=${typeParam}`}
-                >
-                  Defensywa
-                </a>
-              </Menu.Item>
-              <Menu.Item>
-                <a
-                  href={`/players?sort=Physical&count=${count}&game=${gameParam}&sortBy=${typeParam}`}
-                >
-                  Fizyczność
-                </a>
-              </Menu.Item>
+              <a
+                href={`/players?sort=Overall&count=${count}&game=${gameParam}&sortBy=${typeParam}`}
+              >
+                <Menu.Item>Ocena ogólna</Menu.Item>
+              </a>
+              <a
+                href={`/players?sort=Pace&count=${count}&game=${gameParam}&sortBy=${typeParam}`}
+                id="pace"
+              >
+                <Menu.Item>Szybkość</Menu.Item>
+              </a>
+              <a
+                href={`/players?sort=Passing&count=${count}&game=${gameParam}&sortBy=${typeParam}`}
+              >
+                <Menu.Item>Podania</Menu.Item>
+              </a>
+              <a
+                href={`/players?sort=Shooting&count=${count}&game=${gameParam}&sortBy=${typeParam}`}
+              >
+                <Menu.Item>Atak</Menu.Item>
+              </a>
+              <a
+                href={`/players?sort=Dribbling&count=${count}&game=${gameParam}&sortBy=${typeParam}`}
+              >
+                <Menu.Item>Drybling</Menu.Item>
+              </a>
+              <a
+                href={`/players?sort=Defense&count=${count}&game=${gameParam}&sortBy=${typeParam}`}
+              >
+                <Menu.Item>Defensywa</Menu.Item>
+              </a>
+              <a
+                href={`/players?sort=Physical&count=${count}&game=${gameParam}&sortBy=${typeParam}`}
+              >
+                <Menu.Item>Fizyczność</Menu.Item>
+              </a>
             </Menu.Dropdown>
           </Menu>
         </Grid.Col>
@@ -166,35 +173,27 @@ export function PlayerTable() {
               </Button>
             </Menu.Target>
             <Menu.Dropdown>
-              <Menu.Item>
-                <a
-                  href={`/players?sort=${sortParam}&count=10&game=${gameParam}&sortBy=${typeParam}`}
-                >
-                  10
-                </a>
-              </Menu.Item>
-              <Menu.Item>
-                <a
-                  href={`/players?sort=${sortParam}&count=30&game=${gameParam}&sortBy=${typeParam}`}
-                >
-                  30
-                </a>
-              </Menu.Item>
-              <Menu.Item>
-                <a
-                  href={`/players?sort=${sortParam}&count=50&game=${gameParam}&sortBy=${typeParam}`}
-                  id="50"
-                >
-                  50
-                </a>
-              </Menu.Item>
-              <Menu.Item>
-                <a
-                  href={`/players?sort=${sortParam}&count=100&game=${gameParam}&sortBy=${typeParam}`}
-                >
-                  100
-                </a>
-              </Menu.Item>
+              <a
+                href={`/players?sort=${sortParam}&count=10&game=${gameParam}&sortBy=${typeParam}`}
+              >
+                <Menu.Item>10</Menu.Item>
+              </a>
+              <a
+                href={`/players?sort=${sortParam}&count=30&game=${gameParam}&sortBy=${typeParam}`}
+              >
+                <Menu.Item>30</Menu.Item>
+              </a>
+              <a
+                href={`/players?sort=${sortParam}&count=50&game=${gameParam}&sortBy=${typeParam}`}
+                id="50"
+              >
+                <Menu.Item>50</Menu.Item>
+              </a>
+              <a
+                href={`/players?sort=${sortParam}&count=100&game=${gameParam}&sortBy=${typeParam}`}
+              >
+                <Menu.Item>100</Menu.Item>
+              </a>
             </Menu.Dropdown>
           </Menu>
         </Grid.Col>
@@ -213,21 +212,17 @@ export function PlayerTable() {
               </Button>
             </Menu.Target>
             <Menu.Dropdown>
-              <Menu.Item>
-                <a
-                  href={`/players?sort=${sortParam}&count=${count}&game=futhead&sortBy=${typeParam}`}
-                >
-                  FIFA
-                </a>
-              </Menu.Item>
-              <Menu.Item>
-                <a
-                  href={`/players?sort=${sortParam}&count=${count}&game=fminside&sortBy=${typeParam}`}
-                  id="fm"
-                >
-                  Football Manager
-                </a>
-              </Menu.Item>
+              <a
+                href={`/players?sort=${sortParam}&count=${count}&game=futhead&sortBy=${typeParam}`}
+              >
+                <Menu.Item>FIFA</Menu.Item>
+              </a>
+              <a
+                href={`/players?sort=${sortParam}&count=${count}&game=fminside&sortBy=${typeParam}`}
+                id="fm"
+              >
+                <Menu.Item>Football Manager</Menu.Item>
+              </a>
             </Menu.Dropdown>
           </Menu>
         </Grid.Col>
@@ -246,30 +241,29 @@ export function PlayerTable() {
               </Button>
             </Menu.Target>
             <Menu.Dropdown>
-              <Menu.Item>
-                <a
-                  href={`/players?sort=${sortParam}&count=${count}&game=${gameParam}&sortBy=DESC`}
-                >
-                  Malejąco
-                </a>
-              </Menu.Item>
-              <Menu.Item>
-                <a
-                  href={`/players?sort=${sortParam}&count=${count}&game=${gameParam}&sortBy=ASC`}
-                  id="ASC"
-                >
-                  Rosnąco
-                </a>
-              </Menu.Item>
+              <a
+                href={`/players?sort=${sortParam}&count=${count}&game=${gameParam}&sortBy=DESC`}
+              >
+                <Menu.Item>Malejąco</Menu.Item>
+              </a>
+              <a
+                href={`/players?sort=${sortParam}&count=${count}&game=${gameParam}&sortBy=ASC`}
+                id="ASC"
+              >
+                <Menu.Item>Rosnąco</Menu.Item>
+              </a>
             </Menu.Dropdown>
           </Menu>
         </Grid.Col>
         <Grid.Col sm={12}>
           <p className="text-white text-xs pl-4">
-            Aktualne filtry: {sortParam}, {count}
-            {", "}
+            Wybrane filtry: Statystyka{" - "}
+            {translateFiltrParam(sortParam)}, Ilość
+            {" - "}
+            {count}
+            {", "}Gra{" - "}
             {gameParam === "futhead" ? "FIFA" : "Football Manager"}
-            {", "}
+            {", "}Sortowanie{" - "}
             {typeParam === "DESC" ? "Malejąco" : "Rosnąco"}
           </p>
         </Grid.Col>

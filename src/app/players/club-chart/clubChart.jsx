@@ -1,5 +1,4 @@
 "use client";
-import { Anchor, Button } from "@mantine/core";
 import { getClubsData } from "../../fetch/getData";
 import { Charts } from "./charts";
 
@@ -19,7 +18,7 @@ export function ClubChart() {
           data={overallData}
           dataKey1="club_total_FIFA"
           dataKey2="club_total_FM"
-          description="Siła zespołów"
+          description="Siła zespołów - ocena ogólna"
         />
         <Charts
           data={paceData}

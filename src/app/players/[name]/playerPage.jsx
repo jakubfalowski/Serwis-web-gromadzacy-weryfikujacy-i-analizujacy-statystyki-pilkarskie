@@ -115,6 +115,7 @@ export function PlayerPage(props) {
             <Grid.Col sm={12} md={4} sx={{ padding: "40px" }}>
               <hr />
               <h2 className="text-2xl mb-3 font-bold">Szybkość</h2>
+              <p className="font-medium">Szybkość FIFA: {data[0].Pace}</p>
               <Tooltip label={`Szybkość FIFA: ${data[0].Pace}`}>
                 <Slider
                   disabled
@@ -129,6 +130,7 @@ export function PlayerPage(props) {
                   marks={marks}
                 />
               </Tooltip>
+              <p className="font-medium">Szybkość FM: {data[0].paceFM}</p>
               <Tooltip label={`Szybkość FM: ${data[0].paceFM}`}>
                 <Slider
                   disabled
@@ -147,6 +149,7 @@ export function PlayerPage(props) {
             <Grid.Col sm={12} md={4} sx={{ padding: "40px" }}>
               <hr />
               <h2 className="text-2xl mb-3 font-bold">Atak</h2>
+              <p className="font-medium">Atak FIFA: {data[0].Shooting}</p>
               <Tooltip label={`Atak FIFA: ${data[0].Shooting}`}>
                 <Slider
                   disabled
@@ -161,6 +164,7 @@ export function PlayerPage(props) {
                   marks={marks}
                 />
               </Tooltip>
+              <p className="font-medium">Atak FM: {data[0].shootingFM}</p>
               <Tooltip label={`Atak FM: ${data[0].shootingFM}`}>
                 <Slider
                   disabled
@@ -203,6 +207,7 @@ export function PlayerPage(props) {
             <Grid.Col sm={12} md={4} sx={{ padding: "40px" }}>
               <hr />
               <h2 className="text-2xl mb-3 font-bold">Podania</h2>
+              <p className="font-medium">Podania FIFA: {data[0].Passing}</p>
               <Tooltip label={`Podania FIFA: ${data[0].Passing}`}>
                 <Slider
                   disabled
@@ -217,6 +222,7 @@ export function PlayerPage(props) {
                   marks={marks}
                 />
               </Tooltip>
+              <p className="font-medium">Podania FM: {data[0].passingFM}</p>
               <Tooltip label={`Podania FM: ${data[0].passingFM}`}>
                 <Slider
                   disabled
@@ -290,6 +296,9 @@ export function PlayerPage(props) {
             <Grid.Col sm={12} md={4} sx={{ padding: "40px" }}>
               <hr />
               <h2 className="text-2xl mb-3 font-bold">Drybling</h2>
+              <p className="font-medium">
+                Dribling FIFA: {data[0].dribblingFIFA}
+              </p>
               <Tooltip label={`Drybling FIFA: ${data[0].dribblingFIFA}`}>
                 <Slider
                   disabled
@@ -304,6 +313,7 @@ export function PlayerPage(props) {
                   marks={marks}
                 />
               </Tooltip>
+              <p className="font-medium">Drybling FM: {data[0].dribblingFM}</p>
               <Tooltip label={`Drybling FM: ${data[0].dribblingFM}`}>
                 <Slider
                   disabled
@@ -348,6 +358,7 @@ export function PlayerPage(props) {
             <Grid.Col sm={12} md={4} sx={{ padding: "40px" }}>
               <hr />
               <h2 className="text-2xl mb-3 font-bold">Defensywa</h2>
+              <p className="font-medium">Defensywa FIFA: {data[0].Defense}</p>
               <Tooltip label={`Defensywa FIFA: ${data[0].Defense}`}>
                 <Slider
                   disabled
@@ -362,6 +373,7 @@ export function PlayerPage(props) {
                   marks={marks}
                 />
               </Tooltip>
+              <p className="font-medium">Defensywa FM: {data[0].defenseFM}</p>
               <Tooltip label={`Defensywa FM: ${data[0].defenseFM}`}>
                 <Slider
                   disabled
@@ -416,6 +428,7 @@ export function PlayerPage(props) {
             <Grid.Col sm={12} md={4} sx={{ padding: "40px" }}>
               <hr />
               <h2 className="text-2xl mb-3 font-bold">Fizyczność</h2>
+              <p className="font-medium">Fizyczność FIFA: {data[0].Physical}</p>
               <Tooltip label={`Fizyczność FIFA: ${data[0].Physical}`}>
                 <Slider
                   disabled
@@ -430,6 +443,7 @@ export function PlayerPage(props) {
                   marks={marks}
                 />
               </Tooltip>
+              <p className="font-medium">Fizyczność FM: {data[0].physicalFM}</p>
               <Tooltip label={`Fizyczność FM: ${data[0].physicalFM}`}>
                 <Slider
                   disabled
